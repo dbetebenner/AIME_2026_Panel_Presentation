@@ -166,6 +166,35 @@ The mathematics community has asked this already. The [*Leiden Declaration on AI
 Q1 is carried by the provocations; Q2–Q5 organize the exchanges; the norm-building draws mainly on Q3 and Q5. Q5 comes last because it is the hardest: "humans must keep final say" is a position, not a justification.
 :::
 
+## Meet lain
+
+::: {.kicker}
+An experiment in AI-native educational measurement
+:::
+
+::: {.columns}
+::: {.column width="52%"}
+::: {.claim}
+lain is our attempt to show what AI-native educational measurement could look like: in this room, not on a slide.
+:::
+
+::: {.small}
+Its knowledge is the panelists' own materials. Its authority belongs to the chair. Everything it proposes, including what it is not allowed to say, goes on the record.
+:::
+:::
+::: {.column width="48%"}
+::: {.box .small}
+**As AI becomes more capable, one of the most important things professionals do is this: gather, deliberate in public, and decide what counts as warranted.**
+
+A session like this one can leave more than memories. The materials, the claims, the disagreements and the norms are collected into a record that future colleagues, and the AI systems they work with, can query, for example through MCP or other AI connectors.
+:::
+:::
+:::
+
+::: {.notes}
+lain is not a product demo; it is the panel enacting its own subject. The point of the second column: when capable AI is everywhere, convening is not overhead. The human work is meeting, disagreeing on the record, and deciding what is warranted, and the durable output of a conference becomes a queryable body of professional reasoning rather than a set of slides people forget. Today's corpus is the four panelists' materials: 12 documents. Panelists review the record before anything is released.
+:::
+
 ## How lain takes part
 
 ::: {.columns}
