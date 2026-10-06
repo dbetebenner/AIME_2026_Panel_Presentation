@@ -88,7 +88,7 @@ Each panelist will make one claim, ground it in one example, and identify one un
 
 Fred Oswald is Professor of Education at the University of California, Irvine; editor-in-chief of *Psychological Methods*; past president of the Society for Industrial and Organizational Psychology; past chair of both the APA Committee on Psychological Tests and Assessment and the National Academies Board on Human-Systems Integration, which produced *Human-AI Teaming*; and a former member of the National Artificial Intelligence Advisory Committee. He will synthesize the provocations, press the panel toward actionable norms, and critically examine the session's own use of AI moderation.
 
-<span class="muted">From the session proposal.</span>
+<span class="muted">Adapted from the session proposal.</span>
 :::
 
 ## About the rendered copies
