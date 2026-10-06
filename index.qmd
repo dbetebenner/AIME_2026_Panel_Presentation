@@ -37,15 +37,19 @@ Each panelist makes one claim, gives one example, and names one unresolved probl
 ::: {.presenter-card}
 ### Damian Betebenner, Center for Assessment
 
-**Slides:** [open](decks/betebenner-provocation.html) · [PDF](rendered/betebenner-provocation-slides.pdf) · **Statement:** [markdown](Assets/Damian_Betebenner-presenter/provocation_statement.md)
+**Slides:** [open](decks/betebenner-provocation.html) · [PDF](rendered/betebenner-provocation-slides.pdf) · **Statement, with longer versions:** [markdown](Assets/Damian_Betebenner-presenter/provocation_statement.md)
 
-{{< include Assets/Damian_Betebenner-presenter/provocation_statement.md >}}
+**Claim:** AI is moving the frontier of feasible measurement research. Problems that previously required a team of specialists, or simply remained unexplored, can now be attacked by a single researcher working with AI.
+
+**Example:** Deriving theoretical properties of new dependence-based models for educational growth, translating them into software, and exploring thousands of simulated conditions would previously have taken months or years, or a team. With AI participating across the entire loop, it became tractable on the scale of weeks.
+
+**Unresolved problem:** If AI makes it possible to produce work whose complexity exceeds what its author, or a conventional peer reviewer, can independently reconstruct, what makes the result warranted, and who is accountable for deciding that the evidence is sufficient?
 :::
 
 ::: {.presenter-card}
 ### Derek Briggs, University of Colorado Boulder
 
-**Statement:** [markdown original](Assets/Derek_Briggs/provocations.md)
+**Slides:** [open](decks/briggs-provocation.html) · [PDF](rendered/briggs-provocation-slides.pdf) (his statement, verbatim) · **Statement:** [markdown original](Assets/Derek_Briggs/provocations.md)
 
 {{< include Assets/Derek_Briggs/provocations.md >}}
 :::

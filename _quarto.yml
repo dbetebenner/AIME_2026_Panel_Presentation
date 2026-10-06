@@ -5,6 +5,7 @@ project:
     - index.qmd
     - decks/moderator.qmd
     - decks/betebenner-provocation.qmd
+    - decks/briggs-provocation.qmd
   resources:
     - "Assets/Derek_Briggs/**"
     - "Assets/Frank_Rijmen/**"

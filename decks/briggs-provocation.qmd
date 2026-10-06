@@ -1,0 +1,43 @@
+---
+title: "Provocation statement: Derek Briggs"
+subtitle: "University of Colorado Boulder · AIME-Con 2026"
+format:
+  revealjs:
+    theme: [default, ../theme/presentation-theme.scss, ../theme/deck.scss]
+    embed-resources: true
+    slide-number: true
+    transition: none
+    width: 1600
+    height: 900
+    footer: "Briggs · Educational Measurement as an AI-Native Profession"
+---
+
+## Claim
+
+::: {.claim}
+Peer review in our field should use AI twice: reviewers audit a journal-supplied AI review before finalizing theirs, and editors get an AI check of whether the reviews cohere.
+:::
+
+<br>
+
+In the 14 journals I checked that publish scholarship related to educational measurement and psychometrics, policies block this mainly to protect confidentiality, which a secure, journal-run tool can satisfy.
+
+::: {.notes}
+Every sentence on these slides is Derek Briggs's provocation statement, verbatim (Assets/Derek_Briggs/provocations.md). Only the layout is ours.
+:::
+
+## Example
+
+::: {.claim}
+In a randomized trial at ICLR 2025, 27% of reviewers revised after seeing AI feedback; a panel judged two-thirds of the revisions better.
+:::
+
+## Unresolved problem
+
+::: {.claim}
+When a reviewer or editor revises their decision or recommendation after reading the AI's critique, whose judgment is it?
+:::
+
+<br>
+
+No journal policy in our field addresses that case.

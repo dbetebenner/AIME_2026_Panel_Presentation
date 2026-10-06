@@ -1,6 +1,6 @@
 ---
-title: "The hardest problems will be worked with AI"
-subtitle: "Provocation · Damian Betebenner, Center for Assessment · AIME-Con 2026, 7 October"
+title: "AI is changing what my job is"
+subtitle: "Provocation · Damian Betebenner, Center for Assessment · AIME-Con 2026"
 
 format:
   revealjs:
@@ -10,80 +10,160 @@ format:
     transition: none
     width: 1600
     height: 900
-    footer: "Betebenner · provocation · DRAFT"
+    footer: "Betebenner · Educational Measurement as an AI-Native Profession"
 ---
 
-## One claim
+## One sentence
 
 ::: {.claim}
-The most important work on the hardest problems in our field will be done **with** AI.
-:::
-
-<br>
-
-::: {.muted}
-Not the routine work done faster. The work that was out of reach.
+**AI is not merely helping me do my old job faster. It is changing what my job is.**
 :::
 
 ::: {.notes}
-Five minutes: one claim, one example, one unresolved problem. The claim is about where the frontier of the field moves, not about productivity. DRAFT, Damian to revise.
+Five minutes, six slides, about 50 seconds each. Open here. The point is not productivity. The point is a change in the feasible division of labor between a measurement professional and AI.
+:::
+
+## The frontier moved
+
+::: {.kicker}
+One claim
+:::
+
+::: {.claim}
+Problems that once required a team of specialists—or remained unexplored because they were too expensive to pursue—can now be attacked by a single researcher working with AI.
+:::
+
+::: {.notes}
+Emphasize feasible research, not merely faster research. AI changes the set of questions that one person can seriously attempt.
 :::
 
 ## What changed in my own work
 
 | | Before AI | With AI |
 |---|---|---|
-| **Theory** | months per derivation, one person | a derivation tested against a collaborator in an afternoon |
-| **Code** | the bottleneck | written, refactored, and tested alongside the theory |
-| **Simulation** | a few designs, chosen for feasibility | thousands of conditions, chosen for the question |
-| **Documentation** | written after, if at all | written with the work |
-| **Ambition** | sized to what one person could check | sized to the problem |
+| **Theory** | derivation is slow and locally constrained | derivation and counterexample generation iterate continuously |
+| **Code** | implementation is a separate bottleneck | code evolves alongside the mathematics |
+| **Simulation** | designs limited by time and implementation cost | thousands of conditions can be explored and revised quickly |
+| **Critique** | review often arrives late | adversarial checking can occur throughout the workflow |
+| **Documentation** | frequently downstream of the analysis | documentation can evolve with the work |
+| **My role** | produce most of the technical artifacts | specify, interrogate, verify, decide, and take responsibility |
 
-::: {.small .muted}
-Scale, speed, and *ambition* change. So does the demand for verification and judgment.
+::: {.notes}
+The final row is the point of the slide. The job changes from primarily producing artifacts to governing an epistemic process that produces them.
+:::
+
+## One concrete example
+
+::: {.kicker}
+One example
+:::
+
+::: {.small}
+A recent methodological problem in educational growth required:
+
+1. deriving properties of a new dependence-based model;
+2. translating the mathematics into working software;
+3. designing simulation studies;
+4. exploring thousands of conditions;
+5. diagnosing failures and constructing counterexamples; and
+6. repeatedly moving back from computational results to revised mathematics.
+:::
+
+::: {.box}
+**Previously:** months or years, or a team with complementary specialties.  
+**With AI:** a tightly coupled research loop operating on the scale of weeks.
 :::
 
 ::: {.notes}
-From the session description: pre-AI versus AI-integrated workflows across theoretical development, coding, simulation, data analysis, documentation, and the design of systems connecting achievement, growth, and improvement. Replace the cells with the specifics you want to claim.
+Use the specific project details you want to disclose orally. The important feature is not any one AI-generated derivation or block of code. It is the continuity of the loop across mathematics, implementation, simulation, critique, and revision.
 :::
 
-## One example: an advanced mathematical task
+## What became scarce?
 
 ::: {.columns}
-::: {.column width="55%"}
-1. **Conjecture:** a property of an advanced measurement model <span class="placeholder">[name the problem]</span>
-2. **Derivation:** worked through with AI as an interlocutor; each step challenged
-3. **Implementation:** the derivation becomes code the same week
-4. **Simulation at scale:** the result stress-tested across thousands of conditions
-5. **Verification:** what I could check, what I could not
-:::
-::: {.column width="45%"}
-::: {.box .small}
-**Before:** a multi-year research program for one methodologist.
+::: {.column width="48%"}
+### Cheaper
 
-**With AI:** weeks.
-
-**What did not change:** I answer for the result.
+- algebraic manipulation
+- code production
+- refactoring
+- simulation implementation
+- documentation
+- first-pass critique
 :::
+
+::: {.column width="48%"}
+### More valuable
+
+- problem formulation
+- model specification
+- adversarial testing
+- recognizing nonsense
+- deciding what evidence is enough
+- accepting responsibility
 :::
 :::
 
 ::: {.notes}
-Keep this broad. The point is that a deep investigation plus simulation of an advanced mathematical task became feasible for one person. Name the specific problem (e.g., the growth or quantile model, the estimator, the property) when you revise.
+This is the professional transformation. Avoid implying the left-hand column requires no expertise. The claim is that its marginal production cost has dropped dramatically, changing the relative value of the right-hand column.
 :::
 
-## One unresolved problem
+## The unresolved problem
+
+::: {.kicker}
+One unresolved problem
+:::
+
+::: {.muted}
+The question is no longer whether I can do the analysis. It is whether I can warrant the analysis that AI has made possible.
+:::
 
 ::: {.claim}
-When the derivation and the simulation exceed what the author, or any reviewer, can check by hand, what makes the result **warranted**, and **who answers** for it?
+If AI makes it possible to produce work whose complexity exceeds what its author—or a conventional peer reviewer—can independently reconstruct, **what makes the result warranted?**
 :::
 
 <br>
 
-::: {.small .muted}
-Guiding questions 3 and 5. See also Rijmen: *owning results one did not produce by hand*; Briggs: *whose judgment is it?*
+::: {.claim}
+As production becomes cheaper, **does verification become the new scarce resource—and who is accountable for deciding that the evidence is sufficient?**
 :::
 
 ::: {.notes}
-This hands off to the panel: the question is not whether AI can do the work, but what replaces hand-checking as the warrant.
+This hands directly to Briggs on peer review, Rijmen on professional expertise, Abulela on graduate preparation, and Oswald on evaluation and accountability.
+:::
+
+## Backup slides {.center}
+
+::: {.muted}
+Not part of the five minutes. For the dialogue, if useful.
+:::
+
+## A broader possibility
+
+::: {.claim}
+AI is collapsing the practical boundaries between mathematical theorist, statistician, programmer, simulation researcher, technical writer, and software developer.
+:::
+
+<br>
+
+::: {.muted}
+The important change is not that every step is faster. It is that the entire intellectual loop can remain continuous inside a **human–AI working unit**.
+:::
+
+::: {.notes}
+Optional slide if time permits. This provides the strongest connection from your personal workflow to profession-level consequences.
+:::
+
+## Provocation for the field
+
+::: {.claim}
+If this is the emerging division of labor, are we training psychometricians for the work they will actually do?
+:::
+
+<br>
+
+What must a measurement professional be able to do personally in order to supervise, verify, and take responsibility for work that AI can execute better or faster than they can?
+
+::: {.notes}
+Use only if you want to hand directly to the graduate-training contribution. Otherwise end on the warrant/accountability slide.
 :::
