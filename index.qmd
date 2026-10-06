@@ -93,7 +93,8 @@ Professor of Education at the University of California, Irvine, editor-in-chief 
 
 ## About the rendered copies
 
-PDF copies of the PowerPoint files were exported with Keynote and may differ slightly from the
-original layout (fonts, icon placement). The originals are authoritative. The "web version" and
+PDF copies of the PowerPoint files were exported with Keynote; Frank Rijmen's slides were
+re-exported after a layout fix on 6 October. They may still differ slightly from the original layout
+(fonts, icon placement). The originals are authoritative. The "web version" and
 "slide text" files are text extracted from the originals, unchanged except for formatting;
 Mohammed Abulela's slide text was transcribed from the slide images.
