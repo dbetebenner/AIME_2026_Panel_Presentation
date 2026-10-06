@@ -1,0 +1,89 @@
+---
+title: "The hardest problems will be worked with AI"
+subtitle: "Provocation · Damian Betebenner, Center for Assessment · AIME-Con 2026, 7 October"
+
+format:
+  revealjs:
+    theme: [default, ../theme/presentation-theme.scss, ../theme/deck.scss]
+    embed-resources: true
+    slide-number: true
+    transition: none
+    width: 1600
+    height: 900
+    footer: "Betebenner · provocation · DRAFT"
+---
+
+## One claim
+
+::: {.claim}
+The most important work on the hardest problems in our field will be done **with** AI.
+:::
+
+<br>
+
+::: {.muted}
+Not the routine work done faster. The work that was out of reach.
+:::
+
+::: {.notes}
+Five minutes: one claim, one example, one unresolved problem. The claim is about where the frontier of the field moves, not about productivity. DRAFT, Damian to revise.
+:::
+
+## What changed in my own work
+
+| | Before AI | With AI |
+|---|---|---|
+| **Theory** | months per derivation, one person | a derivation tested against a collaborator in an afternoon |
+| **Code** | the bottleneck | written, refactored, and tested alongside the theory |
+| **Simulation** | a few designs, chosen for feasibility | thousands of conditions, chosen for the question |
+| **Documentation** | written after, if at all | written with the work |
+| **Ambition** | sized to what one person could check | sized to the problem |
+
+::: {.small .muted}
+Scale, speed, and *ambition* change. So does the demand for verification and judgment.
+:::
+
+::: {.notes}
+From the session description: pre-AI versus AI-integrated workflows across theoretical development, coding, simulation, data analysis, documentation, and the design of systems connecting achievement, growth, and improvement. Replace the cells with the specifics you want to claim.
+:::
+
+## One example: an advanced mathematical task
+
+::: {.columns}
+::: {.column width="55%"}
+1. **Conjecture:** a property of an advanced measurement model <span class="placeholder">[name the problem]</span>
+2. **Derivation:** worked through with AI as an interlocutor; each step challenged
+3. **Implementation:** the derivation becomes code the same week
+4. **Simulation at scale:** the result stress-tested across thousands of conditions
+5. **Verification:** what I could check, what I could not
+:::
+::: {.column width="45%"}
+::: {.box .small}
+**Before:** a multi-year research program for one methodologist.
+
+**With AI:** weeks.
+
+**What did not change:** I answer for the result.
+:::
+:::
+:::
+
+::: {.notes}
+Keep this broad. The point is that a deep investigation plus simulation of an advanced mathematical task became feasible for one person. Name the specific problem (e.g., the growth or quantile model, the estimator, the property) when you revise.
+:::
+
+## One unresolved problem
+
+::: {.claim}
+When the derivation and the simulation exceed what the author, or any reviewer, can check by hand, what makes the result **warranted**, and **who answers** for it?
+:::
+
+<br>
+
+::: {.small .muted}
+Guiding questions 3 and 5. See also Rijmen: *owning results one did not produce by hand*; Briggs: *whose judgment is it?*
+:::
+
+::: {.notes}
+This hands off to the panel: the question is not whether AI can do the work, but what replaces hand-checking as the warrant.
+:::

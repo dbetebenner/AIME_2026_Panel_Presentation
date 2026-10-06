@@ -1,0 +1,263 @@
+---
+pagetitle: "Educational Measurement as an AI-Native Profession — moderator"
+format:
+  revealjs:
+    theme: [default, ../theme/presentation-theme.scss, ../theme/deck.scss]
+    embed-resources: true
+    slide-number: true
+    transition: none
+    width: 1600
+    height: 900
+    footer: "Educational Measurement as an AI-Native Profession · AIME-Con 2026"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| include: false
+library(ggplot2)
+library(dplyr)
+library(readr)
+
+site_url     <- "https://dbetebenner.github.io/AIME_2026_Panel_Presentation/"
+audience_url <- "https://sesh-ai.dataimago.ai/sessions/aime-2026-ai-native-profession/audience"
+
+ink <- "#141410"; ink2 <- "#6b6b66"; surface <- "#EDEDEB"
+col <- c(A = "#C0702A", B = "#1F6FA8", C = "#BDBDB8")
+lab <- c(A = "AI built into assessment products",
+         B = "AI in how measurement professionals work",
+         C = "Neither / no AI focus")
+
+pres <- read_csv("../data/program-presentations.csv", show_col_types = FALSE)
+sess <- read_csv("../data/program-sessions.csv", show_col_types = FALSE)
+
+n_tab <- function(d) d |> count(code) |> mutate(p = n / sum(n))
+pt <- n_tab(pres); st <- n_tab(sess)
+get <- function(t, k, v = "n") { x <- t[[v]][t$code == k]; if (length(x)) x else 0 }
+nA <- get(pt, "A"); nB <- get(pt, "B"); nC <- get(pt, "C"); nT <- nA + nB + nC
+ratio <- if (nB > 0) round(nA / nB) else NA
+n_firm  <- sum(pres$code == "B" & !as.logical(pres$ambiguous))
+n_upper <- sum(pres$code == "B" | (as.logical(pres$ambiguous) & pres$alt_code %in% "B"))
+
+knitr::opts_chunk$set(dev.args = list(bg = surface))
+qr_png <- function(url, file) {
+  q <- qrcode::qr_code(url, ecl = "M")
+  png(file, width = 600, height = 600, bg = "white"); par(mar = c(0, 0, 0, 0))
+  plot(q); dev.off(); file
+}
+dir.create("../figures", showWarnings = FALSE)
+qr_png(audience_url, "../figures/qr-audience.png")
+qr_png(site_url, "../figures/qr-materials.png")
+```
+
+## Educational Measurement as an AI-Native Profession {.title-card}
+
+::: {.kicker}
+AIME-Con 2026 · Panel · Wednesday 7 October, 11:00–12:30 · Commonwealth 2
+:::
+
+::: {.columns .small}
+::: {.column width="50%"}
+**Session chair** Damian Betebenner, Center for Assessment<br>
+**Moderator** lain, an AI interlocutor under the chair's supervision<br>
+**Discussant** Fred Oswald, University of California, Irvine
+:::
+::: {.column width="50%"}
+**Panelists**<br>
+Derek Briggs, University of Colorado Boulder<br>
+Frank Rijmen, Cambium Assessment<br>
+Mohammed A. A. Abulela, MetaMetrics / University of Minnesota<br>
+Damian Betebenner, Center for Assessment
+:::
+:::
+
+::: {.tiny}
+A correction to the printed program: it lists a human moderator. Today the moderator is lain, an AI, under the session chair, and Fred Oswald is our discussant.
+:::
+
+::: {.notes}
+Welcome. Correct the printed program up front (it lists Andrew Ho as moderator and omits Fred and lain). Introduce Fred as discussant; the four panelists will each give a five-minute provocation.
+:::
+
+## What this conference is about {.smaller}
+
+```{r}
+#| fig-width: 15
+#| fig-height: 5.4
+#| fig-dpi: 150
+#| fig-alt: "Waffle chart: each square is one presentation in the AIME-Con 2026 program, colored by whether it is about AI built into assessment products, AI in how measurement professionals do their work, or neither."
+ncol_w <- 30
+d <- pres |>
+  mutate(code = factor(code, levels = c("A", "B", "C"))) |>
+  arrange(code) |>
+  mutate(i = row_number() - 1, x = i %% ncol_w, y = -(i %/% ncol_w))
+ggplot(d, aes(x, y, fill = code)) +
+  geom_tile(width = 0.86, height = 0.86) +
+  scale_fill_manual(values = col, labels = lab, name = NULL) +
+  coord_equal() +
+  theme_void(base_family = "Noto Sans", base_size = 22) +
+  theme(legend.position = "right", legend.text = element_text(colour = ink),
+        legend.key.spacing.y = unit(10, "pt"),
+        plot.background = element_rect(fill = surface, colour = NA))
+```
+
+::: {.columns}
+::: {.column width="62%"}
+<span class="prod">**`r nA`**</span> presentations build AI into assessment products: scoring, item generation, tutors, feedback.<br>
+<span class="hl">**`r nB`**</span> ask how AI changes the work of the people in this room.
+:::
+::: {.column width="38%" .tiny}
+Each square is one of `r nT` presentations in the printed program (by session: `r get(st,"A")` A · `r get(st,"B")` B · `r get(st,"C")` C). Coded by an AI from the program text, audited by the chair. Borderline calls matter: B ranges from `r n_firm` (unambiguous only) to `r n_upper` (every borderline call to B). Data and codebook: the materials site.
+:::
+:::
+
+::: {.notes}
+Let the picture land. Roughly `r ratio` presentations about AI in our products for every one about AI in our profession. Then: the coding itself was done with AI and checked by me, which is a small example of the thing we are here to talk about.
+:::
+
+## The provocation
+
+::: {.small .muted}
+At this conference: about **`r ratio` to 1**, products over profession.
+:::
+
+::: {.conjecture}
+The chair's conjecture, not a finding
+:::
+
+::: {.claim}
+How measurement professionals use AI in **their own work** will have **10×** the impact of the AI we build into assessments.
+:::
+
+<br>
+
+::: {.columns .small}
+::: {.column width="50%"}
+<span class="prod">**AI in the product**</span> changes one tool: a scoring engine, an item pool, a tutor.
+:::
+::: {.column width="50%"}
+<span class="hl">**AI in the profession**</span> changes every analysis, model, review, document, and decision, including how the next generation of those products is designed, validated, and governed.
+:::
+:::
+
+::: {.notes}
+State it as a conjecture. This session is about the right column. Take the claim apart today: the panel will press on what that shift demands, what it breaks, and where accountability must stay human.
+:::
+
+## Why a profession-level response
+
+::: {.small}
+The mathematics community has asked this already. The *Leiden Declaration on AI and Mathematics* (June 2026, endorsed by the IMU) asks the discipline to protect the verifiability of proof, attribution, authorship, and the primacy of human judgment.
+:::
+
+::: {.box .small}
+**Five guiding questions**
+
+1. **What has changed** in the substance and organization of measurement work?
+2. **What that demands of professionals**: the division of labor, expertise, and training.
+3. **What the profession must redefine**: what is verified, documented, and disclosed.
+4. **What measurement science owes the evaluation of AI**, including this panel.
+5. **Where authority and accountability remain human**, and on what grounds.
+:::
+
+::: {.notes}
+Q1 is carried by the provocations; Q2–Q5 organize the exchanges; the norm-building draws mainly on Q3 and Q5. Q5 comes last because it is the hardest: "humans must keep final say" is a position, not a justification.
+:::
+
+## How lain takes part
+
+::: {.columns}
+::: {.column width="50%"}
+**Presence: continuous, visual, silent**
+
+A running record on screen: claims and who made them, sources, agreements, open tensions, question coverage.
+
+**Voice: rare, typed, human-approved**
+
+About 8–12 interventions in 90 minutes, each approved by the chair.
+:::
+::: {.column width="50%"}
+::: {.box}
+<span class="state">OBSERVE</span><br>
+<span class="tiny">↓ chair enables proposals</span><br>
+<span class="state">PROPOSE</span><br>
+<span class="tiny">↓ chair approves one intervention</span><br>
+<span class="state">SPEAK</span><br>
+<span class="tiny">↓ delivered; the permission expires</span><br>
+<span class="tiny">Emergency stop → OBSERVE, at once</span>
+:::
+:::
+:::
+
+::: {.small}
+Every contribution is tagged **observed** (in the transcript), **retrieved** (in the panel's materials, with the source), or **inferred** (lain's reasoning, possibly wrong). Its knowledge is the panelists' materials only: no open web. It **abstains** when someone else holds the warrant.
+:::
+
+::: {.notes}
+Moderator is the title; interlocutor is the job. Turn-taking and timekeeping stay with me. lain is held in OBSERVE through the provocations and through Fred's response. Abstention is the behaviour we most want you to see: capability is not warrant, context, or authority.
+:::
+
+## If the technology fails
+
+| State | What it means |
+|---|---|
+| <span class="chip green">GREEN</span> | Live transcription and running record; approved interventions spoken in lain's voice |
+| <span class="chip amber">AMBER</span> | Same, but I read approved interventions aloud |
+| <span class="chip yellow">YELLOW</span> | Transcription or analysis degraded; the record freezes at its last good state |
+| <span class="chip red">RED</span> | A conventional panel: same questions, same norm-building |
+
+::: {.small}
+**Running today:** <span class="placeholder">[GREEN / AMBER, set at T-15]</span>. I will call every change of state aloud. The panel's argument does not depend on lain working.
+:::
+
+::: {.notes}
+Say which state we are in. If anything is switched off, say so now rather than letting the room discover it.
+:::
+
+## Before we start
+
+::: {.columns}
+::: {.column width="64%"}
+::: {.box}
+**This session is being recorded and transcribed.**<br>
+lain, an AI moderator, speaks aloud under the session chair, who approves every sentence.
+The transcript and the session record are published afterwards.
+Questions, typed or asked aloud, become part of that record. No names or emails are collected.
+:::
+
+::: {.small .muted}
+The record includes the full intervention log, **including what lain proposed and I declined**. Panelists review it before release.
+:::
+:::
+::: {.column width="36%"}
+::: {.qr}
+![](../figures/qr-audience.png){width="190" fig-alt="QR code for the audience view"}<br>**Follow along · ask a question**
+:::
+
+::: {.qr}
+![](../figures/qr-materials.png){width="190" fig-alt="QR code for the panel materials site"}<br>**Panel materials**
+:::
+:::
+:::
+
+::: {.notes}
+In your own words: "Before we start: this session is recorded and transcribed, and the record goes up afterwards. lain speaks under my approval and I can stop it at any point. If you ask a question, typed or out loud, it becomes part of the published record; we do not collect your name." Top QR: the audience view (the running record on your phone, and questions). Bottom QR: the panelists' materials.
+:::
+
+## Run of show
+
+| Minutes | Segment | lain |
+|---|---|---|
+| 0–6 | Framing and the AI design | visible, silent |
+| 6–26 | Four five-minute provocations: one claim, one example, one unresolved problem | OBSERVE |
+| 26–31 | AI synthesis: convergence, disagreement, connections | one approved intervention |
+| 31–43 | Discussant: Fred Oswald critiques the panel **and** the AI synthesis | OBSERVE |
+| 43–76 | Panel and audience dialogue | PROPOSE; approved SPEAK |
+| 76–87 | Norm-building: activity · conditions for AI involvement · who is answerable | PROPOSE |
+| 87–90 | Human closing synthesis | silent |
+
+::: {.notes}
+The norms are the deliverable. Each names a concrete activity, the conditions under which AI involvement is acceptable, and who answers for the decision. Hand to the first provocation.
+:::

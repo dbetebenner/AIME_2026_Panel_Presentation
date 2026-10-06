@@ -1,0 +1,5 @@
+/.quarto/
+**/*.quarto_ipynb
+_quarto_internal_scss_error.scss
+# The NCME program is not ours to republish; link to the official site instead.
+Assets/Damian_Betebenner-moderator/

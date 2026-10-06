@@ -1,0 +1,926 @@
+%%%
+%%% AIME-Con 2026 — Panel Presentation (ACCEPTED)
+%%% "Educational Measurement as an AI-Native Profession"
+%%%
+%%% FINAL SESSION PROPOSAL — VERSION B (FULL lain DETAIL) — 22 September 2026
+%%%
+%%% Changes from AIME_2026_Panel_Proposal_participants_2026-09-03.tex:
+%%%   (1) Live transcription confirmed: house AV will provide a line feed
+%%%       from the mixer into the capture machine.
+%%%   (2) New Addendum section 1 separates what is in place from what is
+%%%       still being built (committed / planned / stretch). Nothing beyond
+%%%       transcription and human moderation is promised.
+%%%   (3) House AV provides both the line feed in and a return path out, so
+%%%       lain's spoken voice (GREEN) is the target; AMBER (on-screen text,
+%%%       chair reads aloud) is the fallback if voice is not reliable.
+%%%       Nothing beyond transcription is promised.
+%%%   (4) Passed preparation dates removed; tension maps and real-time direct
+%%%       address downgraded to stretch goals.
+%%%   (5) Draft-review language (Fred's comments) removed.
+%%%
+%%% Companion: AIME_2026_Panel_Proposal_final_minimal-AI_2026-09-22.tex
+%%% (Version A: AI role described only in broad terms, not named).
+%%%
+%%% NAMING: The interlocutor is named "lain" -- ALWAYS lower case, including
+%%% at the start of a sentence. The underlying platform is NOT named anywhere
+%%% in this document and has not been publicly announced. Do not reintroduce
+%%% its name.
+%%%
+%%% Compile with XeLaTeX:
+%%%   latexmk -xelatex AIME_2026_Panel_Proposal_final_lain_2026-09-22.tex
+%%%
+
+\documentclass[11pt]{article}
+
+%% --- Compatibility shims for using the dataimago package in a plain article ---
+\usepackage{amsmath,amsfonts,amssymb}
+\newenvironment{Shaded}{}{}
+\newenvironment{proof}{}{}
+
+%% dataimago design system (Noto Sans body, color tokens, tcolorbox, lists).
+\usepackage{styles/dataimago-no-ai-logo}
+
+%% Page geometry — the dataimago package does not set article margins.
+\usepackage[margin=1in]{geometry}
+
+%% Tables for the addendum.
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+
+%% Subtle typographic refinement (protrusion under XeTeX).
+\usepackage{microtype}
+
+%% Keep field headings with the material that follows them.
+\usepackage{needspace}
+
+%%%
+%%% NOTO SANS THROUGHOUT
+%%%
+\newfontfamily\NotoHeading[Ligatures=TeX, LetterSpace=0.5]{Noto Sans}
+
+%% Block-paragraph layout.
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+
+%% Fred (C2): hyphen breaks were taxing the reader. Raise the cost of
+%% hyphenation and buy the slack back with emergencystretch.
+\tolerance=2500
+\hyphenpenalty=1800
+\setlength{\emergencystretch}{3em}
+
+%% Links (loaded late) styled with the dataimago brand color.
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=DataimagoPrimary,
+  urlcolor=DataimagoPrimary,
+  citecolor=DataimagoPrimary,
+  pdftitle={Educational Measurement as an AI-Native Profession},
+  pdfauthor={Damian Betebenner; Fred Oswald; Derek Briggs; Frank Rijmen; Mohammed A. A. Abulela; Guher Gorgun; Brian French; Brian Leventhal; Matthew Gushta},
+  pdfsubject={AIME-Con 2026 Panel Presentation — Final Session Proposal}
+}
+
+%%%
+%%% CUSTOM MACROS
+%%%
+
+%% Section/field label: bold Noto Sans heading with an optional right-aligned
+%% note and a thin rule underneath.
+\newcommand{\fieldlabel}[2][]{%
+  \par\addvspace{1.25em}\Needspace{8\baselineskip}%
+  \noindent\begin{minipage}{\linewidth}%
+    {\NotoHeading\bfseries\large\color{ContentPrimary}#2}%
+    \hfill{\normalfont\footnotesize\color{ContentSecondary}#1}%
+  \end{minipage}\par
+  \vspace{0.2em}{\color{BorderModerate}\rule{\linewidth}{0.4pt}}\par
+  \vspace{0.55em}%
+}
+
+%% Subordinate heading inside the addendum (no rule).
+\newcommand{\subhead}[1]{%
+  \par\addvspace{1.0em}%
+  \noindent{\NotoHeading\bfseries\color{ContentPrimary}#1}\par
+  \vspace{0.25em}%
+}
+
+%% Compact "key: value" metadata line.
+\newcommand{\metaline}[2]{%
+  \noindent{\NotoHeading\bfseries\color{ContentPrimary}#1\,}{\color{ContentPrimary}#2}\par
+}
+
+%% Table column types.
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+
+\begin{document}
+
+%%%
+%%% MASTHEAD
+%%%
+{\sffamily\footnotesize\color{ContentSecondary}%
+  \addfontfeature{LetterSpace=3.0}%
+  \MakeUppercase{AIME-Con 2026 \quad\textbullet\quad Accepted Panel \quad\textbullet\quad Final Session Proposal}\par}
+
+\vspace{0.7em}
+
+{\NotoHeading\bfseries\color{ContentPrimary}\fontsize{25}{29}\selectfont
+  Educational Measurement as an AI-Native Profession\par}
+
+\vspace{0.6em}
+{\color{BorderModerate}\rule{\linewidth}{1pt}}
+
+\vspace{0.4em}
+\metaline{Session format:}{Panel presentation, 90 minutes (4 panelists and a discussant; AI-moderated under a human session chair)}
+\metaline{Session:}{Wednesday, 7 October 2026, 11:00 AM--12:30 PM, Commonwealth 2}
+\metaline{Conference:}{AIME-Con 2026, 5--7 October 2026, Wyndham Grand Pittsburgh Downtown}
+\metaline{Topic of interest:}{AI-integrated professional practice in educational measurement}
+\metaline{Document status:}{Final, 22 September 2026}
+
+\vspace{0.4em}
+
+{\itshape\color{ContentSecondary}This is the final session proposal. The Abstract, Description, Format, and
+Structure are the accepted text, revised only where the change of discussant
+and the reordering of the guiding questions required it. The Addendum describes
+how the AI interlocutor, lain, will take part, and says plainly which parts of
+that design are in place and which are still being built.}
+
+%%%
+%%% CONTRIBUTORS
+%%%
+\fieldlabel{Contributors}
+
+\noindent{\NotoHeading\bfseries\color{ContentPrimary}Session chair\quad}%
+Damian Betebenner, Center for Assessment
+
+\vspace{0.15em}
+{\itshape\color{ContentSecondary}The chair holds final authority over every AI intervention and retains
+override and stop authority throughout the session.}\par
+
+\vspace{0.4em}
+\noindent{\NotoHeading\bfseries\color{ContentPrimary}Moderator\quad}%
+lain, an AI interlocutor operating under the session chair's supervision
+
+\vspace{0.15em}
+{\itshape\color{ContentSecondary}Moderation is performed by an AI under human supervision; accountability
+remains human. The name is set lower case in the program and everywhere else.
+See the Addendum.}\par
+
+\vspace{0.4em}
+\noindent{\NotoHeading\bfseries\color{ContentPrimary}Panelists}
+\begin{itemize}
+  \item Damian Betebenner, Center for Assessment
+  \item Derek Briggs, University of Colorado Boulder
+  \item Frank Rijmen, Cambium Assessment
+  \item Mohammed A. A. Abulela, MetaMetrics, Inc. / University of Minnesota\\
+        {\itshape\color{ContentSecondary}with co-authors: Guher Gorgun, University of Georgia; Brian French, Washington State University; Brian Leventhal, James Madison University; Matthew Gushta, MetaMetrics, Inc.}
+\end{itemize}
+
+\vspace{0.15em}
+\noindent{\NotoHeading\bfseries\color{ContentPrimary}Discussant\quad}%
+Fred Oswald, University of California, Irvine
+
+%%%
+%%% ABSTRACT
+%%%
+\fieldlabel[159 / 200 words --- as accepted]{Abstract}
+
+Artificial intelligence is not only changing assessment products; it is changing
+the professional work of educational measurement itself. This panel examines how
+an AI-native future may transform day-to-day practice, professional norms, and
+epistemic responsibility in the field. Bringing together perspectives from
+measurement consulting, higher education, assessment industry, and graduate
+training, the panel will address AI-integrated
+psychometric and data-science workflows, scholarly publishing and peer review,
+assessment development and operations, graduate training and curricula,
+documentation, and governance. The session emphasizes concrete use cases rather than general
+speculation: how AI is already changing technical work, where it can responsibly
+accelerate, critique, or audit professional judgment, and where human
+accountability must remain primary. The discussion will focus on emerging
+standards for validity, fairness, transparency, reproducibility, attribution,
+quality control, and public trust as AI becomes embedded in measurement
+practice. The goal is to move from tool-centered conversations toward a
+profession-level account of how educational measurement should adapt while
+preserving rigor and human responsibility.
+
+%%%
+%%% SESSION DESCRIPTION
+%%%
+\fieldlabel[Description + Format + Structure: 1000 / 1000 words]{Session Description}
+
+Artificial intelligence is becoming part of the infrastructure through which
+educational measurement work is conducted. The field has begun to examine
+AI for item generation, automated scoring, formative feedback, adaptive
+assessment, and classroom support. These are important, but they do not exhaust
+the professional implications of AI. A more fundamental question: how will AI
+transform the work, norms, and responsibilities of measurement professionals
+themselves?
+
+This panel asks whether educational measurement needs a discipline-level
+response to an AI-native future, as the mathematics community recently
+has.\footnote{See the \emph{Leiden Declaration on Artificial
+Intelligence and Mathematics} (2~June 2026; DOI:~10.5281/zenodo.20302944),
+a community initiative endorsed by the International Mathematical Union, which
+calls on mathematicians to protect the discipline's core values---the
+independent verifiability of proof, attribution, authorship, and the primacy of
+human judgment---as AI becomes embedded in mathematical research, publishing,
+and peer review: \url{https://leidendeclaration.ai/}.} Wherever AI enters psychometric
+modeling, documentation, code, assessment design, review, and policy analysis,
+the field faces the questions other technical communities are already asking
+about the values that define them: standards of evidence, peer review,
+authorship, attribution, reproducibility, and public trust.
+
+The panel therefore focuses less on AI as a product feature than as a
+transformation in professional practice: on how it will alter (and is already altering) the way
+measurement professionals reason, write, program, review, validate, and decide.
+
+\textbf{Fred Oswald} will serve as discussant. Professor of Education at the
+University of California, Irvine, editor-in-chief of \emph{Psychological
+Methods}, past president of the Society for Industrial and Organizational
+Psychology, past chair of the APA Committee on Psychological Tests and
+Assessment and of the National Academies Board on Human-Systems
+Integration---which produced \emph{Human-AI Teaming}---and a former member of the National Artificial Intelligence
+Advisory Committee. He will synthesize the provocations and, based on them,
+press toward actionable norms, while critiquing the session's own AI moderation
+process. He will also press the reciprocal question of whether psychometric
+standards of validity, reliability, and fairness should govern how the field
+evaluates AI systems.
+
+\textbf{Damian Betebenner} will discuss how AI has transformed his work as a
+measurement methodologist and data scientist, contrasting pre-AI and
+AI-integrated workflows across theoretical development, coding, simulation, data
+analysis, documentation, and the design of systems connecting achievement,
+growth, and improvement. The emphasis is on AI as a
+cognitive collaborator that changes the feasible scale, speed, and ambition of the
+work while creating new demands for verification and professional judgment.
+
+\textbf{Derek Briggs} will focus on scholarly publishing, peer review, and
+graduate training. He will examine whether AI should become part of the
+manuscript-review infrastructure by generating systematic first-pass reviews
+keyed to journal scope, methodological standards, and reporting expectations,
+while human reviewers audit, correct, and extend those critiques. He will also
+address norms for author disclosure and for teaching graduate students to use AI
+without outsourcing judgment, originality, or methodological responsibility.
+
+\textbf{Frank Rijmen} will bring an assessment-industry perspective to a
+question that has drawn less attention than AI's effects on specific processes
+and products: how AI is reshaping the archetypal roles of the psychometrician.
+He will frame the argument around three professional archetypes. The
+\emph{Guardian} treats the \emph{Standards} as first principles and is skeptical
+of any innovation that cannot be justified within the established framework. The
+\emph{Catcher} is defined by operational vigilance. Meticulous and loss-averse,
+the Catcher focuses on what must not go wrong in calibration, equating, scoring,
+and anomaly detection. The \emph{Architect} bridges psychometrics with data
+science and emerging technology, restless to redesign rather than execute.
+
+Rijmen will argue that AI changes not only the knowledge and skills these roles
+require but also their non-cognitive demands: the dispositions and traits that
+make someone good at the work. He will consider what this means for how
+organizations define psychometric expertise, hire and develop staff, and prepare
+the next generation of measurement professionals.
+
+\textbf{Mohammed A. A. Abulela} will address integrating AI into educational
+measurement curricula. AI is rapidly reshaping educational measurement,
+psychometrics, assessment development, data analytics, and the job market for
+measurement specialists and psychometricians, yet little is known about how
+graduate programs have responded. Programs should prepare future measurement
+professionals to use, evaluate, and responsibly integrate AI in nearly every
+aspect of their work. His contribution draws on a review of coursework across 90
+North American doctoral programs in educational measurement, quantitative
+methodology, statistics, and related fields, plus an initial review of academic
+and industry job postings indicating growing demand for AI-related skills. Very
+few programs offered qualifying \mbox{AI- or} computationally related coursework, with
+such coursework identified in only 16 of 90 programs (17.8\%). In the 10
+programs where curricular status could be determined, elective offerings
+outnumbered required ones (6 versus 4), and all four programs with required
+coursework were explicitly oriented toward statistics and/or data science. He will discuss
+curricular gaps, workforce expectations, responsible AI use, and practical
+strategies for integrating AI-related knowledge and skills into graduate
+curricula.
+
+%%%
+%%% SESSION FORMAT
+%%%
+\fieldlabel{Session Format}
+
+The session is an interactive, AI-moderated panel rather than a sequence of
+papers, enacting the practices it examines. The panelists' materials---slides,
+papers, and code---form a shared corpus beforehand. During the
+session lain, an AI interlocutor supervised by the chair and grounded in that
+corpus,
+maintains a running record of claims, evidence, agreements, and open tensions;
+surfaces source-grounded questions; and distinguishes what it has observed,
+retrieved, and inferred. Its authority to speak is bounded to human-approved
+moments; humans retain final judgment. Live transcription of the session is in
+place; the rest of lain's role will be used only where it proves reliable in
+rehearsal (Addendum, \S1).
+
+Five guiding questions organize the discussion, and lain uses them to track
+coverage:
+
+\begin{enumerate}
+  \item \textbf{What has changed.} How has AI already changed educational
+        measurement work---in the substance, scope, and organization of that
+        work, not only its speed---and what has become better, worse, or simply
+        different?
+  \item \textbf{What that demands of professionals.} As AI becomes a
+        collaborator rather than a tool, how should work be divided between
+        people and AI; what knowledge, skills, and dispositions then define
+        psychometric expertise; and how should graduate programs and employers
+        develop and assess them?
+  \item \textbf{What the profession must redefine.} When AI contributes
+        materially to an analysis, a manuscript, or a review, what must be
+        verified, documented, and disclosed before others can responsibly rely
+        on it---and what does that ask of peer review, training, and
+        institutional accountability?
+  \item \textbf{What measurement science owes the evaluation of AI.} What can
+        measurement science contribute, in return, to the evaluation of AI
+        systems and of human--AI teams, including this panel, and what would
+        count as improvement over the relevant alternative?
+  \item \textbf{Where authority and accountability remain human.} Where should
+        authority and accountability remain human as capability advances, what
+        justifies those boundaries beyond current capability, and what does this
+        session's own use of an AI interlocutor reveal about them?
+\end{enumerate}
+
+The last question comes last because it is the hardest, and the field's usual
+answers are not answers. Asserting that humans must retain final say does not
+yet supply the justification for it; observing that AI cannot yet do something
+states a fact with a short shelf life. The panel will press instead for grounds
+that survive advances in capability: who holds the warrant to make a claim, who
+is accountable to the people a decision affects, and who answers when it is
+wrong. Competent performance does not by itself confer authority, and retaining
+accountability does not require producing every part of the work by hand.
+Because lain takes part under explicit limits, the session supplies a case rather
+than a hypothesis: not only what the AI could do, but what it was permitted to
+do, what it should have done, and when it rightly abstained.
+
+The questions are a structure for the discussion, not five rounds. Question~1 is
+carried by the opening provocations; questions~2 through~5 organize the
+exchanges that follow; and the norm-building exercise draws mainly on~3 and~5.
+Each candidate norm should name a concrete activity, the conditions under which
+AI involvement is acceptable, and who is answerable for the resulting decision.
+
+%%%
+%%% SESSION STRUCTURE
+%%%
+\fieldlabel{Session Structure}
+
+\textbf{90 minutes:} 6 minutes for framing and an explanation of the AI
+moderation and its governance; 20 minutes for four five-minute provocations,
+each making one claim, one example, and one unresolved problem; 5 minutes for an AI synthesis of convergence,
+disagreement, and cross-panel connections; 12 minutes for Oswald's response,
+critiquing the panelists and the AI synthesis; 33 minutes of AI-moderated
+panel and audience dialogue; 11 minutes of norm-building in which lain
+proposes candidate norms that panelists accept, revise, or reject; and 3 minutes for
+closing synthesis and a durable session record.
+
+The session extends the conference theme, ``Measurement Science in
+AI-Integrated Assessment and Pedagogy,'' from AI-integrated assessment systems
+to AI-integrated measurement work: to identify norms that let the field use AI
+to improve the quality, scope, and speed of that work while preserving
+evidentiary standards, human judgment, and public trust.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% ADDENDUM
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+
+{\sffamily\footnotesize\color{ContentSecondary}%
+  \addfontfeature{LetterSpace=3.0}%
+  \MakeUppercase{Addendum \quad\textbullet\quad New material for participant review}\par}
+
+\vspace{0.5em}
+
+{\NotoHeading\bfseries\color{ContentPrimary}\fontsize{19}{23}\selectfont
+  Session Design: How lain Participates\par}
+
+\vspace{0.5em}
+{\color{BorderModerate}\rule{\linewidth}{1pt}}
+
+%%%
+%%% 0. COMMITMENTS
+%%%
+\fieldlabel{1.\quad What is in place, and what is still being built}
+
+This addendum describes the full design. Not all of it will be ready in
+October, and we would rather say so now than let the room discover it. The
+session makes three levels of promise:
+
+\vspace{0.4em}
+\noindent\begin{tabularx}{\linewidth}{@{}L{2.3cm}Y@{}}
+\toprule
+\textbf{Level} & \textbf{What it covers} \\
+\midrule
+{\color{SuccessColor}\textbf{Committed}} & A human-chaired panel built on the five
+guiding questions and the norm-building exercise. Live speech-to-text
+transcription of the session: the house audio system will give us a line feed
+into the capture machine, and a return path back into the room. A timekeeping
+display. \\
+\addlinespace[0.4em]
+{\color{DataimagoPrimary}\textbf{Planned}} & lain's running record on screen
+(\S3); the interim synthesis and candidate norms drafted by lain and approved by
+the chair before display; approved interventions shown as text and spoken in
+lain's voice through the house system, or read aloud by the chair if the voice
+is not reliable (\S9). \\
+\addlinespace[0.4em]
+{\color{ContentSecondary}\textbf{Stretch}} & Private pre-session tension maps;
+real-time direct address during open dialogue; clustering of audience
+questions; the full instrumented evaluation (\S10). \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.6em}
+
+Anything in the second or third row that is not reliable at the final rehearsal
+will be switched off for the session rather than tried live, and we will tell
+the room which parts are running. The panel's argument does not depend on any of
+it. If lain turns out to do less than this document describes, the session is
+still a strong human panel on the same questions. It also becomes a smaller,
+more honest demonstration of how much can actually be built.
+
+%%%
+%%% A. MODERATOR VS. INTERLOCUTOR
+%%%
+\fieldlabel{2.\quad Why ``moderator'' is the title and ``interlocutor'' is the job}
+
+The program will list lain, an AI, as the session's moderator. That is the
+honest public label: someone has to hold the role a program lists as moderator,
+and here it is not a person. But the title names a job lain mostly does not do.
+A conventional moderator allocates turns, keeps time, and relays audience
+questions. None of that is why we are using an AI.
+
+The work is interlocutory. An interlocutor holds a position in the conversation:
+it tracks what has been claimed and on what evidence, notices when a claim
+conflicts with one made twenty minutes earlier, asks the question nobody has
+asked, names the tension people are talking around, and declines to answer when
+it is not the warranted source. Turn allocation and timekeeping stay with the
+human chair, where they belong (and where they are relatively uninteresting).
+
+Timekeeping does need saying, because this session will need it kept strictly.
+lain displays the clock, the current segment, and the time remaining, and flags
+an overrun to the chair the moment one starts. The chair acts on it. Nobody has
+to watch a stopwatch while trying to listen.
+
+This distinction matters for the panel's own argument. A session that used AI to
+run the clock would show nothing about AI-native professional practice. A
+session in which an AI holds a substantive position in an expert
+conversation---with the boundaries of that position explicit, enforced, and
+inspectable afterward---is an instance of the thing we say the field needs norms
+for.
+
+%%%
+%%% B. PRESENCE AND VOICE
+%%%
+\newpage
+\fieldlabel{3.\quad The central design move: presence is continuous, voice is rare}
+
+The most common failure in AI-facilitated sessions is to give the AI a set of
+speaking slots. The AI then behaves like a segment host: it talks during its
+slots and is absent the rest of the time. We separate the two channels
+instead.
+
+\vspace{0.4em}
+\noindent\begin{tabularx}{\linewidth}{@{}L{1.8cm}Y@{}}
+\toprule
+\textbf{Presence} & \textbf{Continuous, visual, silent.} lain keeps a
+\emph{running record} of the session and puts it on screen as it goes. This is
+rapporteur work---expert claims made and by whom, the sources behind them, where the
+panel agrees and where it does not, which guiding questions have been taken up,
+and the audience queue---except visible while it is being produced rather than
+circulated weeks later. \\
+\addlinespace[0.5em]
+\textbf{Voice} & \textbf{Rare, typed, human-approved.} lain contributes only when
+the chair approves one specific, composed intervention, which appears on screen
+and is spoken through the house system (\S9). We expect on the order of eight to twelve
+interventions across 90 minutes---not a running commentary. \\
+\bottomrule
+\end{tabularx}
+
+\subhead{What the running record looks like}
+
+Concretely, it is one screen of text that updates during the session. A moment
+in the middle of it might read:
+
+\vspace{0.2em}
+\begin{tcolorbox}[colback=SurfaceCode, colframe=BorderCode, boxrule=0.4pt,
+                  arc=2pt, left=9pt, right=9pt, top=7pt, bottom=7pt]
+\footnotesize
+\begin{minipage}[t]{0.60\linewidth}
+{\ttfamily\bfseries\color{ContentPrimary}CLAIMS}\\[0.4em]
+{\ttfamily C7}\ \ Briggs: AI first-pass review raises the\\
+\hspace*{1.9em}floor of peer review, not the ceiling\\
+\hspace*{1.9em}{\color{ContentSecondary}\emph{retrieved} --- Briggs 2024, \S4}\\[0.45em]
+{\ttfamily C8}\ \ Rijmen: AI makes the Catcher's vigilance\\
+\hspace*{1.9em}scarce, not the Architect's reach\\
+\hspace*{1.9em}{\color{ContentSecondary}\emph{observed} --- 00:17:40}\\[0.7em]
+{\ttfamily\bfseries\color{ContentPrimary}OPEN TENSIONS}\\[0.4em]
+{\ttfamily T2}\ \ C7 vs.\ C8 --- can vigilance be\\
+\hspace*{1.9em}trained, or only hired for? {\color{ContentSecondary}\emph{inferred}}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.36\linewidth}
+{\ttfamily\bfseries\color{ContentPrimary}QUESTION COVERAGE}\\[0.4em]
+{\ttfamily Q1}\ \ {\color{SuccessColor}$\blacksquare\blacksquare\blacksquare$}\\
+{\ttfamily Q2}\ \ {\color{SuccessColor}$\blacksquare\blacksquare$}\\
+{\ttfamily Q3}\ \ {\color{WarningColor}$\blacksquare$}\\
+{\ttfamily Q4}\ \ {\color{ContentSecondary}---}\\
+{\ttfamily Q5}\ \ {\color{ContentSecondary}---}\\[0.7em]
+{\ttfamily\bfseries\color{ContentPrimary}AUDIENCE\ \ (14)}\\[0.4em]
+{\ttfamily 6}\ \ disclosure norms\\
+{\ttfamily 5}\ \ consent and IRB\\
+{\ttfamily 3}\ \ cost to small programs
+\end{minipage}
+\end{tcolorbox}
+
+\vspace{0.4em}
+
+Nothing on that screen is a conclusion. It records what has been said, what
+supports it, and what has not yet been touched. These are the things a good
+session chair tracks mentally; here they are written down so everyone can check
+them. Panelists can correct the record aloud at any point, and corrections are
+logged as corrections.
+
+\subhead{Whether the room can actually follow it}
+
+Fred has asked whether an audience will track a display like this while also
+listening to four panelists. We do not know. That is worth testing rather than
+assuming. The online dry run puts the record in front of people who did not
+build it and asks what they could and could not follow. We are also borrowing
+from how existing real-time displays---conference backchannels, live-blogging,
+deliberation tools---handle the same problem, since none of this is new to us
+alone.
+
+If the full record turns out to be too dense to read while listening, the
+fallback is a reduced view: open tensions and question coverage only, with
+claims available on the audience URL for anyone who wants them.
+
+\subhead{Where it goes in the room}
+
+This depends on the room, and we will confirm it with AV. The best arrangement
+is a second display beside the main screen, so that panelist slides and the
+running record are both up during the provocations. If the room has one
+projector, the record holds the screen for the roughly 70 minutes when nobody is
+presenting slides, and shrinks to a margin for the 20 minutes when someone is.
+
+In either case it is also served to a plain URL that audience members can open
+on their own devices. That costs us nothing, solves the back-of-room legibility
+problem, and lets people scroll back to a claim made twenty minutes earlier
+without interrupting anyone.
+
+\vspace{0.2em}
+
+This split between presence and voice is what makes lain an interlocutor rather
+than a host: present for the whole session, speaking rarely. It also changes
+what the audience has to take on trust. They can watch the record being built
+and judge it themselves, instead of taking our word that the AI is following the
+argument.
+
+%%%
+%%% C. AUTHORITY
+%%%
+\fieldlabel{4.\quad Authority model}
+
+lain occupies exactly one of three states at any moment. It cannot promote
+itself. \texttt{SPEAK} is a one-time capability attached to a single
+approved intervention and expires on delivery.
+
+\vspace{0.3em}
+\begin{tcolorbox}[colback=SurfaceCode, colframe=BorderCode, boxrule=0.4pt,
+                  arc=2pt, left=10pt, right=10pt, top=8pt, bottom=8pt]
+\ttfamily\footnotesize
+OBSERVE\\
+\phantom{ }\ \ $\downarrow$\ \ chair enables proposals\\
+PROPOSE\\
+\phantom{ }\ \ $\downarrow$\ \ chair approves \emph{one} specific intervention\\
+SPEAK\\
+\phantom{ }\ \ $\downarrow$\ \ delivery complete; capability expires\\
+PROPOSE\\[0.5em]
+\normalfont\itshape Emergency stop returns lain immediately to OBSERVE.
+\end{tcolorbox}
+
+\vspace{0.3em}
+
+The chair (Betebenner) operates the approval console. Because he is also a
+panelist, lain is held in \texttt{OBSERVE} for the entire provocation block, so nothing requires approval while he is presenting. In
+\texttt{OBSERVE} it continues to build the running record; it simply cannot
+propose.
+
+Three constraints follow from treating the model as something other than the
+security boundary. lain's knowledge is bounded to the pre-loaded corpus, with no
+open-web retrieval at the podium. It has no write access to any repository, no
+publication authority, and no destructive tools. Audience input and uploaded
+sources are treated as untrusted content.
+
+Every intervention is tagged by epistemic status---\emph{observed} (it is in
+the transcript), \emph{retrieved} (it is in the corpus, here is where), or
+\emph{inferred} (lain is reasoning, and may be wrong). The tag is visible
+in the running record when the intervention is delivered.
+
+%%%
+%%% D. INTERVENTION REPERTOIRE
+%%%
+\fieldlabel{5.\quad What lain is allowed to say}
+
+lain does not improvise a role. It has a fixed repertoire of seven intervention
+types, each with a trigger condition. Naming them in advance makes its behavior
+reviewable rather than impressionistic, and lets us say afterward---with a
+log---what kind of contribution it actually made.
+
+\vspace{0.4em}
+\noindent\begin{tabularx}{\linewidth}{@{}L{2.9cm}Y@{}}
+\toprule
+\textbf{Type} & \textbf{Trigger and form} \\
+\midrule
+Grounding & A claim maps to something in the corpus. ``That appears in
+\emph{[source]}; here is what it says, which is narrower than the claim as
+stated.'' \\
+\addlinespace[0.4em]
+Contrast & Two claims in the session appear to conflict. ``This sits uneasily
+with what was said at minute~14. Both cannot hold as stated.'' lain raises the
+conflict; the panel decides whether it is real or reflects different tasks,
+consequences, or institutional settings. \\
+\addlinespace[0.4em]
+Absent voice & A guiding question has gone untouched, or a position present in
+the corpus has no advocate in the room. ``Nobody has taken up question~5.'' \\
+\addlinespace[0.4em]
+Steelman & A position is being dismissed without its strongest form. ``The
+strongest available objection to that, from the corpus, is the following.'' \\
+\addlinespace[0.4em]
+Attribution & A claim, result, or argument has been misattributed. Correction
+with the source. \\
+\addlinespace[0.4em]
+Audience routing & A cluster of audience questions converges on something the
+panel has not addressed. ``Eleven questions are asking a version of this.'' \\
+\addlinespace[0.4em]
+\textbf{Abstention} & lain is asked something for which it is not the warranted
+source. ``I can produce an answer, but Frank holds the operational constraint
+here and I would be guessing.'' \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.6em}
+
+Abstention matters most of the seven, and it is the one we most want the
+audience to see. It shows that capability, warranted expertise, specific
+context, and authority are four different things. lain has the first. It does
+not automatically have the other three. We would rather it name the right source
+than produce a plausible answer.
+
+Abstention is also where guiding question~5 becomes concrete rather than
+rhetorical. Every abstention is a claim about \emph{grounds}: not that lain was
+unable to answer---it was able---but that someone else holds the warrant, the
+context, or the accountability. If lain abstains a dozen times and gives its
+reasons each time, the audience has a dozen specific cases to argue about rather
+than a general claim from us.
+
+One caution, since it is easy to overclaim here. An abstention illustrates where
+we drew an authority boundary. It does not establish that the boundary was the
+right one. lain declining to answer is a programmed behavior, not an argument,
+and the panel still has to say what justifies the line. That is the work of
+question~5, and the abstentions are evidence for it, not a substitute.
+
+The repertoire earns its keep when it puts the guiding questions to work rather
+than summarizing the room. An intervention connecting questions~2 and~3 might
+run: \emph{``The discussion has held that professionals must verify AI-produced
+work. What would count as evidence that a graduating student can detect a
+consequential error in an analysis they did not produce?''} That joins what
+employers say they want to what a program could actually assess, and neither
+side of the room can answer it alone.
+
+%%%
+%%% E. TWO-WAY
+%%%
+\fieldlabel{6.\quad lain can be addressed}
+
+Panelists, the discussant, and---through the chair---the audience may address
+lain by name: \emph{``lain, what does the corpus say about inter-rater agreement
+in that study?''} or \emph{``lain, has anyone here actually disagreed with
+Derek, or are we all nodding?''}
+
+A direct address moves lain to \texttt{PROPOSE}; the chair still approves
+the response before it is delivered. Answering in real time during open dialogue
+is a stretch goal (\S1). If it is not reliable at rehearsal, questions addressed
+to lain go into a queue and are answered at the next scheduled moment. This matters more than it may appear. Without
+it, the AI broadcasts and the humans receive, which is the relationship a slide
+deck has to a room. With it, lain is queryable, and the panel can use it the
+way each of us already uses AI privately in our own work---except in public,
+at speed, with the query and the answer both on the record. That is closer to
+the professional reality the panel is describing than any amount of narration
+about that reality would be.
+
+Direct address also gives Oswald his sharpest instrument as discussant. He can
+interrogate it in front of the room and let the audience judge the quality of
+the answer against his own.
+
+%%%
+%%% F. LIFECYCLE
+%%%
+\fieldlabel{7.\quad Before, during, and after}
+
+lain is not a 90-minute performance. Three phases:
+
+\subhead{Before --- corpus and tension maps}
+
+Participant materials (papers, slides, code, links, prior talks) are ingested
+into a bounded, access-controlled corpus. If the corpus arrives in time, each
+panelist will receive a \emph{private} tension map before the dry run: where that panelist's stated positions
+appear to conflict with another panelist's, with the passages that generate the
+conflict. Nobody sees anyone else's map, and nothing is published.
+
+The purpose is to remove the first twenty minutes of discovery from the live
+session. We arrive already knowing where the disagreements are, so the session
+can spend its time on them rather than on locating them. This is also the first
+falsifiable test of whether lain is any good at what we are asking of it:
+finding disagreements that are real rather than obvious, including---Fred raised
+this---ones that might otherwise escape our own attention. If the tension maps
+are banal or wrong, we will know before the session and adjust the plan
+accordingly. They are a stretch goal: if they are not ready, nothing else in
+the session depends on them.
+
+\subhead{During --- the live session}
+
+As described above.
+
+\subhead{After --- the record}
+
+After the session we will assemble a durable session record: the transcript, the claim
+and evidence graph, the candidate norms with their disposition (accepted,
+revised, rejected, unresolved), and---the part we consider most valuable---the
+complete intervention log, including \emph{candidate interventions the chair
+suppressed}.
+
+For every candidate, the log carries the proposed text, the rationale, the
+sources, the chair's disposition, and, when spoken, what happened next in the
+discussion. What lain considered saying, and was not allowed to say, tells us more
+about the design problem than the record of what it did say. To our knowledge no such log exists for expert deliberation. It is a
+small dataset with an obvious question attached: what does a high-value AI
+intervention in collective expert work actually look like?
+
+Panelists review the record before anything leaves the group, and what is
+released publicly depends on the consent decision in \S12.
+
+%%%
+%%% G. RUN OF SHOW
+%%%
+\fieldlabel{8.\quad Run of show}
+
+\vspace{0.2em}
+\noindent\begin{tabularx}{\linewidth}{@{}R{1.5cm}L{1.3cm}YL{2.9cm}@{}}
+\toprule
+\textbf{Clock} & \textbf{Min.} & \textbf{Segment} & \textbf{lain} \\
+\midrule
+0--6   & 6  & Framing, introductions, disclosure of the AI design and its governance & Visible, silent \\
+\addlinespace[0.35em]
+6--26  & 20 & Four 5-minute provocations. One claim, one concrete example, one unresolved professional problem, each & \texttt{OBSERVE} \\
+\addlinespace[0.35em]
+26--31 & 5  & AI synthesis: convergence, disagreement, cross-panel connections, unaddressed questions & One approved intervention \\
+\addlinespace[0.35em]
+31--43 & 12 & Discussant response. Oswald critiques the panelists \emph{and} the AI synthesis & \texttt{OBSERVE} \\
+\addlinespace[0.35em]
+43--76 & 33 & Panel and audience dialogue; audience questions clustered and routed continuously & \texttt{PROPOSE}; approved \texttt{SPEAK} \\
+\addlinespace[0.35em]
+76--87 & 11 & Norm-building: candidate norms drafted, each naming an activity, the conditions under which AI involvement is acceptable, and who is answerable; panelists accept, revise, or reject each on screen & \texttt{PROPOSE} \\
+\addlinespace[0.35em]
+87--90 & 3  & Human closing synthesis; record generation begins & Silent \\
+\midrule
+\textbf{Total} & \textbf{90} & & \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.6em}
+
+Two changes from the accepted structure, both small. The provocation block is
+four speakers rather than five, since Oswald now sits in the discussant chair.
+And two minutes move from open dialogue into norm-building, because the norms
+are the session's actual deliverable and nine minutes to negotiate them across
+five people was optimistic.
+
+%%%
+%%% H. DEGRADED MODES
+%%%
+\Needspace{22\baselineskip}
+\fieldlabel{9.\quad If the technology fails}
+
+The intellectual session does not depend on lain being operational. Four
+declared operating states, with the chair calling transitions aloud so the
+audience always knows which one we are in:
+
+\vspace{0.4em}
+\noindent\begin{tabularx}{\linewidth}{@{}L{1.9cm}Y@{}}
+\toprule
+{\color{SuccessColor}\textbf{GREEN}} & \textbf{Target production mode.} Full transcription, live running record, AI analysis, and approved interventions spoken in lain's voice through the house system. \\
+\addlinespace[0.4em]
+{\color{DataimagoPrimary}\textbf{AMBER}} & Voice path unreliable. lain still analyzes and proposes; approved interventions appear on screen and the chair reads them aloud. Substantively almost identical to GREEN, and arguably a cleaner governance demonstration. \\
+\addlinespace[0.4em]
+{\color{WarningColor}\textbf{YELLOW}} & Transcription or analysis degraded. Running record frozen at its last good state; audience tools and human moderation continue. \\
+\addlinespace[0.4em]
+{\color{ErrorColor}\textbf{RED}} & Conventional panel: local slides, human moderation, no AI. The five guiding questions and the norm-building exercise run unchanged. \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.6em}
+
+The house audio system provides a line feed into the capture machine for
+transcription and a return path into the room. \textbf{GREEN is the target.} If
+the voice is not reliable at the final rehearsal, or fails during the session,
+the chair moves to AMBER. Nothing in the panel's argument requires lain to have
+a literal voice.
+
+RED is always available. The chair can move to it at any point, and the
+session was designed so that nothing essential is lost if we do.
+
+%%%
+%%% I. EVALUATION
+%%%
+\fieldlabel{10.\quad What we will claim, and what we will not}
+
+We will not infer that the design worked from the fact that the audience enjoyed
+it. That is not modesty. It is what the research shows. Recent large facilitation
+experiments report that participants reliably \emph{prefer} AI-facilitated
+discussion while consensus does not measurably improve, that facilitators
+measurably shift participants' substantive positions, and that perceived
+inclusion rises without any corresponding gain in actual participation equity.
+Audience satisfaction and moderator quality are separable, and in the published
+evidence they come apart.
+
+So we will measure them separately, to the extent the build allows. From the
+transcript and intervention log alone, we can assess grounding accuracy (did the
+cited source say what it was said to say), attribution accuracy, the rate and
+appropriateness of abstention, and actual speaking-time distribution. Perceived
+inclusion and the link between accepted interventions and later discussion need
+more instrumentation, and are stretch goals. Whatever we measure goes into the
+record whether or not it flatters the design.
+
+Two things follow from question~4. The object being evaluated is not lain but
+lain working from a particular corpus and transcript, under a particular
+approval process, with these participants: the human--AI process, not the model.
+And any claim of improvement has to name the relevant alternative. A fluent
+synthesis is not evidence that this beat a human moderator, or a plain shared
+transcript. One session cannot settle that comparison. It can document what lain
+contributed, what it got wrong, what had to be corrected, what it cost the room
+in attention, and which hypotheses are worth testing properly.
+
+The honest framing for the room is that this is a first instrumented instance,
+not a demonstration of a solved problem. If lain performs poorly in a legible way, that is a publishable result and a better one than a smooth session
+that taught us nothing.
+
+%%%
+%%% J. PARTICIPANT DELIVERABLES
+%%%
+\fieldlabel{11.\quad What we need from each of you}
+
+Everything lain knows in the room, it knows because one of us gave it
+beforehand. There is no open-web retrieval at the podium. The corpus is
+therefore the single highest-leverage input.
+
+\vspace{0.4em}
+\noindent\begin{tabularx}{\linewidth}{@{}L{3.1cm}Y@{}}
+\toprule
+\textbf{When} & \textbf{From you} \\
+\midrule
+As soon as you can & A current bio, if not already sent, and a 100-word statement of your provocation (one claim, one example, one unresolved problem). \textbf{Corpus materials:} papers, slides, code, prior talks, working notes---anything you want lain to be able to cite, each flagged \emph{citable in public} or \emph{background only}. \\
+\addlinespace[0.4em]
+Week before & A short online dry run, with whatever parts of lain are working by then. It is the best chance to see how the running record reads while you are also listening, and to decide what to switch off. \\
+\addlinespace[0.4em]
+At the venue & A brief AV and transcription check in the room before the session. \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.6em}
+
+On the corpus: err toward including more, but do not prepare anything new.
+Marking an item \emph{background only} means lain may reason from it but will
+not quote it in public. The failure mode to avoid is a moderator that speaks only
+in generalities because nobody gave it anything specific to work from.
+
+%%%
+%%% K. OPEN DECISIONS
+%%%
+\fieldlabel{12.\quad Open decisions}
+
+\begin{enumerate}[leftmargin=1.35em]
+  \item \textbf{Program listing.} The online program lists the four panelists
+        only. Ask the program committee to add Fred Oswald as discussant and
+        lain as moderator of record under a named human chair, with the name
+        kept lower case.
+  \item \textbf{Recording and consent.} The record includes a transcript, so
+        audience consent needs a plan: at minimum, an announcement at the start
+        and on screen that the session is being transcribed. Whether the record is internal evaluation or research
+        intended for generalizable publication decides whether we seek an IRB
+        determination before collecting anything.
+  \item \textbf{Audience question voting.} Enabling it changes what gets
+        surfaced and how we can describe representativeness. Worth deciding
+        deliberately rather than by default.
+  \item \textbf{Norm-building output.} Do the candidate norms leave the room as
+        a session artifact only, or as the seed of something the field is
+        invited to respond to? The Leiden Declaration is the obvious model, and
+        the difference in ambition is substantial.
+  \item \textbf{Reduced or full running record.} If the dry run shows the full
+        record is too dense to follow live, do we fall back to the reduced view
+        (\S3), or drop the display and keep lain's interventions only?
+\end{enumerate}
+
+\end{document}

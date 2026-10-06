@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "decks/betebenner-provocation.html#one-claim",
+    "href": "decks/betebenner-provocation.html#one-claim",
+    "title": "The hardest problems will be worked with AI",
+    "section": "One claim",
+    "text": "One claim\n\nThe most important work on the hardest problems in our field will be done with AI.\n\n\n\nNot the routine work done faster. The work that was out of reach.\n\n\nFive minutes: one claim, one example, one unresolved problem. The claim is about where the frontier of the field moves, not about productivity. DRAFT, Damian to revise."
+  },
+  {
+    "objectID": "decks/betebenner-provocation.html#what-changed-in-my-own-work",
+    "href": "decks/betebenner-provocation.html#what-changed-in-my-own-work",
+    "title": "The hardest problems will be worked with AI",
+    "section": "What changed in my own work",
+    "text": "What changed in my own work\n\n\n\n\n\n\n\n\n\nBefore AI\nWith AI\n\n\n\n\nTheory\nmonths per derivation, one person\na derivation tested against a collaborator in an afternoon\n\n\nCode\nthe bottleneck\nwritten, refactored, and tested alongside the theory\n\n\nSimulation\na few designs, chosen for feasibility\nthousands of conditions, chosen for the question\n\n\nDocumentation\nwritten after, if at all\nwritten with the work\n\n\nAmbition\nsized to what one person could check\nsized to the problem\n\n\n\n\nScale, speed, and ambition change. So does the demand for verification and judgment.\n\n\nFrom the session description: pre-AI versus AI-integrated workflows across theoretical development, coding, simulation, data analysis, documentation, and the design of systems connecting achievement, growth, and improvement. Replace the cells with the specifics you want to claim."
+  },
+  {
+    "objectID": "decks/betebenner-provocation.html#one-example-an-advanced-mathematical-task",
+    "href": "decks/betebenner-provocation.html#one-example-an-advanced-mathematical-task",
+    "title": "The hardest problems will be worked with AI",
+    "section": "One example: an advanced mathematical task",
+    "text": "One example: an advanced mathematical task\n\n\n\nConjecture: a property of an advanced measurement model [name the problem]\nDerivation: worked through with AI as an interlocutor; each step challenged\nImplementation: the derivation becomes code the same week\nSimulation at scale: the result stress-tested across thousands of conditions\nVerification: what I could check, what I could not\n\n\n\nBefore: a multi-year research program for one methodologist.\nWith AI: weeks.\nWhat did not change: I answer for the result.\n\n\n\nKeep this broad. The point is that a deep investigation plus simulation of an advanced mathematical task became feasible for one person. Name the specific problem (e.g., the growth or quantile model, the estimator, the property) when you revise."
+  },
+  {
+    "objectID": "decks/betebenner-provocation.html#one-unresolved-problem",
+    "href": "decks/betebenner-provocation.html#one-unresolved-problem",
+    "title": "The hardest problems will be worked with AI",
+    "section": "One unresolved problem",
+    "text": "One unresolved problem\n\nWhen the derivation and the simulation exceed what the author, or any reviewer, can check by hand, what makes the result warranted, and who answers for it?\n\n\n\nGuiding questions 3 and 5. See also Rijmen: owning results one did not produce by hand; Briggs: whose judgment is it?\n\n\nThis hands off to the panel: the question is not whether AI can do the work, but what replaces hand-checking as the warrant."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Educational Measurement as an AI-Native Profession",
+    "section": "",
+    "text": "Artificial intelligence is not only changing assessment products; it is changing the professional work of educational measurement itself. This page collects the panel’s materials as the presenters supplied them. Originals are linked unchanged. Where a file is hard to read in a browser, a rendered copy is offered beside it and labeled as one."
+  },
+  {
+    "objectID": "index.html#who-is-on-the-panel",
+    "href": "index.html#who-is-on-the-panel",
+    "title": "Educational Measurement as an AI-Native Profession",
+    "section": "Who is on the panel",
+    "text": "Who is on the panel\n\n\n\n\n\n\n\nRole\n\n\n\n\n\nSession chair\nDamian Betebenner, Center for Assessment\n\n\nModerator\nlain, an AI interlocutor operating under the session chair’s supervision\n\n\nPanelists\nDamian Betebenner · Derek Briggs · Frank Rijmen · Mohammed A. A. Abulela (with Guher Gorgun, Brian French, Brian Leventhal, Matthew Gushta)\n\n\nDiscussant\nFred Oswald, University of California, Irvine"
+  },
+  {
+    "objectID": "index.html#five-guiding-questions",
+    "href": "index.html#five-guiding-questions",
+    "title": "Educational Measurement as an AI-Native Profession",
+    "section": "Five guiding questions",
+    "text": "Five guiding questions\n\nWhat has changed. How has AI already changed educational measurement work, in the substance, scope, and organization of that work and not only its speed, and what has become better, worse, or simply different?\nWhat that demands of professionals. As AI becomes a collaborator rather than a tool, how should work be divided between people and AI; what knowledge, skills, and dispositions then define psychometric expertise; and how should graduate programs and employers develop and assess them?\nWhat the profession must redefine. When AI contributes materially to an analysis, a manuscript, or a review, what must be verified, documented, and disclosed before others can responsibly rely on it, and what does that ask of peer review, training, and institutional accountability?\nWhat measurement science owes the evaluation of AI. What can measurement science contribute, in return, to the evaluation of AI systems and of human–AI teams, including this panel, and what would count as improvement over the relevant alternative?\nWhere authority and accountability remain human. Where should authority and accountability remain human as capability advances, what justifies those boundaries beyond current capability, and what does this session’s own use of an AI interlocutor reveal about them?"
+  },
+  {
+    "objectID": "index.html#provocations",
+    "href": "index.html#provocations",
+    "title": "Educational Measurement as an AI-Native Profession",
+    "section": "Provocations",
+    "text": "Provocations\nEach panelist makes one claim, gives one example, and names one unresolved problem.\n\n\nDamian Betebenner, Center for Assessment\nSlides: open · PDF · Statement: markdown\n\n\nProvocation statement: Damian Betebenner (DRAFT for Damian’s revision, ~100 words)\nClaim: The most important work on the hardest problems in our field will be done with AI.\nExample: A mathematical problem in measurement that had been out of practical reach for one person (deriving the properties of an advanced model, implementing it, and stress-testing it across thousands of simulated conditions) became tractable in weeks, with AI as a collaborator in the derivation, the code, and the design of the simulation.\nUnresolved problem: When the derivation and the simulation exceed what the author, or any reviewer, can check by hand, what makes the result warranted, and who answers for it?\n\n\n\nDerek Briggs, University of Colorado Boulder\nStatement: markdown original\nProvocation statement: Derek Briggs\nClaim: Peer review in our field should use AI twice: reviewers audit a journal-supplied AI review before finalizing theirs, and editors get an AI check of whether the reviews cohere. In the 14 journals I checked that publish scholarship related to educational measurement and psychometrics, policies block this mainly to protect confidentiality, which a secure, journal-run tool can satisfy.\nExample: In a randomized trial at ICLR 2025, 27% of reviewers revised after seeing AI feedback; a panel judged two-thirds of the revisions better.\nUnresolved problem: When a reviewer or editor revises their decision or recommendation after reading the AI’s critique, whose judgment is it? No journal policy in our field addresses that case.\nBiography: Please see https://www.colorado.edu/education/derek-briggs for vita and other materials\n\n\n\nFrank Rijmen, Cambium Assessment\nSlides: PowerPoint original · PDF, rendered copy · slide text and speaker notes Position brief: Word original · web version Bio: markdown original\n\n\nProvocation statement: Frank Rijmen (99 words)\nClaim: AI changes not only what psychometricians need to know but what behavioral skills are required, differently for each archetype.\nExample: The Guardian must reckon with evolving standards and with continuous observation, which challenges existing measurement frameworks; the Catcher, unable to check by hand, must specify edge cases for AI agents to check; the Architect can prototype in days but must ground designs in measurement principles.\nUnresolved problem: Developing behavioral skills may require a different approach than training cognitive skills. What should professional development look like when the goal is new ways of working, not new knowledge?\n\n\n\nMohammed A. A. Abulela, MetaMetrics, Inc. / University of Minnesota\nWith co-authors Guher Gorgun (University of Georgia), Brian French (Washington State University), Brian Leventhal (James Madison University), and Matthew Gushta (MetaMetrics, Inc.).\nSlides: PowerPoint original · PDF, rendered copy · slide text, transcribed Bio: Word original · web version\nClaim. AI-related preparation should no longer be treated only as an optional extension of graduate training in educational measurement and psychometrics. It should become an intentional part of professional preparation, while remaining grounded in validity, fairness, measurement theory, and psychometrics.\nExample. Across 90 doctoral programs, qualifying computational or AI-related coursework was identified in only 16 (17.8%). Across 44 measurement-related job advertisements, 79.5% (35) included at least one computational or AI-related area.\nUnresolved problem. What is the minimum AI-related preparation that every future measurement professional should have? What should be required? What can remain elective? How do we integrate AI without displacing validity, fairness, and psychometric foundations?\nTranscribed from the slide images."
+  },
+  {
+    "objectID": "index.html#discussant",
+    "href": "index.html#discussant",
+    "title": "Educational Measurement as an AI-Native Profession",
+    "section": "Discussant",
+    "text": "Discussant\n\nFred Oswald, University of California, Irvine\nProfessor of Education at the University of California, Irvine, editor-in-chief of Psychological Methods, past president of the Society for Industrial and Organizational Psychology, past chair of the APA Committee on Psychological Tests and Assessment and of the National Academies Board on Human-Systems Integration (which produced Human-AI Teaming), and a former member of the National Artificial Intelligence Advisory Committee. He will synthesize the provocations and press toward actionable norms, while critiquing the session’s own AI moderation process.\nFrom the session proposal."
+  },
+  {
+    "objectID": "index.html#about-the-rendered-copies",
+    "href": "index.html#about-the-rendered-copies",
+    "title": "Educational Measurement as an AI-Native Profession",
+    "section": "About the rendered copies",
+    "text": "About the rendered copies\nPDF copies of the PowerPoint files were exported with Keynote and may differ slightly from the original layout (fonts, icon placement). The originals are authoritative. The “web version” and “slide text” files are text extracted from the originals, unchanged except for formatting; Mohammed Abulela’s slide text was transcribed from the slide images."
+  },
+  {
+    "objectID": "decks/moderator.html#educational-measurement-as-an-ai-native-profession",
+    "href": "decks/moderator.html#educational-measurement-as-an-ai-native-profession",
+    "title": "Educational Measurement as an AI-Native Profession",
+    "section": "Educational Measurement as an AI-Native Profession",
+    "text": "Educational Measurement as an AI-Native Profession\n\nAIME-Con 2026 · Panel · Wednesday 7 October, 11:00–12:30 · Commonwealth 2\n\n\n\nSession chair Damian Betebenner, Center for Assessment Moderator lain, an AI interlocutor under the chair’s supervision Discussant Fred Oswald, University of California, Irvine\n\nPanelists Derek Briggs, University of Colorado Boulder Frank Rijmen, Cambium Assessment Mohammed A. A. Abulela, MetaMetrics / University of Minnesota Damian Betebenner, Center for Assessment\n\n\nA correction to the printed program: it lists a human moderator. Today the moderator is lain, an AI, under the session chair, and Fred Oswald is our discussant.\n\n\nWelcome. Correct the printed program up front (it lists Andrew Ho as moderator and omits Fred and lain). Introduce Fred as discussant; the four panelists will each give a five-minute provocation."
+  },
+  {
+    "objectID": "decks/moderator.html#what-this-conference-is-about",
+    "href": "decks/moderator.html#what-this-conference-is-about",
+    "title": "Educational Measurement as an AI-Native Profession",
+    "section": "What this conference is about",
+    "text": "What this conference is about\n\n\n\n274 presentations build AI into assessment products: scoring, item generation, tutors, feedback. 30 ask how AI changes the work of the people in this room.\n\nEach square is one of 335 presentations in the printed program (by session: 70 A · 10 B · 3 C). Coded by an AI from the program text, audited by the chair. Borderline calls matter: B ranges from 12 (unambiguous only) to 68 (every borderline call to B). Data and codebook: the materials site.\n\n\nLet the picture land. Roughly 9 presentations about AI in our products for every one about AI in our profession. Then: the coding itself was done with AI and checked by me, which is a small example of the thing we are here to talk about."
+  },
+  {
+    "objectID": "decks/moderator.html#the-provocation",
+    "href": "decks/moderator.html#the-provocation",
+    "title": "Educational Measurement as an AI-Native Profession",
+    "section": "The provocation",
+    "text": "The provocation\n\nAt this conference: about 9 to 1, products over profession.\n\n\nThe chair’s conjecture, not a finding\n\n\nHow measurement professionals use AI in their own work will have 10× the impact of the AI we build into assessments.\n\n\n\n\nAI in the product changes one tool: a scoring engine, an item pool, a tutor.\n\nAI in the profession changes every analysis, model, review, document, and decision, including how the next generation of those products is designed, validated, and governed.\n\n\nState it as a conjecture. This session is about the right column. Take the claim apart today: the panel will press on what that shift demands, what it breaks, and where accountability must stay human."
+  },
+  {
+    "objectID": "decks/moderator.html#why-a-profession-level-response",
+    "href": "decks/moderator.html#why-a-profession-level-response",
+    "title": "Educational Measurement as an AI-Native Profession",
+    "section": "Why a profession-level response",
+    "text": "Why a profession-level response\n\nThe mathematics community has asked this already. The Leiden Declaration on AI and Mathematics (June 2026, endorsed by the IMU) asks the discipline to protect the verifiability of proof, attribution, authorship, and the primacy of human judgment.\n\n\nFive guiding questions\n\nWhat has changed in the substance and organization of measurement work?\nWhat that demands of professionals: the division of labor, expertise, and training.\nWhat the profession must redefine: what is verified, documented, and disclosed.\nWhat measurement science owes the evaluation of AI, including this panel.\nWhere authority and accountability remain human, and on what grounds.\n\n\n\nQ1 is carried by the provocations; Q2–Q5 organize the exchanges; the norm-building draws mainly on Q3 and Q5. Q5 comes last because it is the hardest: “humans must keep final say” is a position, not a justification."
+  },
+  {
+    "objectID": "decks/moderator.html#how-lain-takes-part",
+    "href": "decks/moderator.html#how-lain-takes-part",
+    "title": "Educational Measurement as an AI-Native Profession",
+    "section": "How lain takes part",
+    "text": "How lain takes part\n\n\nPresence: continuous, visual, silent\nA running record on screen: claims and who made them, sources, agreements, open tensions, question coverage.\nVoice: rare, typed, human-approved\nAbout 8–12 interventions in 90 minutes, each approved by the chair.\n\n\nOBSERVE ↓ chair enables proposals PROPOSE ↓ chair approves one intervention SPEAK ↓ delivered; the permission expires Emergency stop → OBSERVE, at once\n\n\n\nEvery contribution is tagged observed (in the transcript), retrieved (in the panel’s materials, with the source), or inferred (lain’s reasoning, possibly wrong). Its knowledge is the panelists’ materials only: no open web. It abstains when someone else holds the warrant.\n\n\nModerator is the title; interlocutor is the job. Turn-taking and timekeeping stay with me. lain is held in OBSERVE through the provocations and through Fred’s response. Abstention is the behaviour we most want you to see: capability is not warrant, context, or authority."
+  },
+  {
+    "objectID": "decks/moderator.html#if-the-technology-fails",
+    "href": "decks/moderator.html#if-the-technology-fails",
+    "title": "Educational Measurement as an AI-Native Profession",
+    "section": "If the technology fails",
+    "text": "If the technology fails\n\n\n\n\n\n\n\nState\nWhat it means\n\n\n\n\nGREEN\nLive transcription and running record; approved interventions spoken in lain’s voice\n\n\nAMBER\nSame, but I read approved interventions aloud\n\n\nYELLOW\nTranscription or analysis degraded; the record freezes at its last good state\n\n\nRED\nA conventional panel: same questions, same norm-building\n\n\n\n\nRunning today: [GREEN / AMBER, set at T-15]. I will call every change of state aloud. The panel’s argument does not depend on lain working.\n\n\nSay which state we are in. If anything is switched off, say so now rather than letting the room discover it."
+  },
+  {
+    "objectID": "decks/moderator.html#before-we-start",
+    "href": "decks/moderator.html#before-we-start",
+    "title": "Educational Measurement as an AI-Native Profession",
+    "section": "Before we start",
+    "text": "Before we start\n\n\n\nThis session is being recorded and transcribed. lain, an AI moderator, speaks aloud under the session chair, who approves every sentence. The transcript and the session record are published afterwards. Questions, typed or asked aloud, become part of that record. No names or emails are collected.\n\n\nThe record includes the full intervention log, including what lain proposed and I declined. Panelists review it before release.\n\n\n\nFollow along · ask a question\n\n\nPanel materials\n\n\n\nIn your own words: “Before we start: this session is recorded and transcribed, and the record goes up afterwards. lain speaks under my approval and I can stop it at any point. If you ask a question, typed or out loud, it becomes part of the published record; we do not collect your name.” Top QR: the audience view (the running record on your phone, and questions). Bottom QR: the panelists’ materials."
+  },
+  {
+    "objectID": "decks/moderator.html#run-of-show",
+    "href": "decks/moderator.html#run-of-show",
+    "title": "Educational Measurement as an AI-Native Profession",
+    "section": "Run of show",
+    "text": "Run of show\n\n\n\n\n\n\n\n\nMinutes\nSegment\nlain\n\n\n\n\n0–6\nFraming and the AI design\nvisible, silent\n\n\n6–26\nFour five-minute provocations: one claim, one example, one unresolved problem\nOBSERVE\n\n\n26–31\nAI synthesis: convergence, disagreement, connections\none approved intervention\n\n\n31–43\nDiscussant: Fred Oswald critiques the panel and the AI synthesis\nOBSERVE\n\n\n43–76\nPanel and audience dialogue\nPROPOSE; approved SPEAK\n\n\n76–87\nNorm-building: activity · conditions for AI involvement · who is answerable\nPROPOSE\n\n\n87–90\nHuman closing synthesis\nsilent\n\n\n\n\nThe norms are the deliverable. Each names a concrete activity, the conditions under which AI involvement is acceptable, and who answers for the decision. Hand to the first provocation."
+  }
+]

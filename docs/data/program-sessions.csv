@@ -1,0 +1,84 @@
+id,day,time,room,session_type,title,code,ambiguous,alt_code,rationale
+S01,Mon Oct 5,9:00 AM–11:00 AM,Commonwealth 1,Training,Beyond Bots: Promoting and Measuring with Facilitative AI,A,FALSE,,AI facilitates student discussions so interaction becomes measurement evidence about students
+S02,Mon Oct 5,9:00 AM–11:00 AM,King’s Garden 3,Training,How to generate scenario-based learning and assessment for post-secondary courses with GenAI,A,FALSE,,GenAI used to build scenario-based learning assessments for courses
+S03,Mon Oct 5,1:00 PM–5:00 PM,Commonwealth 2,Training,Generative AI for Item Development: A Hands-On Workshop,A,TRUE,B,Item-generation product skills; but it trains professionals to use GenAI in item writing
+S04,Mon Oct 5,1:00 PM–5:00 PM,Commonwealth 1,Training,Integrating Generative AI into R Workflows: From APIs to Shiny Apps,B,FALSE,,LLMs integrated into the measurement professional's own R analysis workflows
+S05,Mon Oct 5,1:00 PM–5:00 PM,King’s Garden 3,Training,Sponsored Training Session: How Should We Benchmark AI Tutors? Toward Valid and Impact-Oriented Evaluation,A,FALSE,,Benchmarking quality of AI tutors (education product)
+S06,Mon Oct 5,1:00 PM–5:00 PM,King’s Garden 1,Training,"Text Classification with Large Language Models: Pipelines, Fine-tuning, and Measurement Validity",B,TRUE,A,LLM text-classification pipelines as a research measurement workflow; could be read as scoring tooling
+S07,Mon Oct 5,1:00 PM–5:00 PM,King’s Garden 2,Training,Writing an AI-Native Dissertation,B,FALSE,,"AI-native dissertation: AI in the scholar's own writing, analysis, and attribution practice"
+S08,Tue Oct 6,8:00 AM–9:00 AM,Grand Ballroom 1,Keynote,What Are We Assessing in Human-AI Interaction? (Keynote: Dragan Gašević),A,TRUE,C,Assessing learners' capability in human-AI interaction; AI in education rather than in professional work
+S09,Tue Oct 6,9:15 AM–10:45 AM,Brigade,Individual Paper,AI for Alignment to Standards,A,FALSE,,AI alignment of items to standards (test design)
+S10,Tue Oct 6,9:15 AM–10:45 AM,Ft. Pitt,Individual Paper,Comparing and Exploring Human and AI Scoring,A,FALSE,,Human vs AI scoring of student work
+S11,Tue Oct 6,9:15 AM–10:45 AM,Heinz,Individual Paper,Connecting LLMs to Digital Assessment & Scoring,A,FALSE,,LLMs in digital assessment scoring and feedback
+S12,Tue Oct 6,9:15 AM–10:45 AM,Smithfield/Birmingham,Coordinated Paper,Construct Representation and Validity Evidence in Automated Scoring Systems,A,FALSE,,Validity evidence for automated scoring systems
+S13,Tue Oct 6,9:15 AM–10:45 AM,King’s Garden 5,Coordinated Paper,Evaluating AI-Generated NAEP items: The Assessment Developer’s Perspective,A,FALSE,,Evaluating an AI item-generation tool for NAEP
+S14,Tue Oct 6,9:15 AM–10:45 AM,Commonwealth 2,Panel,Industry Leader Perspectives: How AI is Changing K12 Measurement Roles,B,FALSE,,"How AI is changing K-12 measurement professionals' roles, skills, and daily work"
+S15,Tue Oct 6,9:15 AM–10:45 AM,Duquense,Individual Paper,"Synthetic Students, Responses & Simulation",A,FALSE,,Synthetic students/responses to build and evaluate assessments
+S16,Tue Oct 6,9:15 AM–10:45 AM,King’s Garden 4,Individual Paper,Using LLMs to Assist in IRT Modeling,B,TRUE,C,Title frames LLMs assisting IRT modeling; constituent papers are mostly psychometric methods
+S17,Tue Oct 6,11:00 AM–12:30 PM,Heinz,Individual Paper,Automated Item Generation & Item Writing,A,FALSE,,Automated item generation
+S18,Tue Oct 6,11:00 AM–12:30 PM,Grand Ballroom 1,Coordinated Paper,"Constructed-Response Scoring Evidence from LLMs, Embeddings, and Rubrics",A,FALSE,,LLM/embedding constructed-response scoring
+S19,Tue Oct 6,11:00 AM–12:30 PM,Ft. Pitt,Individual Paper,LLM Judges & Human-AI Agreement in Scoring and Test Assembly,A,FALSE,,LLM judges for scoring and test assembly
+S20,Tue Oct 6,11:00 AM–12:30 PM,King’s Garden 4,Individual Paper,Modeling Item Cognitive Demand & Difficulty,A,FALSE,,AI prediction of item difficulty and cognitive demand
+S21,Tue Oct 6,11:00 AM–12:30 PM,Smithfield/Birmingham,Individual Paper,Novel Approaches to Scoring in Mathematics and Computer Science,A,FALSE,,AI scoring and item generation in math and CS
+S22,Tue Oct 6,11:00 AM–12:30 PM,Brigade,Individual Paper,Prompting Strategies,A,TRUE,B,Prompting for scoring/simulation products; one paper uses LLMs for systematic-review coding
+S23,Tue Oct 6,11:00 AM–12:30 PM,Duquense,Individual Paper,"Synthetic Students, Responses & Simulation",A,FALSE,,Simulated responses for item calibration and teaching simulations
+S24,Tue Oct 6,11:00 AM–12:30 PM,King’s Garden 5,Coordinated Paper,Validating AI in Educational Testing: Challenges and Future Directions,A,FALSE,,"Validity theory for AI scoring, item generation, and AI-mediated performance"
+S25,Tue Oct 6,11:00 AM–12:30 PM,Commonwealth 2,Individual Paper,Validity Arguments & Evidence,A,FALSE,,Validity arguments for AI scoring and assessment tools
+S26,Tue Oct 6,11:00 AM–12:30 PM,Commonwealth 1,Sponsor,Our Future with AI: Graduate Student Perspectives on a Changing Profession,B,FALSE,,Graduate students on AI and preparation for a changing measurement profession
+S27,Tue Oct 6,1:45 PM–3:15 PM,King’s Garden 4,Individual Paper,AI Generation and Estimation of Item Parameters and Skill Blueprints,A,FALSE,,AI estimation of item parameters and skill blueprints
+S28,Tue Oct 6,1:45 PM–3:15 PM,Brigade,Individual Paper,AI Feedback and Formative Assessment,A,FALSE,,AI-generated feedback and formative assessment
+S29,Tue Oct 6,1:45 PM–3:15 PM,Ft. Pitt,Individual Paper,Advances in AI Scoring and Assessment,A,FALSE,,AI scoring
+S30,Tue Oct 6,1:45 PM–3:15 PM,King’s Garden 5,Coordinated Paper,"Evaluating LLM-Generated Educational Content for Teaching, Learning, and Assessment",A,FALSE,,Evaluating LLM-generated educational content
+S31,Tue Oct 6,1:45 PM–3:15 PM,Heinz,Individual Paper,"Fairness, Bias & DIF",A,FALSE,,Fairness and bias of AI scoring and AI tools
+S32,Tue Oct 6,1:45 PM–3:15 PM,Commonwealth 2,Panel,"Human-Centered AI Applications: Bridging Learning Science, Assessment, and Ethics",A,FALSE,,Designing AI applications for learning and assessment
+S33,Tue Oct 6,1:45 PM–3:15 PM,Smithfield/Birmingham,Individual Paper,Item Difficulty Estimation,A,FALSE,,LLM item difficulty estimation
+S34,Tue Oct 6,1:45 PM–3:15 PM,Duquense,Individual Paper,Multimodal and Chatbot-Based Tutoring,A,FALSE,,AI tutoring and chatbots
+S35,Tue Oct 6,1:45 PM–3:15 PM,Commonwealth 1,Coordinated Paper,"Operational Trustworthiness in Automated Scoring: Validity, Bias, Error, Stability, Cost",A,FALSE,,Operational trustworthiness of automated scoring
+S36,Tue Oct 6,1:45 PM–3:15 PM,Grand Ballroom 1,Coordinated Paper,Recent AI Applications at Measurement Incorporated (MI),A,FALSE,,"A testing company's AI scoring, feedback, and modeling applications"
+S37,Tue Oct 6,3:45 PM–5:15 PM,Brigade,Individual Paper,AI for Alignment and Construct Validity,A,FALSE,,AI for item alignment and construct validity in test design
+S38,Tue Oct 6,3:45 PM–5:15 PM,Smithfield/Birmingham,Individual Paper,AI for Mathematics: Scoring & Item Development,A,FALSE,,AI math scoring and test construction
+S39,Tue Oct 6,3:45 PM–5:15 PM,Commonwealth 1,Coordinated Paper,AI for Measurement in Educational Learning and Assessment (upcoming book),A,TRUE,C,"Book chapters on AI in learning and assessment; mixed, mostly products"
+S40,Tue Oct 6,3:45 PM–5:15 PM,King’s Garden 5,Panel,Building Responsible AI Practice in Language Assessment: Anticipating What’s Next,A,TRUE,B,Responsible AI in language test development and scoring; frames professional ethics
+S41,Tue Oct 6,3:45 PM–5:15 PM,King’s Garden 4,Individual Paper,Comparing and Validating Human Scoring and Rating with Machine Scoring,A,FALSE,,Human vs machine scoring validation
+S42,Tue Oct 6,3:45 PM–5:15 PM,Duquense,Individual Paper,Item Difficulty & Parameter Prediction,A,FALSE,,Item parameter prediction
+S43,Tue Oct 6,3:45 PM–5:15 PM,Commonwealth 2,Panel,To Err is not only Human: Human/LLM Collaboration in Assessment,B,TRUE,A,"Professionals in several roles, including psychometricians, collaborating with LLMs in their work"
+S44,Tue Oct 6,3:45 PM–5:15 PM,Grand Ballroom 1,Coordinated Paper,Transforming Assessment Data into Educational Action: Human–AI Collaboration in Educational Measurement,A,TRUE,B,Human-AI collaboration turning assessment data into action; includes human-ML qualitative coding
+S45,Tue Oct 6,3:45 PM–5:15 PM,Ft. Pitt,Panel,Voices from the Field: How AI is affecting classroom assessment?,C,TRUE,A,Teachers adapting classroom assessment to student AI use; neither product nor profession
+S46,Tue Oct 6,5:15 PM–6:30 PM,King’s Garden 1-3,Poster,Poster Session & Reception,A,TRUE,C,Mixed poster session; most posters study AI assessment products
+S47,Wed Oct 7,8:00 AM–9:00 AM,Grand Ballroom 1,Keynote,Keynote: Alina von Davier,A,TRUE,B,Architecture for AI-native assessment systems; touches how measurement work is organized
+S48,Wed Oct 7,9:15 AM–10:45 AM,Smithfield/Birmingham,Individual Paper,Classroom Implementation & Teacher Support,A,FALSE,,AI tools supporting classroom implementation and teachers
+S49,Wed Oct 7,9:15 AM–10:45 AM,Commonwealth 2,Panel,Interweaving Assessment: A Field-Generated R&D Agenda for AI and Measurement,A,TRUE,B,Field R&D agenda for AI and assessment; agenda-setting for the field
+S50,Wed Oct 7,9:15 AM–10:45 AM,Brigade,Individual Paper,LLMs for Mathematics Understanding and Scoring,A,FALSE,,LLM math scoring
+S51,Wed Oct 7,9:15 AM–10:45 AM,Duquense,Individual Paper,LLMs for Multilingual Content Scoring,A,FALSE,,Multilingual AI scoring
+S52,Wed Oct 7,9:15 AM–10:45 AM,King’s Garden 5,Individual Paper,Leveraging LLMs for Process Data Analysis and Scoring,A,FALSE,,LLM process-data analysis and scoring
+S53,Wed Oct 7,9:15 AM–10:45 AM,Heinz,Individual Paper,New Frontiers in Automated Essay Scoring,A,FALSE,,Automated essay scoring
+S54,Wed Oct 7,9:15 AM–10:45 AM,Ft. Pitt,Individual Paper,Short-Answer & Constructed-Response Scoring,A,FALSE,,Short-answer and constructed-response scoring
+S55,Wed Oct 7,9:15 AM–10:45 AM,Commonwealth 1,Sponsor,Reexamining Interactivity: How AI Transforms and Scales Modern Language Assessment,A,FALSE,,AI-enabled interactive speaking items on a commercial test
+S56,Wed Oct 7,11:00 AM–12:30 PM,Ft. Pitt,Individual Paper,AI Literacy,C,TRUE,A,Measuring AI literacy of students and teachers
+S57,Wed Oct 7,11:00 AM–12:30 PM,Duquense,Individual Paper,Demonstrating Validity Evidence for LLM-Based Assessment Tools,A,FALSE,,Validity evidence for LLM-based assessment tools
+S58,Wed Oct 7,11:00 AM–12:30 PM,Commonwealth 2,Panel,Educational Measurement as an AI-Native Profession,B,FALSE,,"How AI transforms measurement professionals' work, norms, and responsibility"
+S59,Wed Oct 7,11:00 AM–12:30 PM,Heinz,Coordinated Paper,Evidence-Centered Design Anchored AI: Strengthening Measurement Science in STEM,A,FALSE,,ECD-anchored AI item generation and scoring
+S60,Wed Oct 7,11:00 AM–12:30 PM,King’s Garden 4,Individual Paper,Human and AI Partnerships for Learning and Assessment,A,FALSE,,AI partners for learning and assessment
+S61,Wed Oct 7,11:00 AM–12:30 PM,Smithfield/Birmingham,Individual Paper,"Impacts of AI on Educators, Students, and Assessment",C,TRUE,A,Impacts of student and faculty AI use; one paper on expert trust in AI
+S62,Wed Oct 7,11:00 AM–12:30 PM,Grand Ballroom 1,Coordinated Paper,Leveraging Large Language Models for More Personalized and Authentic Assessments,A,FALSE,,LLMs for personalized assessments
+S63,Wed Oct 7,11:00 AM–12:30 PM,Brigade,Individual Paper,Multimodal and Visual Assessment,A,FALSE,,Multimodal AI scoring and item analysis
+S64,Wed Oct 7,11:00 AM–12:30 PM,King’s Garden 5,Individual Paper,Using LLMs in the Item Writing Process,A,TRUE,B,LLM item writing; papers benchmark and integrate into professional item-writing workflows
+S65,Wed Oct 7,1:45 PM–3:15 PM,Commonwealth 1,Coordinated Paper,AI Competencies in Educational Measurement: Expanding the NCME Foundational Competencies,B,FALSE,,AI competencies for measurement professionals (NCME Foundational Competencies)
+S66,Wed Oct 7,1:45 PM–3:15 PM,King’s Garden 4,Individual Paper,"Adaptive Testing, Assembly & Exposure",A,TRUE,C,Adaptive testing and assembly; some papers without AI
+S67,Wed Oct 7,1:45 PM–3:15 PM,Commonwealth 2,Panel,Advancing Multimodal AI and Assessment System Innovation,A,FALSE,,Vendors' AI-powered assessment products
+S68,Wed Oct 7,1:45 PM–3:15 PM,Brigade,Individual Paper,Clustering and Synthesis Techniques Using AI,A,TRUE,B,AI clustering for feedback and rubrics; includes AI thematic analysis for analysts
+S69,Wed Oct 7,1:45 PM–3:15 PM,Smithfield/Birmingham,Coordinated Paper,"Integrating Cognitive Models and AI to Enhance Assessment, Learning, and Instruction",A,FALSE,,AI with cognitive models for assessment and instruction
+S70,Wed Oct 7,1:45 PM–3:15 PM,Grand Ballroom 1,Coordinated Paper,"Measurement Evidence for AI-Supported Assessment Design, Scoring, and Monitoring",A,FALSE,,Measurement evidence for AI-supported assessment design and scoring
+S71,Wed Oct 7,1:45 PM–3:15 PM,Heinz,Coordinated Paper,PAD to PAAAD: Principled AI-Assisted Assessment Design,A,FALSE,,Principled AI-assisted item design
+S72,Wed Oct 7,1:45 PM–3:15 PM,King’s Garden 5,Individual Paper,"Responsible AI, Ethics & Transparency",A,TRUE,C,"Mixed: AI scoring risks, test security, residents' AI use, a field trend review"
+S73,Wed Oct 7,1:45 PM–3:15 PM,Duquense,Individual Paper,Using AI for Support in the Writing Process,A,FALSE,,AI writing feedback and tutors
+S74,Wed Oct 7,1:45 PM–3:15 PM,Ft. Pitt,Individual Paper,Using LLMS for Reading Passage Generation & Evaluation,A,FALSE,,LLM reading passage generation and scoring
+S75,Wed Oct 7,3:45 PM–5:15 PM,King’s Garden 4,Coordinated Paper,"AI’s Shifting Role in Measurement Science: Validation, Integration, and Prediction",A,TRUE,B,"AI as instrument, data source, and modeling engine in measurement research; half product-focused"
+S76,Wed Oct 7,3:45 PM–5:15 PM,Ft. Pitt,Individual Paper,Automated Item Generation & Item Writing,A,FALSE,,Automated item generation
+S77,Wed Oct 7,3:45 PM–5:15 PM,Brigade,Coordinated Paper,Building AI Equity Tools with Measurement Rigor: Four Developmental Cases,A,TRUE,C,"AI equity tools (language audits, review chatbots); mixed users"
+S78,Wed Oct 7,3:45 PM–5:15 PM,Commonwealth 1,Coordinated Paper,Building Resilience Infrastructure for Digital Learning and Assessment,A,FALSE,,Resilience of deployed AI assessment systems
+S79,Wed Oct 7,3:45 PM–5:15 PM,Smithfield/Birmingham,Individual Paper,Fairness and Reliability,A,FALSE,,Fairness of AI scoring and AI DIF screening
+S80,Wed Oct 7,3:45 PM–5:15 PM,Heinz,Individual Paper,Formative Assessment & Feedback,A,FALSE,,AI formative assessment and feedback
+S81,Wed Oct 7,3:45 PM–5:15 PM,King’s Garden 5,Individual Paper,"IRT, Calibration & Psychometric Modeling",B,TRUE,A,"LLMs assisting psychometric modeling (Q-matrix discovery, dependence screening); one AI parameter paper"
+S82,Wed Oct 7,3:45 PM–5:15 PM,Grand Ballroom 1,Individual Paper,LLM Tutors,A,FALSE,,LLM tutors
+S83,Wed Oct 7,3:45 PM–5:15 PM,Duquense,Individual Paper,Using LLMs for Abnormal Response Detection,A,FALSE,,Detecting examinee AI use on tests (assessment integrity)

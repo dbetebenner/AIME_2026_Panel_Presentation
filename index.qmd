@@ -1,0 +1,95 @@
+---
+title: "Educational Measurement as an AI-Native Profession"
+subtitle: "AIME-Con 2026 · Panel · Wednesday 7 October 2026, 11:00 AM–12:30 PM · Commonwealth 2, Wyndham Grand Pittsburgh Downtown"
+---
+
+Artificial intelligence is not only changing assessment products; it is changing the professional
+work of educational measurement itself. This page collects the panel's materials as the presenters
+supplied them. **Originals are linked unchanged.** Where a file is hard to read in a browser, a
+rendered copy is offered beside it and labeled as one.
+
+- **The session proposal** (final, 22 September 2026): [LaTeX source](Assets/AIME_2026_Panel_Proposal_final_lain_2026-09-22.tex) · [PDF](rendered/AIME_2026_Panel_Proposal_final_lain_2026-09-22.pdf)
+- **Moderator's framing slides:** [open](decks/moderator.html) · [PDF](rendered/moderator-slides.pdf)
+- **The opening chart's data:** every AIME-Con 2026 program item, coded by an AI and audited by the chair ([codebook and method](data/README.md) · [presentations](data/program-presentations.csv) · [sessions](data/program-sessions.csv))
+- **The conference program:** see the official AIME-Con 2026 site.
+
+## Who is on the panel
+
+| Role | |
+|---|---|
+| Session chair | Damian Betebenner, Center for Assessment |
+| Moderator | lain, an AI interlocutor operating under the session chair's supervision |
+| Panelists | Damian Betebenner · Derek Briggs · Frank Rijmen · Mohammed A. A. Abulela (with Guher Gorgun, Brian French, Brian Leventhal, Matthew Gushta) |
+| Discussant | Fred Oswald, University of California, Irvine |
+
+## Five guiding questions
+
+1. **What has changed.** How has AI already changed educational measurement work, in the substance, scope, and organization of that work and not only its speed, and what has become better, worse, or simply different?
+2. **What that demands of professionals.** As AI becomes a collaborator rather than a tool, how should work be divided between people and AI; what knowledge, skills, and dispositions then define psychometric expertise; and how should graduate programs and employers develop and assess them?
+3. **What the profession must redefine.** When AI contributes materially to an analysis, a manuscript, or a review, what must be verified, documented, and disclosed before others can responsibly rely on it, and what does that ask of peer review, training, and institutional accountability?
+4. **What measurement science owes the evaluation of AI.** What can measurement science contribute, in return, to the evaluation of AI systems and of human–AI teams, including this panel, and what would count as improvement over the relevant alternative?
+5. **Where authority and accountability remain human.** Where should authority and accountability remain human as capability advances, what justifies those boundaries beyond current capability, and what does this session's own use of an AI interlocutor reveal about them?
+
+## Provocations
+
+Each panelist makes one claim, gives one example, and names one unresolved problem.
+
+::: {.presenter-card}
+### Damian Betebenner, Center for Assessment
+
+**Slides:** [open](decks/betebenner-provocation.html) · [PDF](rendered/betebenner-provocation-slides.pdf) · **Statement:** [markdown](Assets/Damian_Betebenner-presenter/provocation_statement.md)
+
+{{< include Assets/Damian_Betebenner-presenter/provocation_statement.md >}}
+:::
+
+::: {.presenter-card}
+### Derek Briggs, University of Colorado Boulder
+
+**Statement:** [markdown original](Assets/Derek_Briggs/provocations.md)
+
+{{< include Assets/Derek_Briggs/provocations.md >}}
+:::
+
+::: {.presenter-card}
+### Frank Rijmen, Cambium Assessment
+
+**Slides:** [PowerPoint original](Assets/Frank_Rijmen/Rijmen_AIME2026_provocation_Cambium.pptx) · [PDF, rendered copy](rendered/Rijmen_AIME2026_provocation_Cambium.pdf) · [slide text and speaker notes](corpus/rijmen-slides-and-notes.md)<br>
+**Position brief:** [Word original](Assets/Frank_Rijmen/Rijmen_AIME2026_position_brief.docx) · [web version](corpus/rijmen-position-brief.md)<br>
+**Bio:** [markdown original](Assets/Frank_Rijmen/bio_Frank_Rijmen.md)
+
+{{< include Assets/Frank_Rijmen/provocation_statement.md >}}
+:::
+
+::: {.presenter-card}
+### Mohammed A. A. Abulela, MetaMetrics, Inc. / University of Minnesota
+
+*With co-authors Guher Gorgun (University of Georgia), Brian French (Washington State University), Brian Leventhal (James Madison University), and Matthew Gushta (MetaMetrics, Inc.).*
+
+**Slides:** [PowerPoint original](Assets/Mohammed_Abulela/NCME%20AI%20Panel.pptx) · [PDF, rendered copy](rendered/NCME_AI_Panel.pdf) · [slide text, transcribed](corpus/abulela-slides-transcribed.md)<br>
+**Bio:** [Word original](Assets/Mohammed_Abulela/Mohammed%20Abulela's%20Bio.docx) · [web version](corpus/abulela-bio.md)
+
+**Claim.** AI-related preparation should no longer be treated only as an optional extension of graduate training in educational measurement and psychometrics. It should become an intentional part of professional preparation, while remaining grounded in validity, fairness, measurement theory, and psychometrics.
+
+**Example.** Across 90 doctoral programs, qualifying computational or AI-related coursework was identified in only 16 (17.8%). Across 44 measurement-related job advertisements, 79.5% (35) included at least one computational or AI-related area.
+
+**Unresolved problem.** What is the minimum AI-related preparation that every future measurement professional should have? What should be required? What can remain elective? How do we integrate AI without displacing validity, fairness, and psychometric foundations?
+
+<span class="muted">Transcribed from the slide images.</span>
+:::
+
+## Discussant
+
+::: {.presenter-card}
+### Fred Oswald, University of California, Irvine
+
+Professor of Education at the University of California, Irvine, editor-in-chief of *Psychological Methods*, past president of the Society for Industrial and Organizational Psychology, past chair of the APA Committee on Psychological Tests and Assessment and of the National Academies Board on Human-Systems Integration (which produced *Human-AI Teaming*), and a former member of the National Artificial Intelligence Advisory Committee. He will synthesize the provocations and press toward actionable norms, while critiquing the session's own AI moderation process.
+
+<span class="muted">From the session proposal.</span>
+:::
+
+## About the rendered copies
+
+PDF copies of the PowerPoint files were exported with Keynote and may differ slightly from the
+original layout (fonts, icon placement). The originals are authoritative. The "web version" and
+"slide text" files are text extracted from the originals, unchanged except for formatting;
+Mohammed Abulela's slide text was transcribed from the slide images.

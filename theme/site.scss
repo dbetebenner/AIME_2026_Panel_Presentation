@@ -1,0 +1,12 @@
+/*-- scss:defaults --*/
+@import "tokens";
+$body-bg: $di-surface-page;
+$body-color: $di-content-primary;
+$link-color: $di-primary-ink;
+$font-family-sans-serif: "Noto Sans", system-ui, sans-serif;
+/*-- scss:rules --*/
+.presenter-card { border: 1px solid rgba(20,20,16,.15); border-radius: 6px; padding: 1rem 1.25rem; margin: 1.25rem 0; background: #fff; }
+.presenter-card h3 { margin-top: 0; }
+.muted { color: $di-content-secondary; font-size: .92em; }
+.lain { font-family: "Noto Sans Mono", ui-monospace, monospace; }
+.presenter-card h1 { font-size: 1.05rem; font-weight: 600; color: #6b6b66; margin: .75rem 0 .5rem; }

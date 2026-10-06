@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+    - decks/moderator.qmd
+    - decks/betebenner-provocation.qmd
+  resources:
+    - "Assets/Derek_Briggs/**"
+    - "Assets/Frank_Rijmen/**"
+    - "Assets/Mohammed_Abulela/**"
+    - "Assets/Damian_Betebenner-presenter/**"
+    - "Assets/AIME_2026_Panel_Proposal_final_lain_2026-09-22.tex"
+    - "rendered/**"
+    - "corpus/**"
+    - "data/**"
+    - ".nojekyll"
+
+website:
+  title: "Educational Measurement as an AI-Native Profession"
+  site-url: "https://dbetebenner.github.io/AIME_2026_Panel_Presentation/"
+  repo-url: "https://github.com/dbetebenner/AIME_2026_Panel_Presentation"
+  page-footer:
+    left: "AIME-Con 2026 · Wed 7 October 2026, 11:00–12:30 · Commonwealth 2, Wyndham Grand Pittsburgh Downtown"
+    right: "Materials shared with the presenters' permission."
+
+format:
+  html:
+    theme: [cosmo, theme/site.scss]
+    toc: true
+    mainfont: "Noto Sans"
