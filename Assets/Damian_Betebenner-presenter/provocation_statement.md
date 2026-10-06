@@ -32,7 +32,7 @@
 
 **Claim:** AI does not merely increase productivity; it changes what the scarce professional skill is. When derivation, coding, simulation, documentation, and critique become inexpensive, the bottleneck moves from producing technical work to knowing what problem to pose, what constraints matter, what evidence would falsify the result, and when not to trust what has been produced.
 
-**Example:** I increasingly spend less of my time physically writing code or algebra and more of it specifying mathematical objects, constructing adversarial tests, examining failures, comparing alternative formulations, and deciding whether an apparently successful result is actually meaningful. AI performs much of the execution; my work is increasingly the design and governance of the epistemic process around it.
+**Example:** I increasingly spend less of my time physically writing code or working through mathematical derivations and more of it specifying mathematical objects, constructing adversarial tests, examining failures, comparing alternative formulations, and deciding whether an apparently successful result is actually meaningful. AI performs much of the execution; my work is increasingly the design and governance of the epistemic process around it.
 
 **Unresolved problem:** If that is the emerging division of labor, are we training psychometricians for the wrong job? What knowledge must a measurement professional possess personally in order to supervise work that AI can perform better and faster than they can execute themselves?
 

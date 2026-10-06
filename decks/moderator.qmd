@@ -149,7 +149,7 @@ State it as a conjecture. This session is about the right column. Take the claim
 ## Why a profession-level response
 
 ::: {.small}
-The mathematics community has asked this already. The *Leiden Declaration on AI and Mathematics* (June 2026, endorsed by the IMU) asks the discipline to protect the verifiability of proof, attribution, authorship, and the primacy of human judgment.
+The mathematics community has asked this already. The [*Leiden Declaration on AI and Mathematics*](https://leidendeclaration.ai/) (June 2026, endorsed by the IMU; [leidendeclaration.ai](https://leidendeclaration.ai/)) asks the discipline to protect the verifiability of proof, attribution, authorship, and the primacy of human judgment.
 :::
 
 ::: {.box .small}

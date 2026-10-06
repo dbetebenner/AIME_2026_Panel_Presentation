@@ -84,7 +84,7 @@ Use the specific project details you want to disclose orally. The important feat
 ::: {.column width="48%"}
 ### Cheaper
 
-- algebraic manipulation
+- mathematical derivation
 - code production
 - refactoring
 - simulation implementation

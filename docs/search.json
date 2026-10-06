@@ -46,7 +46,7 @@
     "href": "decks/moderator.html#why-a-profession-level-response",
     "title": "Educational Measurement as an AI-Native Profession",
     "section": "Why a profession-level response",
-    "text": "Why a profession-level response\n\nThe mathematics community has asked this already. The Leiden Declaration on AI and Mathematics (June 2026, endorsed by the IMU) asks the discipline to protect the verifiability of proof, attribution, authorship, and the primacy of human judgment.\n\n\nFive guiding questions\n\nWhat has changed in the substance and organization of measurement work?\nWhat that demands of professionals: the division of labor, expertise, and training.\nWhat the profession must redefine: what is verified, documented, and disclosed.\nWhat measurement science owes the evaluation of AI, including this panel.\nWhere authority and accountability remain human, and on what grounds.\n\n\n\nQ1 is carried by the provocations; Q2–Q5 organize the exchanges; the norm-building draws mainly on Q3 and Q5. Q5 comes last because it is the hardest: “humans must keep final say” is a position, not a justification."
+    "text": "Why a profession-level response\n\nThe mathematics community has asked this already. The Leiden Declaration on AI and Mathematics (June 2026, endorsed by the IMU; leidendeclaration.ai) asks the discipline to protect the verifiability of proof, attribution, authorship, and the primacy of human judgment.\n\n\nFive guiding questions\n\nWhat has changed in the substance and organization of measurement work?\nWhat that demands of professionals: the division of labor, expertise, and training.\nWhat the profession must redefine: what is verified, documented, and disclosed.\nWhat measurement science owes the evaluation of AI, including this panel.\nWhere authority and accountability remain human, and on what grounds.\n\n\n\nQ1 is carried by the provocations; Q2–Q5 organize the exchanges; the norm-building draws mainly on Q3 and Q5. Q5 comes last because it is the hardest: “humans must keep final say” is a position, not a justification."
   },
   {
     "objectID": "decks/moderator.html#how-lain-takes-part",
@@ -151,7 +151,7 @@
     "href": "decks/betebenner-provocation.html#what-became-scarce",
     "title": "AI is changing what my job is",
     "section": "What became scarce?",
-    "text": "What became scarce?\n\n\nCheaper\n\nalgebraic manipulation\ncode production\nrefactoring\nsimulation implementation\ndocumentation\nfirst-pass critique\n\n\nMore valuable\n\nproblem formulation\nmodel specification\nadversarial testing\nrecognizing nonsense\ndeciding what evidence is enough\naccepting responsibility\n\n\n\nThis is the professional transformation. Avoid implying the left-hand column requires no expertise. The claim is that its marginal production cost has dropped dramatically, changing the relative value of the right-hand column."
+    "text": "What became scarce?\n\n\nCheaper\n\nmathematical derivation\ncode production\nrefactoring\nsimulation implementation\ndocumentation\nfirst-pass critique\n\n\nMore valuable\n\nproblem formulation\nmodel specification\nadversarial testing\nrecognizing nonsense\ndeciding what evidence is enough\naccepting responsibility\n\n\n\nThis is the professional transformation. Avoid implying the left-hand column requires no expertise. The claim is that its marginal production cost has dropped dramatically, changing the relative value of the right-hand column."
   },
   {
     "objectID": "decks/betebenner-provocation.html#the-unresolved-problem",
