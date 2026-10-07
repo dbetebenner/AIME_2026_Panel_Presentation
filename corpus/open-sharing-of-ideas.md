@@ -18,7 +18,7 @@ less.
 
 ## The evidence (fact)
 
-On the morning of 7 October 2026, the chair photographed the QR code on an AIME-Con 2026 poster.
+On the evening of 6 October 2026, the chair photographed the QR code on an AIME-Con 2026 poster.
 The poster was "Toward Self-Improving Automatic Item Generation: Validating LLM Evaluators with
 Production Feedback" (Han, Gopalakrishnan, Kollbocker, Goculu, Palaghita, Zheng; Khan Academy and
 Google.org; presented Tuesday 6 October). The code led to a PDF of the poster, and the chair asked
