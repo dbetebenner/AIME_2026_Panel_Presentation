@@ -69,7 +69,11 @@ Damian Betebenner, Center for Assessment
 :::
 :::
 
-::: {.small .muted}
+::: {.title-qr}
+![](../figures/qr-materials.png){width="150" fig-alt="QR code for the panel materials site"}<br>**Panel materials**<br>dbetebenner.github.io/<wbr>AIME_2026_Panel_Presentation
+:::
+
+::: {.small .muted .title-note}
 A correction to the printed program: it lists a human moderator. Today the moderator is lain, an AI, under the session chair, and Fred Oswald is our discussant.
 :::
 

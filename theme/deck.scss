@@ -29,3 +29,7 @@ $presentation-font-size-root: 34px;
 .reveal .title-card h2 { font-size: 2.1em; border: none; margin-top: 1.2em; }
 .reveal .qr { text-align: center; font-size: .55em; margin-bottom: .6em; }
 .reveal .qr img { margin: 0 auto .2em auto; display: block; }
+
+.reveal .title-qr { position: absolute; right: 0; bottom: 10px; width: 300px; text-align: center; font-size: .42em; line-height: 1.3; }
+.reveal .title-qr img { display: block; margin: 0 auto .25em auto; }
+.reveal .title-note { max-width: 66%; }
