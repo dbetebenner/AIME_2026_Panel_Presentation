@@ -106,7 +106,7 @@ transcript; it has no open-web retrieval. Every item is citable in public.
 
 | Owner | Documents |
 |---|---|
-| Damian Betebenner | the session proposal; his provocation statement and slides; [the chair's source checks](corpus/chair-source-checks.md) on claims in the panel materials; chair's notes on [participants and who holds the warrant](corpus/participants-and-warrant.md), [related AIME-Con sessions](corpus/related-aime-sessions.md) and [reference frameworks for the norms](corpus/reference-frameworks.md) |
+| Damian Betebenner | the session proposal; his provocation statement and slides; [the chair's source checks](corpus/chair-source-checks.md) on claims in the panel materials; chair's notes on [participants and who holds the warrant](corpus/participants-and-warrant.md), [related AIME-Con sessions](corpus/related-aime-sessions.md) [reference frameworks for the norms](corpus/reference-frameworks.md) and [AI and the open sharing of ideas](corpus/open-sharing-of-ideas.md); a demonstration document derived from another presenter's poster (not posted; described in the open-sharing note) |
 | Derek Briggs | his provocation statement and slides |
 | Frank Rijmen | his provocation statement, bio, position brief, slides, and slide text with speaker notes |
 | Mohammed Abulela | his slides, slide text transcribed from the images, and bio |
