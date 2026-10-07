@@ -65,8 +65,8 @@ Each panelist will make one claim, ground it in one example, and identify one un
 ::: {.presenter-card}
 ### Frank Rijmen, Cambium Assessment
 
-**Slides:** [PowerPoint original](Assets/Frank_Rijmen/Rijmen_AIME2026_provocation_Cambium.pptx) · [PDF, rendered copy](rendered/Rijmen_AIME2026_provocation_Cambium.pdf) · [slide text and speaker notes](corpus/rijmen-slides-and-notes.md)<br>
-**Position brief:** [Word original](Assets/Frank_Rijmen/Rijmen_AIME2026_position_brief.docx) · [web version](corpus/rijmen-position-brief.md)<br>
+**Slides:** [PowerPoint original](Assets/Frank_Rijmen/Rijmen_AIME2026_provocation_Cambium.pptx) · [PDF, rendered copy](rendered/Rijmen_AIME2026_provocation_Cambium.pdf) · [slide text and speaker notes](corpus/rijmen-slides-and-notes.html)<br>
+**Position brief:** [Word original](Assets/Frank_Rijmen/Rijmen_AIME2026_position_brief.docx) · [web version](corpus/rijmen-position-brief.html)<br>
 **Bio:** [markdown original](Assets/Frank_Rijmen/bio_Frank_Rijmen.md)
 
 {{< include Assets/Frank_Rijmen/provocation_statement.md >}}
@@ -77,8 +77,8 @@ Each panelist will make one claim, ground it in one example, and identify one un
 
 *With co-authors Guher Gorgun (University of Georgia), Brian French (Washington State University), Brian Leventhal (James Madison University), and Matthew Gushta (MetaMetrics, Inc.).*
 
-**Slides:** [PowerPoint original](Assets/Mohammed_Abulela/NCME%20AI%20Panel.pptx) · [PDF, rendered copy](rendered/NCME_AI_Panel.pdf) · [slide text, transcribed](corpus/abulela-slides-transcribed.md)<br>
-**Bio:** [Word original](Assets/Mohammed_Abulela/Mohammed%20Abulela's%20Bio.docx) · [web version](corpus/abulela-bio.md)
+**Slides:** [PowerPoint original](Assets/Mohammed_Abulela/NCME%20AI%20Panel.pptx) · [PDF, rendered copy](rendered/NCME_AI_Panel.pdf) · [slide text, transcribed](corpus/abulela-slides-transcribed.html)<br>
+**Bio:** [Word original](Assets/Mohammed_Abulela/Mohammed%20Abulela's%20Bio.docx) · [web version](corpus/abulela-bio.html)
 
 **Claim:** AI-related preparation should no longer be treated only as an optional extension of graduate training in educational measurement and psychometrics. It should become an intentional part of professional preparation, while remaining grounded in validity, fairness, measurement theory, and psychometrics.
 
@@ -106,7 +106,7 @@ transcript; it has no open-web retrieval. Every item is citable in public.
 
 | Owner | Documents |
 |---|---|
-| Damian Betebenner | the session proposal; his provocation statement and slides; [the chair's source checks](corpus/chair-source-checks.md) on claims in the panel materials; chair's notes on [participants and who holds the warrant](corpus/participants-and-warrant.md), [related AIME-Con sessions](corpus/related-aime-sessions.md) [reference frameworks for the norms](corpus/reference-frameworks.md) and [AI and the open sharing of ideas](corpus/open-sharing-of-ideas.md); a demonstration document derived from another presenter's poster (not posted; described in the open-sharing note) |
+| Damian Betebenner | the session proposal; his provocation statement and slides; [the chair's source checks](corpus/chair-source-checks.html) on claims in the panel materials; chair's notes on [participants and who holds the warrant](corpus/participants-and-warrant.html), [related AIME-Con sessions](corpus/related-aime-sessions.html) [reference frameworks for the norms](corpus/reference-frameworks.html) and [AI and the open sharing of ideas](corpus/open-sharing-of-ideas.html); a demonstration document derived from another presenter's poster (not posted; described in the open-sharing note) |
 | Derek Briggs | his provocation statement and slides |
 | Frank Rijmen | his provocation statement, bio, position brief, slides, and slide text with speaker notes |
 | Mohammed Abulela | his slides, slide text transcribed from the images, and bio |

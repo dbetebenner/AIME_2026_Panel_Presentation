@@ -5,6 +5,7 @@ project:
     - index.qmd
     - decks/moderator.qmd
     - decks/betebenner-provocation.qmd
+    - "corpus/*.md"
   resources:
     - "Assets/Derek_Briggs/**"
     - "Assets/Frank_Rijmen/**"
@@ -26,6 +27,7 @@ website:
 
 format:
   html:
+    from: markdown+autolink_bare_uris
     theme: [cosmo, theme/site.scss]
     toc: true
     mainfont: "Noto Sans"
