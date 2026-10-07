@@ -1,0 +1,84 @@
+id,product,profession,confidence,rationale
+S01,1,0,high,Facilitative AI structuring learner interaction as measurement evidence.
+S02,1,1,low,Workshop designing GenAI-enabled scenario-based learning assessments.
+S03,1,1,high,Training measurement professionals in generative AI item development.
+S04,1,1,high,LLMs in psychometricians' R workflows incl. content generation and scoring.
+S05,1,0,high,Benchmarking and validating AI tutors.
+S06,0,1,high,LLM text classification of research data with measurement validity.
+S07,0,1,high,AI-native dissertation workflow for measurement researchers.
+S08,1,0,low,Assessing human capability when performance is produced with AI.
+S09,0,1,high,LLMs classifying and checking item alignment to standards and descriptors.
+S10,1,0,high,Comparing human and AI essay scoring.
+S11,1,0,high,LLM scoring and feedback in digital writing assessment.
+S12,1,0,high,Validity evidence and construct representation in automated scoring.
+S13,1,1,high,Assessment developers generating and reviewing AI-produced NAEP items.
+S14,0,1,high,How AI is changing K12 measurement professional roles.
+S23,1,1,low,Synthetic respondents and simulation for item evaluation and assessment development.
+S16,0,1,low,AI and ML methods assisting IRT calibration and diagnostics.
+S76,1,1,low,AI item generation plus AI support for item writers and item review.
+S18,1,0,high,LLM and embedding evidence for constructed-response scoring.
+S19,1,0,low,LLM judges and human-AI agreement mostly in scoring.
+S20,0,1,high,AI prediction of item difficulty and cognitive demand.
+S21,1,0,high,Novel AI scoring approaches in math and computer science.
+S22,1,0,low,Prompting strategies mostly for AI scoring and generated content.
+S23,1,1,low,Synthetic respondents and simulation for item evaluation and assessment development.
+S24,1,0,high,"Validity theory for AI scoring, item generation and AI-mediated performance."
+S25,1,0,high,"Validity arguments for AI scoring, items and assessment systems."
+S26,0,1,high,Graduate students on AI changing measurement training and careers.
+S27,0,1,low,AI estimation of item parameters and blueprints for psychometric work.
+S28,1,0,high,AI feedback and formative assessment.
+S29,1,0,high,Advances in AI scoring and AI-enabled assessment.
+S30,1,0,high,"Evaluating LLM-generated feedback, simulated students and items."
+S31,1,1,low,Fairness of AI scoring plus AI tools for fairness review and analysis.
+S32,1,0,low,"Human-centered AI tutoring, feedback and measurement in education."
+S33,0,1,high,LLM and ML estimation of item difficulty.
+S34,1,1,low,AI tutoring and chatbots plus AI coding of tutoring data.
+S35,1,0,high,Operational trustworthiness of automated scoring.
+S36,1,1,high,AI scoring and feedback plus AI rater training and DeepIRT modeling.
+S37,0,1,high,"AI for alignment, construct validity and item review."
+S38,1,1,low,AI math scoring plus automated pretesting and test construction.
+S39,1,0,low,"Book on AI transforming learning and assessment, tutors and scoring."
+S40,1,1,high,"Responsible AI in language test development, scoring and professional practice."
+S41,1,1,low,Machine scoring validation plus LLM anchor judges and modeling agents.
+S42,0,1,high,AI prediction of item difficulty and parameters.
+S43,1,1,high,"Human-LLM collaboration across assessment designers, psychometricians and learners."
+S44,1,1,high,"Human-AI collaboration in measurement design, analysis, coding and formative insights."
+S45,0,0,low,Classroom assessment redesign as students use AI; AI as challenge.
+S46,1,1,high,Poster session spanning AI products and AI in measurement work.
+S47,1,1,high,AI-native assessment stack spanning products and psychometric workflows.
+S48,1,0,high,AI tools supporting teachers and classroom implementation.
+S49,1,1,low,Field R&D agenda for AI and measurement involving measurement scientists.
+S50,1,0,high,LLMs for scoring math understanding.
+S51,1,0,high,LLMs for multilingual scoring.
+S52,1,0,low,LLM scoring of process and response data.
+S53,1,0,high,Automated essay scoring.
+S54,1,0,high,Short-answer and constructed-response AI scoring.
+S55,1,0,high,LLM-enabled interactive speaking tasks on DET.
+S56,0,0,low,AI literacy measurement; AI mostly the construct.
+S57,1,0,high,Validity evidence for LLM-based assessment tools.
+S58,0,1,high,AI changing the professional work of educational measurement.
+S59,1,0,low,"ECD-anchored AI item generation, scoring and feedback in STEM."
+S60,1,0,high,AI partners for learning and assessment.
+S61,0,0,low,Impacts of student and educator AI use on assessment.
+S62,1,0,high,LLM-enabled personalized and authentic assessments.
+S63,0,1,low,"Multimodal AI mostly for item parameters, security and qualitative coding."
+S64,1,1,high,LLMs in the item writing process and operational workflows.
+S65,0,1,high,AI competencies for measurement professionals.
+S66,1,1,low,AI-enabled adaptive testing plus AI test assembly and interpretive materials.
+S67,1,0,high,AI-powered assessment product innovations.
+S68,1,1,low,AI clustering for survey analysis plus feedback and scoring tools.
+S69,1,0,high,"AI with cognitive models for assessment, learning and educator tools."
+S70,1,0,high,Measurement evidence for AI-supported assessment design and scoring.
+S71,1,1,high,Item designers' principled design knowledge guiding AI item generation.
+S72,1,0,low,Responsible AI mostly in scoring and assessment systems.
+S73,1,0,high,AI support in the writing process.
+S74,1,1,low,LLM passage generation plus synthetic readers and parameter prediction.
+S75,1,1,high,"AI as tutor object, instrument, survey coder and modeling engine."
+S76,1,1,low,AI item generation plus AI support for item writers and item review.
+S77,0,0,low,AI equity tools outside assessment products or measurement work.
+S78,1,0,high,Resilience infrastructure for AI-driven learning and assessment systems.
+S79,1,1,low,AI scoring fairness plus AI DIF screening agents.
+S80,1,0,high,AI formative assessment and feedback.
+S81,0,1,high,"AI in calibration, Q-matrix and psychometric modeling."
+S82,1,0,high,LLM tutors.
+S83,0,0,low,Detecting examinee use of LLMs; AI mostly as threat.

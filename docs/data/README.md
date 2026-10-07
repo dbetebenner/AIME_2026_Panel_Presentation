@@ -1,8 +1,59 @@
 # AIME-Con 2026 program coding
 
-Data behind the opening chart of the moderator deck: how the program's sessions and
-presentations divide between AI *in assessment products* and AI *in the professional work of
-measurement*.
+Data behind the opening chart of the moderator deck: how the 335 items in the printed program
+relate to AI in assessment products, AI in measurement professionals' own work, and the
+profession itself.
+
+## Current coding (v2, 6 October 2026): three independent yes/no questions
+
+**File:** `program-items-coded.csv`, one row per program item, with columns `product`,
+`profession` and `norms` (each 1 or 0), a rationale, and the v1 code for comparison.
+
+| Question | Items coded yes | Share of 335 |
+|---|---|---|
+| **product**: AI inside an assessment, learning or scoring product or service | 221 | 66% |
+| **profession**: AI in how measurement professionals do their own work | 131 | 39% |
+| **norms**: the profession itself (norms, roles, competencies, training, accountability, governance) | 22 | 7% |
+
+Rows overlap: an item can be yes on more than one question. 48 items are both product and
+profession; 15 of the 22 norms items are also profession items.
+
+**How the coding was done**
+- **Codebooks:** `methods/codebook-2d.md` and `methods/codebook-norms.md`, verbatim. These were the
+  coders' only instructions.
+- **Primary coder:** an AI coder (Claude) given only the codebook and the item text
+  (`methods/items-text.jsonl`), blind to the v1 coding. Outputs: `methods/coder1-items.csv`,
+  `methods/coder1-norms.csv`, `methods/coder1-sessions.csv`.
+- **Second coder:** an independent AI coder (Claude, a separate instance) given only the codebook
+  and a blind stratified sample of 98 items (`methods/second-coder-sample.json`, stratified on the
+  v1 code and ambiguity, seed 20261006). Outputs: `methods/coder2-*.csv`.
+- **Agreement** (`methods/agreement.json`, n = 98):
+
+  | Question | Agreement | Cohen's κ |
+  |---|---|---|
+  | product | 91% | 0.80 |
+  | profession | 97% | 0.94 |
+  | norms | 94% | 0.72 |
+
+  Both coders are the same model family, so agreement shows the codebook can be applied
+  consistently. It is not independent human judgment.
+- **Audit:** the chair reviewed the v1 profession list on 6 October with no changes.
+  Disagreements and the items whose classification moved are listed in `methods/audit-2d.md` for
+  the chair's audit. The primary coder's codes stand unless the chair changes them.
+- **Reproduce:** `python3 data/methods/merge.py data/methods/coder2-norms.csv` rebuilds
+  `program-items-coded.csv` and the norms agreement.
+
+**Why v2:** an adversarial review (6 October) pointed out that v1's A/B categories were not
+mutually exclusive: 81 of 335 items were flagged ambiguous, 48 of them A↔B. It also pointed out
+that v1's tie rule pushed items toward "product". v2 drops the tie rule. The large shift is that
+AI used as a psychometric method (difficulty prediction, calibration, item review, synthetic
+respondents) now counts as professional work. Under v1 it counted as product. That is why v1's
+9:1 became about 1.7:1. The **norms** question was added to separate *using AI in our work* from
+*asking what AI means for the profession*.
+
+---
+
+## v1 coding (superseded; kept for comparison)
 
 ## Source
 
@@ -55,7 +106,7 @@ code B.
 operations (item QA, DIF screening, enemy-item identification, item writing) is coded A and
 flagged as ambiguous, with B as the alternative.
 
-## Counts (pre-audit)
+## v1 counts (the chair reviewed the B list on 6 October; no changes)
 
 | Unit | n | A | B | C | B share of A+B |
 |---|---:|---:|---:|---:|---:|

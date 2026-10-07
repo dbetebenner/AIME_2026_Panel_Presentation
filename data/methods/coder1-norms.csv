@@ -1,0 +1,336 @@
+id,norms,confidence,rationale
+P001,0,high,Introduces facilitative AI as a measurement method; not about the profession's norms or roles.
+P002,0,high,Workshop on designing GenAI scenario-based assessments; method focus.
+P003,0,low,Hands-on item-generation skills workshop; teaches technique rather than addressing professional training as a subject.
+P004,1,low,Frames a training gap for measurement professionals expected to adopt AI while upholding standards.
+P005,0,high,"Benchmarking AI tutors as a measurement problem; about evaluating tutors, not the profession."
+P006,0,high,LLM text-classification pipelines and validity; technical method.
+P007,1,low,"Reimagines doctoral training: building an AI-native dissertation, a change in how researchers are formed."
+P008,0,high,"Keynote on what assessments measure under human-AI interaction; construct question, not the profession."
+P009,0,high,Evaluation framework for AI-generated item alignment; method.
+P010,0,high,Review of AI methods for MCQ quality assurance; method.
+P011,0,high,LLM item-to-RPLD classification; method.
+P012,0,high,LLM classification of items to blueprint standards; method.
+P013,0,high,ALD-conditioned LLM item evaluation; method.
+P014,0,high,Compares AES approaches; method.
+P015,0,high,LLM essay grading with anchors; method.
+P016,0,high,Diagnosing hidden judgments in LLM rationales; method.
+P017,0,high,Perturbation analysis of LLM scorers; method.
+P018,0,high,Cutpoint methods for essay scoring; method.
+P019,0,high,AI-human scoring agreement in primary grades; method.
+P020,0,high,Evaluating AI feedback architectures; method.
+P021,0,high,Prompt task formulation for automated scoring; method.
+P022,0,high,Keystroke analytics and fairness evidence; method.
+P023,0,high,AWE feedback and revision gains; method.
+P024,0,high,Scoping review of human ratings in automated scoring; method evidence.
+P025,0,high,Explaining a BERT scoring model; method.
+P026,0,high,Construct validity and fairness in scoring; method evidence.
+P027,0,high,Rater effects in LLM scoring; method.
+P028,0,high,Automated maze assessment generation and scoring; method.
+P029,0,low,"Validity evidence for AI-generated items beyond expert approval; review method, profession not clearly the subject."
+P030,0,high,Evaluating an AI item-generation tool; method.
+P031,0,high,Evaluating an AI item-generation tool; method.
+P032,0,high,Evaluating an AI item-generation tool; method.
+P033,1,high,Panel explicitly about how AI is changing K12 measurement roles.
+P034,0,high,Synthetic response fidelity; method.
+P035,0,high,Validity and fairness of synthetic data; method.
+P036,0,high,LLM synthetic pilot data; method.
+P037,0,high,VLM-simulated responses; method.
+P038,0,high,Prior-informed IRT calibration; method.
+P039,0,high,Fit diagnostics for variational IRT; method.
+P040,0,high,Bayesian IRT method.
+P041,0,high,Symbolic regression IRT diagnostics; method.
+P042,0,high,Calibration of evolving item banks; method.
+P043,0,high,Student-AI co-authored problems; method.
+P044,0,high,Data-driven AIG validation; method.
+P045,0,low,Generative drafts for item writers; touches expert-governed workflow but focuses on method evaluation.
+P046,1,low,Argues responsible-use practice: AI item evaluations should document prompts and generation steps.
+P047,0,high,LLM assessment of critical thinking; method.
+P048,0,high,Multi-agent annotation and scoring; method.
+P049,0,high,LLM rubric refinement; method.
+P050,0,high,Speech scoring embeddings; method.
+P051,0,high,Embedding clusters to flag inconsistent raters; method.
+P052,0,high,Compares LLM and instructor retrieval items; method evaluation.
+P053,0,high,Auditing AI vs human rater effects with MFRM; method.
+P054,0,high,LLM categorization of exam comments; method.
+P055,0,high,Ensemble scoring vs human markers on control scripts; method.
+P056,0,high,AI pre-calibration of math item difficulty; method.
+P057,0,high,Confidence intervals for text classifier validation; method.
+P058,0,high,LLM difficulty estimates vs cognitive attributes; method.
+P059,0,high,Multimodal difficulty prediction; method.
+P060,0,high,Cognitive demand modeling for item parameters; method.
+P061,0,high,Machine-verifiable geometry item generation; method.
+P062,0,high,Fine-tuned LLM coding of student metaphors; method.
+P063,0,high,LLM scoring of code explanations; method.
+P064,0,high,Knowledge component identification from code; method.
+P065,0,high,LLM assessment of computational thinking; method.
+P066,0,high,Automatic prompt engineering for essay scoring; method.
+P067,0,high,Prompting strategies for simulated students; method.
+P068,0,high,Prompting as measurement condition for review coding; method.
+P069,0,high,Proscriptive prompting to reduce LLM bias; method.
+P070,0,high,Multimodal LLM item parameter estimation; method.
+P071,0,high,AI-simulated responses for difficulty estimation; method.
+P072,0,high,Automated evaluation of teacher performance in simulation; method.
+P073,0,high,GenAI-simulated item responses; method.
+P074,0,high,AI-resilient simulation-based assessment demo; method.
+P075,0,high,Fair and valid AI scoring of multimodal responses; method evidence.
+P076,0,low,"Rethinks validity theory when AI co-produces performance; conceptual, but not about the profession's roles or norms."
+P077,0,high,Tiered prompting for item generation; method.
+P078,0,high,Framework for psychometric AI benchmarks; method.
+P079,0,high,Taxonomy of invalidity hypotheses; validity method.
+P080,0,high,Mechanistic interpretability of scoring models; method.
+P081,0,high,"Validity threat of opaque GAI scoring; score-interpretation argument, not professional norms."
+P082,0,high,Multi-agent skills assessment architecture; method.
+P083,0,low,Literature review of GenAI assessment studies; mentions standards development only as an audience.
+P084,0,high,Cloze generation methods; method.
+P085,1,high,"Panel on how AI changes the profession, graduate training and career preparation."
+P086,1,low,Scan of automated-scoring practices across state programs; describes operational practice landscape of the field.
+P087,0,high,LLM pairwise judgments for item parameters; method.
+P088,0,high,LLM investigator-judge for item parameters; method.
+P089,0,high,LLM ratings of item features; method.
+P090,0,high,LLM student simulation from psychometric parameters; method.
+P091,0,high,LLM feedback vs teacher practice; method.
+P092,0,high,Prompt designs for LLM feedback; method.
+P093,0,high,"ChatGPT for teacher formative assessment; teachers, not measurement profession."
+P094,0,high,Latent source-integration measure; method.
+P095,0,high,Adaptive mastery decisions; method.
+P096,0,high,Long-context architectures for AES; method.
+P097,0,high,Justification-depth classifiers; method.
+P098,0,high,Detecting concerning SJT content; method.
+P099,0,high,AI communication skills assessment demo; method.
+P100,0,high,Multi-agent feedback optimization; method.
+P101,0,high,Framework for evaluating simulated students for teacher learning; method.
+P102,0,high,LLM self-detection of item flaws; method.
+P103,0,high,Automated math equivalence evaluation; method.
+P104,0,high,LLM interpretation of probability terms in scoring; method.
+P105,0,high,"Undergraduates' fairness appraisals of genAI; students, not the measurement profession."
+P106,0,high,Training-data effects on scoring engines; method.
+P107,0,high,Estimator combining multiple AI scores; method.
+P108,0,high,Agentic tool for detecting construct-irrelevant variance; method.
+P109,1,low,Panel on governance choices sharing responsibility and authority between humans and AI in assessment.
+P110,0,high,LLM paired comparisons for difficulty; method.
+P111,0,high,Models predicting item difficulty; method.
+P112,0,high,LLM pairwise difficulty recovery; method.
+P113,0,high,Mixture IRT and LLM difficulty; method-level validation advice.
+P114,0,high,Student simulator alignment; method.
+P115,0,high,Cognitive lab of student chatbot use; method.
+P116,0,high,Speech scoring model validation; method.
+P117,0,high,Multimodal AI measure of teacher praise; method.
+P118,0,high,Multimodal tutoring transcription; method.
+P119,0,high,Validity arguments for student-AI collaboration; construct question.
+P120,0,high,Operational monitoring of automated scoring bias; method.
+P121,0,high,LLM invalid-response detection; method.
+P122,0,high,Compact AES distillation; method.
+P123,0,high,Speech scoring error analysis; method.
+P124,0,high,GenAI features for AES; method.
+P125,1,low,AI-assisted rater training and qualification; subject is training of the scoring workforce.
+P126,0,high,DeepIRT exploration; method.
+P127,0,high,Latent discourse factors for AES; method.
+P128,0,high,NLP alignment of skill taxonomies; method.
+P129,0,high,Embedding diagnostics for construct validity; method.
+P130,0,high,Semantic clustering of items; method.
+P131,0,high,Distractor review diagnostic tool; method.
+P132,0,high,Proficiency estimation with LLM explanations; method.
+P133,0,high,Comparing transformers for math scoring; method.
+P134,0,high,Hyperparameter tuning for math scoring; method.
+P135,0,high,ML pretesting of math items; method.
+P136,0,high,AI-made vs teacher-made tests; method.
+P137,0,high,XGBoost vertical skill scale; method.
+P138,0,low,Book introduction to AI for measurement; no abstract indicating professional focus.
+P139,1,low,Human agency in measurement before and after GenAI; plausibly addresses professionals' authority and role.
+P140,0,high,Evolution of an AI tutor; method/product.
+P141,0,high,AES in the age of AI; method.
+P142,0,high,Multilingual LLM scoring; method.
+P143,1,high,Panel on building responsible AI practice in language assessment; professional norms.
+P144,0,high,Reliability of LLM proficiency scores; method.
+P145,0,high,Expert interpretation of LLM latent structures; method.
+P146,0,high,LLM as anchor judge; method.
+P147,0,high,IRT model for students' GenAI use; method.
+P148,0,high,LLM vs hyperparameter optimizers; method.
+P149,0,high,NLP prediction of IRT parameters; method.
+P150,0,high,LLM-derived features for item statistics; method.
+P151,0,high,LLM comparative judgment for difficulty; method.
+P152,0,high,Funnel plots of examinee performance; method.
+P153,0,high,LLM text complexity estimation; method.
+P154,1,low,Panel on human/LLM collaboration and error in assessment work; implies division of verification responsibilities.
+P155,0,low,Session introduction on human-AI collaboration turning data into action; no abstract showing professional focus.
+P156,0,high,Spatial cognition n-gram model; method.
+P157,0,high,Human-ML qualitative coding; method.
+P158,0,high,Formative learner profiles; method.
+P159,0,low,"Panel on AI's effect on classroom assessment; teacher practice rather than the measurement profession, no abstract."
+P160,0,high,Validity of LLM confidence evidence; method.
+P161,0,high,Student perceptions of AI in fashion design; not the profession.
+P162,0,high,AI item family generation and review; method.
+P163,0,high,Text revision analysis framework; method.
+P164,0,high,Theta representation strategies; method.
+P165,0,high,Response time prediction; method.
+P166,0,high,AI attitude scale validation; method.
+P167,0,high,LLM likelihood scoring; method.
+P168,0,high,DeBERTa spatial language classification; method.
+P169,0,low,Validating AI-simulated standard-setting panelists; method validation despite responsible-use framing.
+P170,0,high,LLM evaluators for AIG; method.
+P171,0,high,LLM rating of physician communication; method.
+P172,0,high,"Scaffolding student AI use in coursework; students, not the profession."
+P173,1,low,Faculty test builders using AI; examines their judgment boundaries in AI-assisted form assembly.
+P174,0,high,Student AI use and acculturation; not the profession.
+P175,0,high,Construct alignment of AI-generated items; method.
+P176,0,high,Sycophancy in AI tutors; method.
+P177,1,low,Professional development model building teacher capacity to generate and evaluate items with LLMs.
+P178,0,high,Neural IRT in MST; method.
+P179,0,high,LLM scoring rationales and construct validity; method.
+P180,0,high,Validating LLM creativity scores; method.
+P181,0,high,Prompting for synthetic survey responses; method.
+P182,0,high,LLM metadiscourse analysis; method.
+P183,0,high,GenAI writing feedback for teachers; instructional method.
+P184,0,low,Keynote on computational assessment architecture; human-expert collaboration is secondary.
+P185,0,high,"Educators' instructional skills in simulation; teachers, not measurement profession."
+P186,0,high,LLM score reporting assistant; method.
+P187,0,high,Classroom discourse classification; method.
+P188,0,high,Learning-science AI application; method.
+P189,1,low,Field-generated R&D agenda for AI and measurement; the field setting its own direction.
+P190,0,high,LLM distractor rationales; method.
+P191,0,high,Data science competition on misconceptions; method.
+P192,0,high,Difficulty priors for competition math; method.
+P193,0,high,G-theory of LLM proof scoring; method.
+P194,0,high,AI context personalization; method.
+P195,0,high,Multilingual scoring models; method.
+P196,0,high,Multilingual GenAI scoring pipeline; method.
+P197,0,high,Multilingual embeddings for reliability auditing; method.
+P198,0,high,Measurement-oriented RAG for ELL writing; method.
+P199,0,high,Contrastive learning to reduce AES bias; method.
+P200,0,high,LLM detection of communication behaviors; method.
+P201,0,high,Keystroke features and proficiency; method.
+P202,0,high,Reliability of BKT mastery; method.
+P203,0,high,LLM construct annotation package; method.
+P204,0,low,Critiques AES agreement-threshold validation; technical evidence question rather than professional norms.
+P205,0,high,Reference-conditioned AES evaluation; method.
+P206,0,high,Uncertainty in LLM AES; method.
+P207,0,high,Meta-analysis of LLM-human AES agreement; method.
+P208,0,high,Hybrid human-machine scoring; method.
+P209,0,high,Ordinal regression for fine-tuned scoring; method.
+P210,0,high,LLM surprisal for Japanese AES; method.
+P211,0,high,Meta-analysis of LLM short-answer scoring; method.
+P212,0,high,Sample-efficient fine-tuning for scoring; method.
+P213,0,high,Dimension reduction for embeddings; method.
+P214,0,high,Developing and validating an AI interactive speaking task; method.
+P215,0,high,AI-assisted AI literacy assessment; method.
+P216,0,high,Construct coverage of AI literacy assessments; construct question.
+P217,0,low,"Measures teachers' GenAI literacy for classroom assessment; teachers, not the measurement profession."
+P218,0,high,Scale of graduate students' AI output engagement; instrument development.
+P219,0,high,Critical AI literacy as construct; not the profession.
+P220,0,high,Validity framework for AI feedback; method.
+P221,1,low,"University policy process for GenAI assessment guidelines, transparency, and faculty development; governance of AI in assessment."
+P222,0,high,Validity argument for AIG; method.
+P223,0,high,Expert evaluation of an LLM tutor; method.
+P224,0,high,ECD for automated evals; method.
+P225,1,high,"Panel on professional norms, training, accountability and standards of an AI-native measurement profession."
+P226,0,high,ECD anchoring AI integration; method framework.
+P227,0,high,AI-assisted ECD for credential blueprint; method.
+P228,0,high,ECD for AIG; method.
+P229,0,high,LLM scoring in software engineering; method.
+P230,0,high,AI scoring of multimodal work; method.
+P231,0,low,"Teacher mediation of AI-supported formative assessment; teacher practice, not measurement profession."
+P232,0,high,ECD for AI collaboration partners; method.
+P233,0,high,LLM measurement of collaborative reasoning; method.
+P234,0,high,AI-based assessment shortening; method.
+P235,0,high,Validity threats in measuring student AI use; method.
+P236,0,high,Student GenAI over-reliance; not the profession.
+P237,0,low,Faculty perceptions of AI and validity; faculty instructors rather than measurement professionals.
+P238,1,high,How SMEs calibrate trust in AI verification concerns; professional review responsibilities.
+P239,0,high,Framework to evaluate AI workflows; method.
+P240,0,high,Retrieval architectures; method.
+P241,0,high,Multi-agent validation of generated problems; method.
+P242,0,high,VR assessment review; method.
+P243,0,high,LLM-assisted multimodal scoring; method.
+P244,0,high,Images for discrimination estimation; method.
+P245,0,high,Image-based test integrity detection; method.
+P246,0,high,ASR-LLM thematic analysis; method.
+P247,0,high,AI agents vs professional item writers; method benchmark.
+P248,0,high,Production AIG pipeline; method.
+P249,0,low,"Secure AI agents for item generation with human-in-the-loop; operational demo, governance secondary."
+P250,0,low,Evaluating GenAI items in medical exam; method evaluation informing practice.
+P251,0,high,Manufacturing quality control for generated items; method.
+P252,1,high,Whether AI is a foundational competency for measurement professionals (NCME competencies).
+P253,1,high,Connecting NCME foundational competencies to AI; professional competencies.
+P254,1,high,AI competencies for measurement and credentialing professionals aligned with evolving practice.
+P255,1,high,Technical AI competencies as measurement competencies; professional competency framework.
+P256,0,high,Stochastic test assembly; method.
+P257,0,high,Thompson sampling CAT; method.
+P258,0,high,GenAI use-guide builder; method.
+P259,0,high,Automated scoring pipeline for working memory; workforce shortage is only motivation.
+P260,0,high,Personalization metric; method.
+P261,0,low,"Panel on multimodal AI and system innovation; no abstract, likely technical."
+P262,0,high,Annotation management system; method.
+P263,0,high,Agentic rubric design tool; method.
+P264,0,low,AI thematic analysis demo; Standards feedback is only the example data.
+P265,0,high,ML response clustering; method.
+P266,0,high,Response-pattern construct discovery; method.
+P267,0,high,AI agent reading learning maps; method.
+P268,0,high,Vision models for model assessment; method.
+P269,0,high,Text in knowledge tracing; method.
+P270,0,high,Map-based skill analytics; method.
+P271,0,high,Score report conversational agent; method.
+P272,0,high,G-theory for fine-tuned AIG; method.
+P273,0,high,Prompting for augmented responses; method.
+P274,0,high,Score dependability with ChatGPT tasks; method.
+P275,0,high,Confidence modeling; method.
+P276,0,high,Scoring fairness modeling; method.
+P277,0,low,Argues AI requires more principled assessment design; design methodology rather than professional norms.
+P278,0,high,PAD specifications for AIG; method.
+P279,0,high,AI distractor plausibility; method.
+P280,0,high,PAD features for difficulty; method.
+P281,0,low,"Medical residents' AI use and training; the medical, not measurement, profession."
+P282,0,low,"Bibliometric synthesis of AI research trends in measurement; field content, not norms or roles."
+P283,0,high,Detecting gaming in responses; method.
+P284,0,high,Hallucination detection in score rationales; method.
+P285,0,high,Test security similarity modeling; method.
+P286,0,high,GLM argumentation annotation; method.
+P287,0,high,Argument structure reconstruction; method.
+P288,0,high,Longitudinal LLM feedback effects; method.
+P289,0,high,Hierarchical writing feedback; method.
+P290,0,high,Dialogic act AI tutor; method.
+P291,0,high,ASR oral reading fluency validity; method.
+P292,0,high,ASR early literacy assessment; method.
+P293,0,high,Synthetic reading behavior; method.
+P294,0,high,Causal evaluation of generated passages; method.
+P295,0,high,Encoder IRT parameter prediction; method.
+P296,0,high,LLM tutor quality scale; method.
+P297,0,high,AI measurement of math competencies from discourse; method.
+P298,0,high,LLM coding of teacher working-conditions responses; method.
+P299,0,high,AI prediction and causal inference; method.
+P300,0,high,Predicting item acceptance with LLM critiques; method.
+P301,0,high,Multi-agent AIG for medical exams; method.
+P302,0,low,"Human-in-the-loop Gemini item generation; faculty-as-validator role is a conclusion, not the subject."
+P303,0,high,AI disability-language tool; method.
+P304,0,high,Systematic review chatbot; method.
+P305,0,high,Curriculum audit tool; method.
+P306,0,high,Measuring political speech about disability; method.
+P307,0,high,Semantic variability of LLM replies; method.
+P308,0,high,Resilience infrastructure for conversational AI; method.
+P309,0,high,AI enemy item identification; method.
+P310,1,low,Responsible AI case studies at a testing program; governance of AI use in assessment practice.
+P311,0,high,GenAI DIF prediction; method.
+P312,0,high,Individual fairness in scoring; method.
+P313,0,high,AI grader reliability under appeals; method.
+P314,0,high,Adversarial testing app; method.
+P315,0,high,AI DIF screening agent; method.
+P316,0,high,Evidence-anchored scoring; method.
+P317,0,high,AI formative assessment pilot; method.
+P318,0,high,Comparing LLM and human rationales; method.
+P319,0,high,Gamified narrative quizzes; method.
+P320,0,high,Learner control of formative-summative shift; method.
+P321,0,high,LLM reliance scale; instrument.
+P322,0,high,LLM Q-matrix discovery; method.
+P323,0,high,Semantic screen for local dependence; method.
+P324,0,high,AI-estimated IRT parameters for assembly; method.
+P325,0,high,Reproducibility of LLM Q-matrices; method.
+P326,0,high,Small LLM Socratic tutoring; method.
+P327,0,high,Small LLM tutor evaluation; method.
+P328,0,high,LLM judges of pedagogy; method.
+P329,0,high,AI tutoring residual gain; method.
+P330,0,high,LLM-judge monitoring of tutors; method.
+P331,0,high,Forensic item clones against AI assistance; method.
+P332,0,high,Detecting LLM-assisted responses; method.
+P333,0,high,Academic integrity detection signals; method.
+P334,0,high,GenAI detection across versions; method.
+P335,0,low,Human-in-the-loop test security system keeping misconduct decisions human; system design foremost.

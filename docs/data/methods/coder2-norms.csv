@@ -1,0 +1,99 @@
+id,norms,confidence,rationale
+P003,0,low,"Training teaches AI item-generation techniques; profession's training is context, not subject"
+P005,0,high,Benchmarking AI tutors as measurement problem; not about the profession
+P006,0,high,Technical workshop on LLM text classification pipelines
+P007,1,low,Graduate training: how doctoral students build an AI-native dissertation
+P008,0,high,What assessment measures in human-AI interaction; not the profession
+P015,0,high,LLM essay scoring method comparison
+P022,0,high,Keystroke process analysis with transformers
+P028,0,high,Automated item generation and scoring method
+P033,1,high,How AI is changing K12 measurement roles
+P036,0,high,LLM synthetic data for psychometric analysis
+P039,0,high,Item fit diagnostics for neural IRT
+P040,0,high,Bayesian IRT modeling method
+P041,0,high,Symbolic regression IRT diagnostics
+P043,0,high,Student-AI co-authored problems evaluated in ITS
+P045,0,low,Compares model vs SME drafts; expert governance mentioned only as implication
+P046,1,low,Recommends documentation norm for AI item generation (responsible use)
+P054,0,high,LLM comment categorization agreement
+P057,0,high,Uncertainty in text classifier validation
+P062,0,high,Fine-tuning LLMs for coding responses
+P068,0,high,Prompting approaches for systematic review coding
+P069,0,high,Prompting to reduce LLM content bias
+P073,0,high,Simulating item responses with GenAI
+P079,0,low,Validity taxonomy for tests; no abstract on profession
+P085,1,high,Graduate training and careers in a changing profession
+P087,0,high,LLM pairwise judgment for item parameters
+P088,0,high,LLM judge for item parameter modeling
+P093,0,high,"AI formative assessment for teachers' expertise, not measurement profession"
+P101,0,high,Evaluating simulated students for teacher learning
+P105,0,high,Undergraduate fairness appraisals of genAI
+P126,0,high,DeepIRT technical method
+P138,0,low,Book introduction to AI for measurement; no abstract
+P143,1,low,Responsible AI practice in language assessment; title only
+P147,0,high,IRT model for scoring student AI usage
+P148,0,high,LLM hyperparameter search for AES
+P152,0,high,Funnel plot analysis of examinee performance
+P154,0,low,Human/LLM collaboration panel; no abstract
+P155,0,low,Human-AI collaboration in measurement; no abstract
+P157,0,high,Human-ML qualitative coding method
+P160,0,high,Validity criteria for LLM confidence evidence
+P161,0,high,Fashion design students' AI use
+P166,0,high,Validating AI attitude scale
+P169,0,low,Validating AI-simulated standard-setting panelists; method focus
+P172,0,high,Scaffolding psychology students' AI use
+P173,0,low,Faculty AI-assisted form assembly pilot; judgment boundaries tangential
+P174,0,high,Students' AI use and acculturation
+P177,0,low,Teacher PD for AI item generation; teachers not measurement professionals
+P178,0,high,Neural IRT in adaptive testing
+P182,0,high,LLM metadiscourse analysis of essays
+P184,0,low,Computational assessment architecture; human experts mentioned only in passing
+P187,0,high,Multimodal discourse classification
+P192,0,high,Difficulty priors from LLM features
+P196,0,high,Multilingual GenAI scoring pipeline
+P201,0,high,Keystroke features and proficiency
+P202,0,high,BKT reliability estimation
+P203,0,high,LLM construct annotation package
+P204,0,low,Critiques AES agreement thresholds; methodological evidence not professional norms
+P208,0,high,Hybrid human-machine scoring evaluation
+P216,0,high,Construct coverage of AI literacy assessments
+P217,0,low,Measuring teachers' GenAI literacy; teachers not measurement profession
+P218,0,high,Scale development for AI output engagement
+P219,0,low,"Conceptual argument on measuring AI literacy, not profession"
+P225,1,high,"Professional norms, training, accountability in an AI-native profession"
+P233,0,high,LLM classification of collaborative reasoning
+P234,0,high,AI-based assessment shortening method
+P236,0,high,Students' GenAI over-reliance
+P237,0,low,Faculty perceptions of AI on assessment validity; faculty not measurement professionals
+P238,1,low,SME verification and quality assurance responsibilities with AI tools
+P242,0,high,Systematic review of VR assessment
+P247,0,high,Benchmarking AI vs human item writers
+P248,0,high,Operational automated item generation pipeline
+P252,1,high,AI and NCME foundational competencies
+P254,1,high,AI competencies in education and credentialing practice
+P257,0,high,Adaptive testing calibration method
+P258,0,high,GenAI tool for interpretive materials
+P264,0,low,AI thematic analysis method; Standards feedback only example data
+P265,0,high,ML clustering of survey responses
+P269,0,high,Language-model knowledge tracing
+P277,1,low,Argues AI demands more principled assessment design practice
+P281,0,low,"Medical residents' AI training, not measurement profession"
+P282,1,low,Charts AI's decade-long impact on the measurement field; responsible adoption
+P283,0,high,Transformer gaming detection
+P284,0,high,Hallucination detection in scoring rationales
+P285,0,high,Test security similarity modeling
+P291,0,high,Automated ORF scoring validity evidence
+P298,0,high,LLM coding for teacher working conditions
+P303,0,high,AI tool assessing disability language
+P304,0,high,AI chatbot for review evidence
+P305,0,high,AI curriculum audit tool
+P306,0,high,AI tool measuring political speech
+P318,0,high,Comparing LLM and human rationales
+P321,0,high,Validating LLM reliance scale
+P323,0,high,Embedding screen for local dependence
+P325,0,low,Reproducibility of LLM Q-matrices; method reliability
+P329,0,high,AI tutoring learner profiles
+P331,0,high,Forensic item clones against AI assistance
+P333,0,high,Academic integrity detection signals
+P334,0,high,GenAI detection across versions
+P335,1,low,"Analyst adjudication, auditability; AI must not make misconduct decisions"

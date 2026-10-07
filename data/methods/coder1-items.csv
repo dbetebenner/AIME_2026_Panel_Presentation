@@ -1,0 +1,336 @@
+id,product,profession,confidence,rationale
+P001,1,0,high,Facilitative AI structures learner interaction that becomes measurement evidence; AI inside the assessment experience.
+P002,1,1,low,GenAI-enabled scenario-based learning assessments; workshop on developers generating them with GenAI.
+P003,1,1,high,Training measurement professionals to generate items with generative AI techniques.
+P004,1,1,high,"Integrating LLMs into psychometricians' R workflows, including content development and automated scoring."
+P005,1,0,high,Benchmarking and validating AI tutors as a measurement problem.
+P006,0,1,high,LLM text classification pipelines for research data coding with measurement validity.
+P007,0,1,high,"AI-native dissertation workflow for researchers: writing, reproducibility, research practice."
+P008,1,0,low,Assessing learning when performance is produced through human-AI interaction in tasks.
+P009,1,1,high,"Evaluation framework for AI-assisted item development, expert review and alignment guardrails."
+P010,0,1,low,AI-enabled quality assurance of multiple-choice items: AI as item reviewer.
+P011,0,1,high,LLMs classifying items to performance level descriptors to support assessment design.
+P012,0,1,high,LLMs classifying items to standards for assessment quality assurance.
+P013,0,1,high,LLM-supported item evaluation predicting option selection and item difficulty.
+P014,1,0,high,"Comparing ML, transformer and LLM automated essay scoring."
+P015,1,0,high,LLM essay grading with few-shot and comparative judgment approaches.
+P016,1,0,high,Diagnosing hidden judgments in LLM essay scoring rationales.
+P017,1,0,high,Perturbation analysis of LLM essay scorers' invalid classifications.
+P018,1,0,high,Mapping automated essay scoring predictions to ordinal rubric levels.
+P019,1,0,high,AI-human writing score agreement for primary grades.
+P020,1,0,high,Evaluating AI-generated feedback on student writing.
+P021,1,0,high,Prompt task formulation effects on LLM automated scoring of student writing.
+P022,1,0,low,"Transformer analysis of keystroke writing processes for scoring features, feedback and fairness."
+P023,1,0,high,Automated writing evaluation feedback and student revision gains.
+P024,1,0,low,Title only: role of human ratings in AI scoring systems.
+P025,1,0,low,Title only: explaining a BERT-based automated essay scoring model.
+P026,1,0,low,Title only: construct validity and fairness in automated scoring.
+P027,1,0,low,Title only: rater effects in LLM short-answer scoring.
+P028,1,0,low,Title only: automated generation and scoring of maze reading assessments.
+P029,1,1,low,Title only: validity evidence for AI-generated items beyond expert approval; developer perspective.
+P030,1,1,low,Title only: assessment developers evaluating an AI item-generation tool for NAEP.
+P031,1,1,low,Title only: assessment developers evaluating an AI item-generation tool for NAEP.
+P032,1,1,low,Title only: assessment developers evaluating an AI item-generation tool for NAEP.
+P033,0,1,high,How AI is changing K12 measurement professional roles.
+P034,1,1,high,Synthetic responses for assessment development and psychometric analysis.
+P035,1,1,low,Validity and fairness of LLM-generated synthetic assessment data in a generation pipeline.
+P036,1,1,low,LLM synthetic respondents for early psychometric analysis in scale development.
+P037,1,1,low,Vision models simulating examinee responses to screen items before calibration.
+P038,0,1,low,Predictive item-parameter priors to reduce calibration samples; AI implied by session.
+P039,0,1,low,Fit diagnostics for neural variational IRT models; ML in psychometric modeling.
+P040,0,0,high,Bayesian IRT methodology with no AI focus.
+P041,0,0,low,Symbolic regression IRT diagnostics; no clear AI focus.
+P042,1,1,low,Calibration method for continuously growing AI-generated item banks.
+P043,1,0,high,Student-AI co-authored math problems in an intelligent tutoring system.
+P044,1,0,high,Validating AI item generation frameworks using CTT-IRT discrepancies.
+P045,1,1,high,"Generative drafts for expert item writers, compared with SME drafts and calibrated."
+P046,1,0,high,Construct differences between AI-generated and expert reading items; documenting generation steps.
+P047,1,0,low,Title only: LLM-supported automated assessment of critical thinking.
+P048,1,0,low,Title only: multi-agent LLM annotation and scoring to train writing-feedback models.
+P049,1,0,low,Title only: LLM rubric refinement in multi-agent automated scoring.
+P050,1,0,low,Title only: embedding approaches to automated speech scoring of early literacy.
+P051,0,1,low,Title only: embedding clusters to flag inconsistent human raters; operational quality control.
+P052,1,0,high,LLM-generated retrieval practice items compared with human-written items.
+P053,1,0,high,Auditing GPT and DeBERTa essay raters for rater effects.
+P054,0,1,high,LLM categorizing post-certification-exam comments; AI coding of program data.
+P055,1,0,high,Ensemble automated scoring calibrated against human markers on control scripts.
+P056,0,1,high,AI pre-calibration of item difficulty replacing field-testing labor.
+P057,0,1,high,Uncertainty estimation for validating research text classifiers.
+P058,0,1,high,LLM zero-shot item difficulty estimates versus cognitive attributes.
+P059,0,1,high,Multimodal LLMs predicting math item difficulty.
+P060,0,1,high,Modeling cognitive demand to improve item parameter prediction.
+P061,1,0,high,LLM geometry item generation with symbolic verification and answer keys.
+P062,0,1,low,Fine-tuned LLMs for codebook-guided coding of student metaphor responses.
+P063,1,0,high,LLM scoring of student code explanations.
+P064,1,0,high,ML and LLM knowledge-component identification for programming assessment and feedback.
+P065,1,0,high,Open-weight LLMs assessing computational thinking in student games.
+P066,1,0,high,Automatic prompt engineering for generative AI essay scoring.
+P067,1,0,high,Fidelity of AI-simulated students in a teacher training simulation.
+P068,0,1,high,LLM coding for systematic reviews; prompting as measurement condition.
+P069,1,0,low,Bias in LLM-generated educational content and bias-reducing prompting.
+P070,1,1,low,Multimodal LLM simulating student choice probabilities to estimate item parameters.
+P071,1,1,low,AI-simulated synthetic examinees for item difficulty estimation before calibration.
+P072,1,0,high,Automated evaluation and feedback on teacher performance in GenAI teaching simulation.
+P073,1,1,low,GPT simulating item responses by ability band for early item evaluation.
+P074,1,0,high,AI-assisted interactive simulation assessments capturing learner process evidence.
+P075,1,0,low,Title only: fairness and validity of AI scoring of multimodal responses.
+P076,1,0,low,Title only: validity when AI co-produces examinee performance in assessment.
+P077,1,0,low,Title only: tiered prompting for LLM generation of ELA and math items.
+P078,1,0,low,Title only: psychometric benchmarks for AI in educational applications.
+P079,0,0,low,Title only: taxonomy of invalidity hypotheses; no clear AI focus.
+P080,1,0,high,Construct validity of small-sample transformer scoring models.
+P081,1,0,high,Validity of generative AI automated score interpretations.
+P082,1,0,high,Multi-agent architecture for adaptive skills assessment.
+P083,1,0,high,"Literature review of GenAI in scoring, item generation and feedback."
+P084,1,0,high,Automated cloze generation in an intelligent textbook.
+P085,0,1,high,Graduate students on AI changing measurement training and careers.
+P086,1,0,low,Scan of automated scoring practices in K-12 summative programs.
+P087,0,1,high,LLM pairwise judgments to recover item parameter scales.
+P088,0,1,high,LLM investigator and judge for item parameter modeling.
+P089,0,1,high,LLM rating of item features for explanatory IRT difficulty prediction.
+P090,1,1,low,LLM student simulation prompted with IRT and CDM parameters.
+P091,1,0,high,Benchmark of LLM feedback against teacher feedback practices.
+P092,1,0,high,LLM-generated revision feedback quality across prompt designs.
+P093,1,0,high,ChatGPT selecting lesson segments for teacher formative assessment.
+P094,1,0,high,Automated source-integration measure for formative writing feedback.
+P095,1,0,high,Adaptive mastery decisions in AI-supported formative assessment.
+P096,1,0,high,Long-context architectures for data-efficient automated essay scoring.
+P097,1,0,high,ML classifiers scoring justification depth for adaptive formative support.
+P098,1,0,high,Automated detection of concerning content in admissions SJT responses.
+P099,1,0,high,AI-enabled performance assessment prototype for communication skills.
+P100,1,0,low,Title only: multi-agent architectures for feedback optimization.
+P101,1,0,low,Title only: evaluating LLM simulated students for teacher learning.
+P102,1,1,low,Title only: LLMs reviewing flaws in items they generated.
+P103,1,0,low,Title only: automated equivalence checking of personalized word problems.
+P104,1,0,high,How LLM scorers map probability words to essay scoring thresholds.
+P105,0,0,low,Undergraduate perceptions of generative AI fairness in curriculum; not product or profession.
+P106,1,0,high,Training data demographics and methods in automated scoring engines.
+P107,0,1,low,Estimator combining disagreeing AI scores for downstream research analyses.
+P108,0,1,high,Agentic LLM tool for fairness review of pilot items.
+P109,1,0,low,"Panel on human-centered AI tutoring, feedback and valid measurement."
+P110,0,1,high,LLM paired comparisons to estimate item difficulty without field testing.
+P111,0,1,high,ML models predicting item difficulty in principled assessment design.
+P112,0,1,high,LLM pairwise comparisons recovering item difficulty for AI-assisted calibration.
+P113,0,1,high,Validating LLM difficulty prediction against mixture IRT classes.
+P114,1,1,low,LLM student simulator aligned to predict item difficulty.
+P115,1,0,high,Student interactions with an embedded AI chatbot in online coursework.
+P116,1,0,high,Automated scoring of chatbot conversational speech for stealth assessment.
+P117,0,1,low,Multimodal AI coding teacher praise quality in tutoring research data.
+P118,0,1,low,AI transcription of tutoring sessions to build research logs.
+P119,1,0,low,Validity arguments for student collaboration with GenAI inside assessment tasks.
+P120,1,0,low,Title only: conditional bias and monitoring of automated scoring.
+P121,1,0,low,Title only: LLM detection of invalid responses in essay scoring.
+P122,1,0,low,Title only: compact automated essay scoring model distillation.
+P123,1,0,low,Title only: analyzing speech scoring errors.
+P124,1,0,high,Generative-AI features added to feature-based automated essay scoring.
+P125,0,1,low,Title only: AI-assisted training modules for human raters.
+P126,0,1,low,Title only: DeepIRT as AI in psychometric modeling.
+P127,1,0,low,Title only: discourse latent factors for automated essay scoring.
+P128,0,1,high,NLP analysis of alignment across skill taxonomies.
+P129,0,1,high,Embedding diagnostics for construct boundaries in instrument development.
+P130,0,1,high,Transformer clustering of operational items for blueprint and SME review.
+P131,0,1,high,NLP diagnostic tool supporting distractor quality review.
+P132,1,0,high,ML proficiency estimation with LLM explanations for teachers.
+P133,1,0,high,Comparing transformers for scoring math explanations.
+P134,1,0,high,Hyperparameter tuning of transformers for math scoring.
+P135,0,1,high,ML automated pretesting to predict IRT difficulty for calibration.
+P136,1,1,low,Human-in-the-loop LLM workflow constructing a full test versus teacher-made.
+P137,0,1,low,XGBoost model building a vertical skill difficulty scale.
+P138,1,1,low,Title only: introduction to AI for measurement.
+P139,0,0,low,Title only: human agency and generative AI in education; unclear focus.
+P140,1,0,low,Title only: evolution of a generative AI tutor.
+P141,1,0,low,Title only: automated essay scoring with AI.
+P142,1,0,low,Title only: LLM multilingual scoring in TIMSS and PIRLS.
+P143,1,1,low,Title only: responsible AI practice in language assessment.
+P144,1,0,high,Reliability and construct representation of LLM language proficiency scores.
+P145,0,1,low,Factor analysis comparing human and LLM respondents interpreted by experts.
+P146,1,1,low,LLM as anchor rater of student work enabling cross-national Rasch linking.
+P147,0,0,low,"Bayesian MIRT scoring of students' AI-use behaviors; AI is the construct, not the tool."
+P148,1,1,high,LLM agent doing hyperparameter search for automated essay scoring models.
+P149,0,1,high,NLP features predicting IRT parameters of reading items.
+P150,0,1,high,LLM-derived features predicting item statistics for certification items.
+P151,0,1,high,LLM comparative judgments for early item difficulty calibration.
+P152,0,0,high,Funnel plot analysis of examinee performance; no AI.
+P153,1,1,low,LLMs estimating text complexity and modifying passages within Lexile framework.
+P154,1,1,low,Title only: human and LLM collaboration in assessment.
+P155,1,1,low,Title only: human-AI collaboration in measurement turning assessment data into action.
+P156,0,1,low,Title only: machine learning analysis of spatial cognitive process data.
+P157,0,1,low,Title only: human-machine learning for large-scale qualitative coding.
+P158,1,0,low,Title only: human-AI translation of assessment data into formative learner profiles.
+P159,0,0,low,"Title only: classroom assessment practice as students use AI; AI as challenge, not tool."
+P160,0,1,high,LLM uncertainty as validity evidence when coding open survey text.
+P161,0,0,low,Students' perceptions of using generative AI in fashion design coursework.
+P162,1,1,high,AI workflows generating and reviewing math item families.
+P163,1,0,low,Automated revision analysis supporting writing assessment and feedback.
+P164,1,1,low,LLM theta representations to reconstruct item curves and recover parameters.
+P165,0,1,low,Deep learning predicting item response times from metadata.
+P166,0,0,high,"Validating an AI attitudes scale; AI is the construct, not the tool."
+P167,1,0,high,LLM likelihood-based calibrated automated scoring.
+P168,0,1,low,Fine-tuned DeBERTa replacing human coders for spatial language classification.
+P169,0,1,high,AI-simulated panelists in standard setting.
+P170,1,1,high,LLM evaluators reviewing items for an automatic item generation system.
+P171,1,0,high,LLM scoring physician communication skills against human evaluators.
+P172,0,0,low,Scaffolding student generative AI use in psychology research assignments.
+P173,0,1,high,Faculty using AI assistance to assemble forms from secure item bank.
+P174,0,0,high,Everyday AI use and acculturation among students; no product or profession.
+P175,1,0,high,Construct alignment of LLM-generated motivation items.
+P176,1,0,high,Evaluating sycophancy of AI tutors.
+P177,1,0,low,Teacher professional development generating classroom items with small LLMs.
+P178,0,1,low,Neural network IRT calibration in multistage adaptive testing.
+P179,1,0,high,Construct validity of LLM essay scoring rationales.
+P180,1,0,high,Criterion validity of LLM-scored creative writing.
+P181,1,1,low,Prompt design for LLM-generated synthetic Likert survey responses.
+P182,0,1,low,LLM-assisted pipeline coding hedge use in essays for research.
+P183,1,0,high,GenAI writing feedback supporting teacher decisions.
+P184,1,1,high,"AI-native assessment stack: generation, scoring, assembly, agents collaborating with experts."
+P185,1,0,high,Educator skills practiced in a GenAI teaching simulation.
+P186,1,0,high,LLM score reporting assistant for teachers.
+P187,0,1,low,Multimodal transformer classifying classroom discourse data.
+P188,1,0,high,AI application restructuring chatbot responses into learner guidance.
+P189,1,1,low,Title only: field-generated research agenda for AI and measurement.
+P190,1,0,low,LLM-generated distractor rationales explaining misconceptions in items.
+P191,1,0,high,Automated classification of math misunderstandings in student explanations.
+P192,0,1,high,LLM features for item difficulty priors.
+P193,1,0,high,Generalizability of LLM scoring of AI-written proofs.
+P194,1,0,high,AI personalization of math item contexts for learners.
+P195,1,0,high,Multilingual language models scoring bilingual items.
+P196,1,0,high,Operational multilingual GenAI scoring pipeline with human review.
+P197,0,1,low,Multilingual embeddings replacing translation in scoring reliability auditing.
+P198,1,0,low,Measurement-oriented RAG workflow for ELL writing assessment.
+P199,1,0,high,Contrastive learning to reduce ESL bias in automated essay scoring.
+P200,1,0,high,LLM and transformer scoring of physician communication behaviors.
+P201,0,0,low,Keystroke process features indexing writing proficiency; no clear AI.
+P202,1,0,low,Reliability of Bayesian knowledge tracing mastery decisions in tutoring systems.
+P203,0,1,high,Open-source package for LLM-assisted construct annotation by researchers.
+P204,1,0,high,Score comparability limits of AES validation agreement measures.
+P205,1,0,high,Reference-conditioned evaluation of automated essay scoring.
+P206,1,0,high,Agreement and uncertainty in LLM essay scoring.
+P207,1,0,high,Meta-analysis of LLM-human agreement in essay scoring.
+P208,1,0,high,"NLP, LLM and hybrid scoring in large-scale writing assessment."
+P209,1,0,high,Ordinal versus regression fine-tuning for LLM automated scoring.
+P210,1,0,high,LLM surprisal as feature in Japanese essay scoring.
+P211,1,0,high,Meta-analysis of LLM short-answer scoring performance.
+P212,1,0,high,Sample-efficient fine-tuning for operational short-answer scoring.
+P213,1,0,high,Dimension reduction of LLM embeddings for automated scoring.
+P214,1,0,high,Developing and validating LLM-enabled interactive speaking tasks on DET.
+P215,1,1,low,AI-assisted development of an AI literacy assessment versus expert framework.
+P216,0,0,high,Construct coverage of AI literacy assessments; AI is the construct.
+P217,0,0,high,Measuring teachers' GenAI literacy; AI literacy for teachers.
+P218,0,0,high,Scale measuring student engagement with AI output; AI is construct.
+P219,0,0,low,Critical AI literacy of users as the measurable construct.
+P220,1,0,high,Validity framework for AI-generated formative feedback.
+P221,0,0,low,"University guidelines for generative AI use in assessment; policy, not product or profession."
+P222,1,0,high,Validity argument framework for AI-generated items.
+P223,1,0,high,Expert evaluation of a deployed LLM tutor.
+P224,1,0,high,ECD-based automated evaluations of AI-powered assessment outputs.
+P225,0,1,high,"AI changing professional work, norms and training in educational measurement."
+P226,1,0,low,Title only: ECD anchoring AI integration in STEM assessment.
+P227,0,1,low,Title only: AI-assisted ECD to build a credential blueprint.
+P228,1,0,low,Title only: ECD for AI-driven item generation.
+P229,1,0,low,Title only: LLM scoring of open-ended software engineering responses.
+P230,1,0,low,Title only: AI scoring of multimodal project-based student work.
+P231,1,0,high,Teacher implementation of AI-supported formative assessment.
+P232,1,0,high,AI partners that assess and support classroom collaboration.
+P233,1,0,low,LLMs classifying collaborative reasoning in student discussions.
+P234,0,1,high,AI shortening an assessment compared with expert-shortened form.
+P235,0,0,high,Validity threats in measuring student GenAI use; AI is construct.
+P236,0,0,high,Students' GenAI over-reliance and goal orientation.
+P237,0,0,low,Faculty perceptions of AI effects on assessment validity.
+P238,0,1,high,SME trust in AI verification concerns during assessment development QA.
+P239,1,0,low,Title only: evaluating AI workflows for personalized adult assessments.
+P240,1,0,low,Title only: retrieval architectures for personalized reading assessments.
+P241,1,0,low,Title only: multi-agent validation of LLM-generated personalized math problems.
+P242,0,0,low,Title only: review of virtual reality in assessment; AI only as method.
+P243,1,0,high,Hybrid LLM scoring of multimodal geospatial reasoning tasks.
+P244,0,1,high,Multimodal models predicting item discrimination.
+P245,0,1,high,Deep learning anomaly detection for test integrity.
+P246,0,1,high,ASR-LLM pipeline coding student audio themes to inform assessment development.
+P247,1,1,high,Self-revising AI agents as item writers benchmarked against professional writers.
+P248,1,1,high,Production AIG pipeline integrated into operational item development workflows.
+P249,1,1,high,Secure AI agents for item generation with human-in-the-loop development workflows.
+P250,1,1,low,Evaluating GenAI items for medical exam and informing item development practice.
+P251,1,0,high,Quality control of just-in-time AI item generation and per-learner test assembly.
+P252,0,1,low,Title only: whether AI is a foundational measurement competency.
+P253,0,1,low,Title only: connecting NCME foundational competencies to AI.
+P254,0,1,low,Title only: AI competencies in education and credentialing practice.
+P255,0,1,low,Title only: technical AI competencies as measurement competencies.
+P256,1,1,low,Reinforcement learning test assembly for AI-enabled assessment systems.
+P257,1,0,low,Bayesian Thompson sampling adaptive testing with continuous calibration.
+P258,1,1,low,GenAI tool producing educator-facing interpretive assessment use guides.
+P259,1,0,high,Automated transcription and scoring of working memory responses.
+P260,1,0,low,Metric for personalization quality of predictive learning models.
+P261,1,0,low,Title only: multimodal AI and assessment system innovation.
+P262,1,1,low,Human-in-the-loop annotation management for AI scoring training data.
+P263,1,0,high,Agentic AI tool helping educators design and use rubrics.
+P264,0,1,high,Generative AI thematic analysis of open-ended survey responses.
+P265,0,1,low,ML clustering of survey responses as alternative to factor analysis.
+P266,1,0,low,LLM diagnosis of MCQ response patterns to generate feedback.
+P267,1,0,low,Title only: AI agent interpreting learning maps.
+P268,1,0,low,Title only: vision models assessing student scientific models.
+P269,1,0,low,Title only: language-model knowledge tracing response prediction.
+P270,1,0,low,Title only: map-based analytics for next-skill targeting.
+P271,1,0,low,Title only: conversational agent helping educators interpret score reports.
+P272,1,0,low,Title only: generalizability theory for fine-tuned LLM item generation.
+P273,1,1,low,Title only: prompting for realistic synthetic augmented responses.
+P274,1,0,low,Title only: score dependability in ChatGPT-supported speaking tasks.
+P275,1,0,low,Title only: confidence modeling of scores; likely automated scoring.
+P276,1,0,low,Title only: fairness modeling for automated scoring and human raters.
+P277,0,1,low,Title only: principled design practice for AI-assisted assessment design.
+P278,1,1,low,Title only: design specifications improving AI item generation.
+P279,0,1,low,Title only: AI distractor plausibility ratings predicting item difficulty.
+P280,0,1,low,Title only: PAD features in item difficulty prediction models.
+P281,0,0,high,Medical residents' professional AI use; not measurement professionals.
+P282,1,1,low,Content analysis of AI's decade-long evolution in educational measurement.
+P283,1,0,low,Transformer detection of gaming in automatically scored responses.
+P284,1,0,high,Detecting hallucinations in LLM scoring rationales.
+P285,0,0,low,Statistical test-security similarity model; no clear AI.
+P286,1,0,high,Generative model for argument annotation in automated writing evaluation.
+P287,1,0,high,AI reconstruction of argument structure in student writing.
+P288,1,0,high,Longitudinal effects of LLM writing feedback.
+P289,1,0,high,Production analytic writing feedback system with fine-tuned transformers.
+P290,1,0,high,Dialogic act modeling for AI writing tutors.
+P291,1,0,high,Validity evidence for ASR scoring of oral reading fluency.
+P292,1,0,high,ASR-based administration and scoring of early reading fluency.
+P293,1,1,low,Synthetic student reading behavior to estimate passage difficulty before field testing.
+P294,1,0,high,Causal evaluation of AI-generated reading passages.
+P295,0,1,high,Encoder-based IRT parameter prediction for item calibration workflows.
+P296,1,0,low,Title only: scale evaluating LLM tutor quality.
+P297,1,0,low,Title only: AI measuring student math competencies from classroom discourse.
+P298,0,1,low,Title only: LLM coding of open-ended teacher survey responses.
+P299,1,1,low,Title only: AI prediction and causal inference using AI-based assessment scores.
+P300,0,1,high,Transformer models predicting operational item acceptance from critiques.
+P301,1,0,high,Multi-agent LLM item generation with field-test psychometric comparison.
+P302,1,1,high,Human-in-the-loop Gemini item generation with faculty as validators.
+P303,0,1,low,Title only: AI tool reviewing disability language in measurement instruments.
+P304,0,0,low,Title only: AI chatbot for systematic review evidence; not assessment or measurement work.
+P305,1,0,low,Title only: AI-assisted curriculum audit tool for educators.
+P306,0,0,low,Title only: measuring political speech about disability; outside assessment.
+P307,1,0,low,Title only: LLM reply variability in conversation-based assessment.
+P308,1,0,low,Title only: resilience infrastructure for conversational AI educational applications.
+P309,0,1,low,Title only: AI-assisted enemy item identification in operations.
+P310,1,0,low,Title only: responsible AI case studies on Duolingo English Test.
+P311,0,1,high,Generative AI DIF screening supporting item review in test development.
+P312,1,0,high,Individual fairness constraints in automated scoring.
+P313,1,0,high,AI grader reliability under student appeals.
+P314,1,0,high,Adversarial responses to test AI scoring robustness before operational use.
+P315,0,1,high,AI agent screening draft items for DIF risk before field testing.
+P316,1,0,high,Evidence-anchored automated scoring architectures for feedback.
+P317,1,0,high,Pilot of AI-supported formative assessment in schools.
+P318,1,0,low,Comparing LLM and human rater rationales in medical education scoring.
+P319,1,0,high,LLM workflow converting items into gamified narrative quizzes.
+P320,1,0,high,Learner experience in an AI-powered skills validation system.
+P321,0,0,high,Validating an LLM reliance scale; AI is the construct.
+P322,0,1,high,LLM-assisted Q-matrix specification for diagnostic models.
+P323,0,1,high,Sentence embeddings screening item pairs for local dependence.
+P324,0,1,high,AI-estimated IRT parameters replacing pretesting in form assembly.
+P325,0,1,high,Reproducibility of LLM-generated Q-matrices.
+P326,1,0,high,Small language models as Socratic math tutors.
+P327,1,0,high,Measurement framework for small language model tutors.
+P328,1,0,high,LLM judges scoring pedagogical quality of AI tutors.
+P329,1,0,high,AI tutoring tool learning gains in exam preparation product.
+P330,1,0,high,LLM-judge monitoring of AI tutor quality.
+P331,0,0,low,"Item clones countering examinee use of external AI; AI as threat, not tool."
+P332,0,0,low,Mixture model detecting LLM-assisted examinee responses; AI as threat.
+P333,0,0,low,Academic integrity signals after LLM-assisted learning.
+P334,0,0,low,Reliability of GenAI text detectors across updates; academic integrity.
+P335,0,1,high,Multi-agent AI-assisted test security review with analyst adjudication.

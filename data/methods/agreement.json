@@ -1,0 +1,58 @@
+{
+ "n": 98,
+ "product": {
+  "agreement": 0.908,
+  "kappa": 0.798,
+  "confusion_c1_by_c2": {
+   "11": 29,
+   "10": 9,
+   "01": 0,
+   "00": 60
+  }
+ },
+ "profession": {
+  "agreement": 0.969,
+  "kappa": 0.939,
+  "confusion_c1_by_c2": {
+   "11": 48,
+   "10": 0,
+   "01": 3,
+   "00": 47
+  }
+ },
+ "cell_agreement": 0.888,
+ "cell_crosstab_c1_c2": {
+  "both | both": 8,
+  "both | profession-only": 6,
+  "neither | neither": 25,
+  "neither | profession-only": 1,
+  "product-only | both": 1,
+  "product-only | neither": 2,
+  "product-only | product-only": 20,
+  "product-only | profession-only": 1,
+  "profession-only | profession-only": 34
+ },
+ "old_to_new_all_items": {
+  "A -> both": 43,
+  "A -> neither": 6,
+  "A -> product-only": 171,
+  "A -> profession-only": 54,
+  "B -> both": 3,
+  "B -> neither": 1,
+  "B -> profession-only": 26,
+  "C -> both": 2,
+  "C -> neither": 24,
+  "C -> product-only": 2,
+  "C -> profession-only": 3
+ },
+ "norms": {
+  "agreement": 0.939,
+  "kappa": 0.715,
+  "confusion_c1_by_c2": {
+   "11": 9,
+   "10": 3,
+   "01": 3,
+   "00": 83
+  }
+ }
+}

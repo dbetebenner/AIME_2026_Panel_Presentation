@@ -39,6 +39,10 @@ Emphasize feasible research, not merely faster research. AI changes the set of q
 
 ## What changed in my own work
 
+::: {.kicker}
+In my workflow
+:::
+
 | | Before AI | With AI |
 |---|---|---|
 | **Theory** | derivation is slow and locally constrained | derivation and counterexample generation iterate continuously |
@@ -162,7 +166,7 @@ If this is the emerging division of labor, are we training psychometricians for 
 
 <br>
 
-What must a measurement professional be able to do personally in order to supervise, verify, and take responsibility for work that AI can execute better or faster than they can?
+What must a measurement professional be able to do personally in order to supervise, verify, and take responsibility for work that AI can execute faster (and, for some bounded tasks, better) than they can execute unaided?
 
 ::: {.notes}
 Use only if you want to hand directly to the graduate-training contribution. Otherwise end on the warrant/accountability slide.

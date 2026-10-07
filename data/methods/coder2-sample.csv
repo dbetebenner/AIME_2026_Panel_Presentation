@@ -1,0 +1,99 @@
+id,product,profession,confidence,rationale
+P003,1,1,high,Workshop training measurement professionals to use generative AI for item generation
+P005,1,0,high,Benchmarking validity of AI tutors as learner-facing products
+P006,0,1,high,Training researchers in LLM text classification pipelines for measurement
+P007,0,1,high,AI-native dissertation writing and research workflow for graduate researchers
+P008,0,0,low,Assessing human learning amid AI use; AI not product nor professional tool
+P015,1,0,high,LLM essay grading approaches compared for accuracy and stability
+P022,1,0,low,Transformer analysis of keystroke data supporting fairness and feedback in writing assessment
+P028,1,0,low,Title only: automated generation and scoring of reading assessments
+P033,0,1,low,Title: AI changing K12 measurement roles; text thin
+P036,0,1,high,LLM synthetic data for psychometric scale development analysis
+P039,0,1,low,"Diagnostics for neural IRT models; AI in psychometric modeling, marginal"
+P040,0,0,high,Closed-form Bayesian IRT method; no AI focus
+P041,0,0,low,Symbolic regression IRT diagnostics; no clear AI focus
+P043,1,0,high,Student-AI co-authored math problems delivered in tutoring system
+P045,1,1,high,Generative drafts for expert item writers; items calibrated psychometrically
+P046,1,0,low,Validity of AI-generated reading questions; documentation recommendation secondary
+P054,0,1,high,LLM categorizing exam comments; operational analysis by testing program
+P057,0,1,low,Validating text classifiers used by researchers to extract measures
+P062,0,1,high,LLM coding of student responses for research measurement of attitudes
+P068,0,1,high,LLM coding for systematic reviews; research coding practice
+P069,1,0,low,Bias in LLM-generated educational content under prompting conditions
+P073,0,1,high,GenAI simulated responses for early item evaluation before field testing
+P079,0,0,low,"Title only; taxonomy of invalidity hypotheses, no AI in title"
+P085,0,1,high,Graduate training and careers in AI-changed measurement profession
+P087,0,1,high,LLM pairwise judgments for item parameter modeling
+P088,0,1,high,LLM as investigator/judge for item parameter modeling
+P093,1,0,low,ChatGPT selecting lesson segments for teacher formative assessment support
+P101,1,0,low,Title only: LLM simulated students supporting teacher learning
+P105,0,0,high,Student fairness appraisals of genAI in curriculum
+P126,0,1,low,Title only: DeepIRT as psychometric modeling approach
+P138,0,1,low,Title only: introduction to AI for measurement
+P143,0,1,low,Title only: responsible AI practice in language assessment
+P147,0,0,high,IRT model scoring students' AI usage; AI is the construct
+P148,1,1,low,LLM doing model tuning for automated essay scoring
+P152,0,0,high,Funnel plot performance analysis; no AI
+P154,1,1,low,Title only: human/LLM collaboration in assessment
+P155,0,1,low,Title only: human-AI collaboration in measurement work
+P157,0,1,low,Title only: machine learning for qualitative coding
+P160,0,1,high,LLM uncertainty as evidence in survey measurement analysis
+P161,0,0,high,Student perceptions of AI in fashion design education
+P166,0,0,high,Validating an AI attitudes scale; AI is the construct
+P169,0,1,high,AI-simulated panelists for standard setting
+P172,0,0,low,Students' scaffolded AI use in research assignments
+P173,0,1,high,AI-assisted test form assembly by faculty
+P174,0,0,high,Students' everyday AI use and acculturation
+P177,1,0,low,Teachers generating classroom math items with LLMs; teachers not measurement professionals
+P178,0,1,low,Neural network IRT calibration in multistage adaptive testing
+P182,0,1,high,LLM-assisted pipeline coding essays for research analysis
+P184,1,1,high,"AI-native assessment stack: generation, scoring, and human-expert orchestration"
+P187,0,1,low,Transformer classifying classroom discourse; research coding
+P192,0,1,high,LLM features for item difficulty priors; psychometric modeling
+P196,1,0,high,Operational multilingual GenAI scoring pipeline
+P201,0,0,high,Keystroke features and proficiency; no AI focus
+P202,1,0,low,Reliability of Bayesian knowledge tracing mastery classifications in tutoring system
+P203,0,1,high,LLM-assisted construct annotation package for researchers
+P204,1,0,high,Validation limits of automated essay scoring agreement measures
+P208,1,0,high,Automated and hybrid scoring in large-scale writing assessment
+P216,0,0,high,Construct coverage in AI literacy assessments
+P217,0,0,high,Teachers' GenAI literacy measurement
+P218,0,0,high,Scale of graduate students' engagement with AI output
+P219,0,0,high,Critical AI literacy of users
+P225,0,1,high,AI transforming professional work of educational measurement
+P233,0,1,low,LLMs labeling student discussion reasoning; coding of discourse data
+P234,0,1,high,AI shortening an assessment versus human experts
+P236,0,0,high,Students' GenAI over-reliance
+P237,0,0,low,Faculty perceptions of AI threat to assessment validity
+P238,0,1,high,SME trust in AI verification in assessment development workflows
+P242,0,0,low,Title only: VR review using topic modeling; AI marginal
+P247,1,1,low,AI agents writing items benchmarked against professional item writers
+P248,1,1,high,Automated item generation integrated into operational assessment workflows
+P252,0,1,low,Title only: AI in NCME foundational competencies
+P254,0,1,low,Title only: AI competencies in education and credentialing practice
+P257,0,0,low,Bayesian adaptive testing and exposure control; no clear AI
+P258,1,1,low,GenAI tool producing educator-facing interpretive assessment materials
+P264,0,1,high,AI-assisted thematic analysis of survey responses
+P265,0,1,low,Machine learning clustering for survey analysis
+P269,1,0,low,Title only: language-model knowledge tracing response prediction
+P277,0,1,low,Title only: AI and principled assessment design practice
+P281,0,0,high,Medical residents' AI use; not measurement professionals
+P282,0,1,low,Synthesis of AI's impact on the measurement field
+P283,1,1,low,Transformer detection of gaming in constructed responses; scoring and QC
+P284,1,0,high,Detecting hallucinations in LLM automated scoring rationales
+P285,0,0,low,Statistical test-security model; no clear AI
+P291,1,0,high,Validity evidence for ASR automated oral reading fluency scoring
+P298,0,1,low,Title only: LLM coding of open-ended survey responses
+P303,0,1,low,Title only: AI tool reviewing language in measurement instruments
+P304,0,1,low,Title only: chatbot navigating systematic review evidence for researchers
+P305,1,0,low,Title only: AI curriculum audit tool for educators
+P306,0,0,low,Title only: political speech about disability; no assessment focus
+P318,1,0,low,Comparing LLM and human rater rationales in scoring
+P321,0,0,high,Scale measuring LLM reliance types
+P323,0,1,high,Sentence embeddings screening IRT local dependence
+P325,0,1,high,Reproducibility of LLM-generated Q-matrices
+P329,1,0,high,Evaluating AI tutoring tool learning gains
+P331,0,0,low,Items countering examinee AI assistance; AI as threat
+P333,0,0,low,Academic integrity detection signals after student AI use
+P334,0,0,low,Reliability of GenAI text detectors over updates
+P335,0,1,high,Multi-agent AI assisting test security review

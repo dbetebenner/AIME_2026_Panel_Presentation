@@ -30,17 +30,13 @@ lab <- c(A = "AI built into assessment products",
          B = "AI in how measurement professionals work",
          C = "Neither / no AI focus")
 
-pres <- read_csv("../data/program-presentations.csv", show_col_types = FALSE)
-sess <- read_csv("../data/program-sessions.csv", show_col_types = FALSE)
-
-n_tab <- function(d) d |> count(code) |> mutate(p = n / sum(n))
-pt <- n_tab(pres); st <- n_tab(sess)
-get <- function(t, k, v = "n") { x <- t[[v]][t$code == k]; if (length(x)) x else 0 }
-nA <- get(pt, "A"); nB <- get(pt, "B"); nC <- get(pt, "C"); nT <- nA + nB + nC
-ratio <- if (nB > 0) round(nA / nB) else NA
-n_firm  <- sum(pres$code == "B" & !as.logical(pres$ambiguous))
-n_upper <- sum(pres$code == "B" | (as.logical(pres$ambiguous) & pres$alt_code %in% "B"))
-
+items <- read_csv("../data/program-items-coded.csv", show_col_types = FALSE)
+ag <- jsonlite::fromJSON("../data/methods/agreement.json")
+nT <- nrow(items)
+nP <- sum(items$product == 1); nM <- sum(items$profession == 1); nN <- sum(items$norms == 1)
+pct <- function(x) paste0(round(100 * x / nT), "%")
+kap <- function(d) formatC(round(ag[[d]]$kappa + 1e-9, 2), format = "f", digits = 2)
+agr <- function(d) paste0(round(100 * ag[[d]]$agreement), "%")
 knitr::opts_chunk$set(dev.args = list(bg = surface))
 qr_png <- function(url, file) {
   q <- qrcode::qr_code(url, ecl = "M")
@@ -73,7 +69,7 @@ Damian Betebenner, Center for Assessment
 :::
 :::
 
-::: {.tiny}
+::: {.small .muted}
 A correction to the printed program: it lists a human moderator. Today the moderator is lain, an AI, under the session chair, and Fred Oswald is our discussant.
 :::
 
@@ -81,50 +77,51 @@ A correction to the printed program: it lists a human moderator. Today the moder
 Welcome. Correct the printed program up front (it lists Andrew Ho as moderator and omits Fred and lain). Introduce Fred as discussant; the four panelists will each give a five-minute provocation.
 :::
 
-## What this conference is about {.smaller}
+## What this conference is about
 
 ```{r}
 #| fig-width: 15
-#| fig-height: 5.4
+#| fig-height: 4.6
 #| fig-dpi: 150
-#| fig-alt: "Waffle chart: each square is one presentation in the AIME-Con 2026 program, colored by whether it is about AI built into assessment products, AI in how measurement professionals do their work, or neither."
-ncol_w <- 30
-d <- pres |>
-  mutate(code = factor(code, levels = c("A", "B", "C"))) |>
-  arrange(code) |>
-  mutate(i = row_number() - 1, x = i %% ncol_w, y = -(i %/% ncol_w))
-ggplot(d, aes(x, y, fill = code)) +
-  geom_tile(width = 0.86, height = 0.86) +
-  scale_fill_manual(values = col, labels = lab, name = NULL) +
-  coord_equal() +
-  theme_void(base_family = "Noto Sans", base_size = 22) +
-  theme(legend.position = "right", legend.text = element_text(colour = ink),
-        legend.key.spacing.y = unit(10, "pt"),
-        plot.background = element_rect(fill = surface, colour = NA))
+#| fig-alt: "Three horizontal bars out of 335 program items at AIME-Con 2026: items building AI into assessment products, items using AI in measurement professionals' own methods, and items asking what AI means for the profession's norms, roles, training and accountability."
+tiers <- data.frame(
+  tier = factor(c("Builds AI into assessment products", "Uses AI in our own methods and work",
+                  "Asks what AI means for the profession:\nnorms, roles, training, accountability"),
+                levels = rev(c("Builds AI into assessment products", "Uses AI in our own methods and work",
+                               "Asks what AI means for the profession:\nnorms, roles, training, accountability"))),
+  n = c(nP, nM, nN), fill = c("#C0702A", "#1F6FA8", "#7A2E8E"))
+ggplot(tiers, aes(y = tier)) +
+  geom_col(aes(x = nT), fill = "#DCDCD8", width = 0.62) +
+  geom_col(aes(x = n, fill = fill), width = 0.62) +
+  geom_text(aes(x = n, label = paste0(n, "  (", pct(n), ")")), hjust = -0.08, size = 8.5, colour = ink, family = "Noto Sans", fontface = "bold") +
+  scale_fill_identity() +
+  scale_x_continuous(limits = c(0, nT * 1.02), expand = c(0, 0)) +
+  theme_void(base_family = "Noto Sans", base_size = 24) +
+  theme(axis.text.y = element_text(colour = ink, hjust = 1, margin = margin(r = 12)),
+        plot.background = element_rect(fill = surface, colour = NA),
+        plot.margin = margin(6, 24, 6, 6))
 ```
 
-::: {.columns}
-::: {.column width="62%"}
-<span class="prod">**`r nA`**</span> presentations build AI into assessment products: scoring, item generation, tutors, feedback.<br>
-<span class="hl">**`r nB`**</span> ask how AI changes the work of the people in this room.
+::: {.small}
+Of the `r nT` items in the printed program, **`r pct(nP)`** build AI into what we deliver and **`r pct(nM)`** already use AI in how we work. **`r nN` items (`r pct(nN)`)** ask what that means for the profession itself.
 :::
-::: {.column width="38%" .tiny}
-Each square is one of `r nT` presentations in the printed program (by session: `r get(st,"A")` A · `r get(st,"B")` B · `r get(st,"C")` C). Coded by an AI from the program text, audited by the chair. Borderline calls matter: B ranges from `r n_firm` (unambiguous only) to `r n_upper` (every borderline call to B). Data and codebook: the materials site.
-:::
+
+::: {.small .muted}
+Rows overlap: each item was coded on three independent yes/no questions by an AI coder, and a blind second AI coder on a stratified sample of 98 agreed on `r agr("product")`, `r agr("profession")` and `r agr("norms")` (κ `r kap("product")`, `r kap("profession")`, `r kap("norms")`). Audited by the chair. Data, prompts and agreement: the materials site.
 :::
 
 ::: {.notes}
-Let the picture land. Roughly `r ratio` presentations about AI in our products for every one about AI in our profession. Then: the coding itself was done with AI and checked by me, which is a small example of the thing we are here to talk about.
+Let the gradient land. Most of this conference builds AI into our products. A third already uses AI in our own methods: difficulty prediction, calibration, item review, coding. Very few items ask what that does to the profession: its norms, roles, training and accountability. That last row is what this panel is for. The coding itself was done by two AI coders and audited by me; the agreement statistics are on the slide.
 :::
 
 ## The provocation
 
 ::: {.small .muted}
-At this conference: about **`r ratio` to 1**, products over profession.
+At this conference: products **`r nP`** · our methods **`r nM`** · the profession itself **`r nN`** (of `r nT` items).
 :::
 
 ::: {.conjecture}
-The chair's conjecture, not a finding
+The chair's conjecture: an independent order-of-magnitude claim, not estimated from the program coding
 :::
 
 ::: {.claim}
@@ -149,7 +146,7 @@ State it as a conjecture. This session is about the right column. Take the claim
 ## Why a profession-level response
 
 ::: {.small}
-The mathematics community has asked this already. The [*Leiden Declaration on AI and Mathematics*](https://leidendeclaration.ai/) (June 2026, endorsed by the IMU; [leidendeclaration.ai](https://leidendeclaration.ai/)) asks the discipline to protect the verifiability of proof, attribution, authorship, and the primacy of human judgment.
+The mathematics community has begun asking this explicitly. The [*Leiden Declaration on AI and Mathematics*](https://leidendeclaration.ai/) (June 2026, endorsed by the IMU; [leidendeclaration.ai](https://leidendeclaration.ai/)) asks the discipline to protect the verifiability of proof, attribution, authorship, and the primacy of human judgment.
 :::
 
 ::: {.box .small}
@@ -179,7 +176,7 @@ lain is our attempt to show what AI-native educational measurement could look li
 :::
 
 ::: {.small}
-Its knowledge is the panelists' own materials. Its authority belongs to the chair. Everything it proposes, including what it is not allowed to say, goes on the record.
+Its evidence is bounded to the panelists' materials and what is said in this room, with no open web. Like any language model it carries pretrained knowledge, but it may not present that as evidence: a source claim needs a citation, a claim from the room needs a timestamp, and anything else is labeled inferred. Its authority belongs to the chair. Everything it proposes, including what it is not allowed to say, goes on the record.
 :::
 :::
 ::: {.column width="48%"}
@@ -210,18 +207,18 @@ About 8–12 interventions in 90 minutes, each approved by the chair.
 ::: {.column width="50%"}
 ::: {.box}
 <span class="state">OBSERVE</span><br>
-<span class="tiny">↓ chair enables proposals</span><br>
+<span class="small muted">↓ chair enables proposals</span><br>
 <span class="state">PROPOSE</span><br>
-<span class="tiny">↓ chair approves one intervention</span><br>
+<span class="small muted">↓ chair approves one intervention</span><br>
 <span class="state">SPEAK</span><br>
-<span class="tiny">↓ delivered; the permission expires</span><br>
-<span class="tiny">Emergency stop → OBSERVE, at once</span>
+<span class="small muted">↓ delivered; the permission expires</span><br>
+<span class="small muted">Emergency stop → OBSERVE, at once</span>
 :::
 :::
 :::
 
 ::: {.small}
-Every contribution is tagged **observed** (in the transcript), **retrieved** (in the panel's materials, with the source), or **inferred** (lain's reasoning, possibly wrong). Its knowledge is the panelists' materials only: no open web. It **abstains** when someone else holds the warrant.
+Every contribution is tagged **observed** (the transcript records someone saying it, with a time), **retrieved** (in a panelist's material, with the source), or **inferred** (lain's own reasoning, possibly wrong). Its evidence: the panelists' materials and the transcript; no open web. It **abstains** when someone else holds the warrant.
 :::
 
 ::: {.notes}
@@ -238,7 +235,7 @@ Moderator is the title; interlocutor is the job. Turn-taking and timekeeping sta
 | <span class="chip red">RED</span> | A conventional panel: same questions, same norm-building |
 
 ::: {.small}
-**Running today:** <span class="placeholder">[GREEN / AMBER, set at T-15]</span>. I will call every change of state aloud. The panel's argument does not depend on lain working.
+**Running today:** I'll tell you which state we're in, and I will call every change of state aloud. The panel's argument does not depend on lain working.
 :::
 
 ::: {.notes}
@@ -262,11 +259,11 @@ The record includes the full intervention log, **including what lain proposed an
 :::
 ::: {.column width="36%"}
 ::: {.qr}
-![](../figures/qr-audience.png){width="190" fig-alt="QR code for the audience view"}<br>**Follow along · ask a question**
+![](../figures/qr-audience.png){width="190" fig-alt="QR code for the audience view"}<br>**Follow along · ask a question**<br>or open it from the materials site
 :::
 
 ::: {.qr}
-![](../figures/qr-materials.png){width="190" fig-alt="QR code for the panel materials site"}<br>**Panel materials**
+![](../figures/qr-materials.png){width="190" fig-alt="QR code for the panel materials site"}<br>**Panel materials**<br>dbetebenner.github.io/<wbr>AIME_2026_Panel_Presentation
 :::
 :::
 :::
