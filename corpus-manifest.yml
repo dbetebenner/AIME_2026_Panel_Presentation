@@ -1,0 +1,228 @@
+# What the public session library may index from this repository.
+#
+# Read by `pnpm corpus:bundle` in sesh-ai, which turns these files into a
+# citable bundle for sessions.dataimago.ai/aime-2026/ai-native-profession.
+# Only files the presenters chose to share are listed. Gitignored material
+# (the NCME program, the poster derivative, the poster paper) is never listed.
+#
+# Fields per entry:
+#   path       file in this repo, relative to this manifest
+#   id         stable document id: the library URL and every citation use it
+#   owner      whose material it is (a handle in the session's participant list)
+#   acl        citable: may be quoted with attribution
+#   kind       the corpus artifact kind
+#   label      how the library groups it
+#   published  where readers find the original, relative to `site`
+#
+# Top level: `collection` is the library path (conference-year/session),
+# `repository` and the commit the bundler runs at pin every citation.
+#
+# Word and PowerPoint originals enter through their web transcriptions. The
+# proposal and the two Quarto decks enter as their rendered PDFs (page = slide
+# or page), because their sources carry LaTeX markup and R code. Other rendered
+# PDFs are not listed: each duplicates a listed source.
+
+version: 1
+collection: aime-2026/ai-native-profession
+event: AIME-Con 2026
+heldOn: "2026-10-07"
+repository: dbetebenner/AIME_2026_Panel_Presentation
+site: https://dbetebenner.github.io/AIME_2026_Panel_Presentation/
+entries:
+  # The session
+  - path: rendered/AIME_2026_Panel_Proposal_final_lain_2026-09-22.pdf
+    id: proposal
+    owner: betebenner
+    acl: citable
+    kind: SESSION_PROPOSAL
+    title: "Educational Measurement as an AI-Native Profession: session proposal (final, 22 September 2026)"
+    label: Session proposal
+    published: rendered/AIME_2026_Panel_Proposal_final_lain_2026-09-22.pdf
+  - path: index.qmd
+    id: session-page
+    owner: betebenner
+    acl: citable
+    kind: OTHER
+    title: "Session materials page"
+    label: Session page
+    published: index.html
+  - path: rendered/moderator-slides.pdf
+    id: moderator-slides
+    owner: betebenner
+    acl: citable
+    kind: PRESENTATION
+    title: "Moderator's framing slides"
+    label: Slides
+    published: decks/moderator.html
+
+  # Damian Betebenner (chair, panelist)
+  - path: Assets/Damian_Betebenner-presenter/provocation_statement.md
+    id: betebenner-statement
+    owner: betebenner
+    acl: citable
+    kind: PAPER
+    title: "Provocation statement: Damian Betebenner"
+    label: Provocation statement
+    published: Assets/Damian_Betebenner-presenter/provocation_statement.md
+  - path: rendered/betebenner-provocation-slides.pdf
+    id: betebenner-slides
+    owner: betebenner
+    acl: citable
+    kind: PRESENTATION
+    title: "AI is changing what my job is (provocation slides)"
+    label: Slides
+    published: decks/betebenner-provocation.html
+
+  # Derek Briggs
+  - path: Assets/Derek_Briggs/provocations.md
+    id: briggs-statement
+    owner: briggs
+    acl: citable
+    kind: PAPER
+    title: "Provocation statement: Derek Briggs"
+    label: Provocation statement
+    published: Assets/Derek_Briggs/provocations.md
+  - path: Assets/Derek_Briggs/AI_in_Peer_Review_Provocation.html
+    id: briggs-slides
+    owner: briggs
+    acl: citable
+    kind: PRESENTATION
+    title: "AI in Peer Review: Provocation (slides)"
+    label: Slides
+    published: Assets/Derek_Briggs/AI_in_Peer_Review_Provocation.html
+
+  # Frank Rijmen
+  - path: Assets/Frank_Rijmen/provocation_statement.md
+    id: rijmen-statement
+    owner: rijmen
+    acl: citable
+    kind: PAPER
+    title: "Provocation statement: Frank Rijmen"
+    label: Provocation statement
+    published: Assets/Frank_Rijmen/provocation_statement.md
+  - path: corpus/rijmen-slides-and-notes.md
+    id: rijmen-slides
+    owner: rijmen
+    acl: citable
+    kind: PRESENTATION
+    title: "Guardian, Catcher, Architect: how AI reshapes the roles of the psychometrician (slide text and speaker notes)"
+    label: Slides
+    published: corpus/rijmen-slides-and-notes.html
+  - path: corpus/rijmen-position-brief.md
+    id: rijmen-brief
+    owner: rijmen
+    acl: citable
+    kind: PAPER
+    title: "How AI reshapes the archetypal roles of the psychometrician (position brief)"
+    label: Position brief
+    published: corpus/rijmen-position-brief.html
+  - path: Assets/Frank_Rijmen/bio_Frank_Rijmen.md
+    id: rijmen-bio
+    owner: rijmen
+    acl: citable
+    kind: BIO
+    title: "Bio: Frank Rijmen"
+    label: Bio
+    published: Assets/Frank_Rijmen/bio_Frank_Rijmen.md
+
+  # Mohammed A. A. Abulela
+  - path: corpus/abulela-slides-transcribed.md
+    id: abulela-slides
+    owner: abulela
+    acl: citable
+    kind: PRESENTATION
+    title: "Is AI preparation still something graduate programs can treat as optional? (slide text and speaker notes)"
+    label: Slides
+    published: corpus/abulela-slides-transcribed.html
+  - path: corpus/abulela-bio.md
+    id: abulela-bio
+    owner: abulela
+    acl: citable
+    kind: BIO
+    title: "Bio: Mohammed A. A. Abulela"
+    label: Bio
+    published: corpus/abulela-bio.html
+
+  # The chair's notes (prepared as context for the session's AI interlocutor)
+  - path: corpus/participants-and-warrant.md
+    id: participants-and-warrant
+    owner: betebenner
+    acl: citable
+    kind: MODERATOR_NOTE
+    title: "Participants, their materials, and who holds the warrant"
+    label: Chair's note
+    published: corpus/participants-and-warrant.html
+  - path: corpus/chair-source-checks.md
+    id: chair-source-checks
+    owner: betebenner
+    acl: citable
+    kind: MODERATOR_NOTE
+    title: "Source checks on claims in the panel materials"
+    label: Chair's note
+    published: corpus/chair-source-checks.html
+  - path: corpus/related-aime-sessions.md
+    id: related-aime-sessions
+    owner: betebenner
+    acl: citable
+    kind: MODERATOR_NOTE
+    title: "Related sessions at AIME-Con 2026: AI and the profession itself"
+    label: Chair's note
+    published: corpus/related-aime-sessions.html
+  - path: corpus/reference-frameworks.md
+    id: reference-frameworks
+    owner: betebenner
+    acl: citable
+    kind: MODERATOR_NOTE
+    title: "Reference frameworks for the norm-building segment"
+    label: Chair's note
+    published: corpus/reference-frameworks.html
+  - path: corpus/open-sharing-of-ideas.md
+    id: open-sharing-of-ideas
+    owner: betebenner
+    acl: citable
+    kind: MODERATOR_NOTE
+    title: "AI and the open sharing of ideas"
+    label: Chair's note
+    published: corpus/open-sharing-of-ideas.html
+
+  # Methods behind the program chart on the moderator's first slide
+  - path: data/README.md
+    id: program-coding
+    owner: betebenner
+    acl: citable
+    kind: DATASET
+    title: "AIME-Con 2026 program coding"
+    label: Methods
+    published: data/README.md
+  - path: data/methods/README.md
+    id: coding-methods
+    owner: betebenner
+    acl: citable
+    kind: DATASET
+    title: "Methods: two-dimension and norms coding of the AIME-Con 2026 program"
+    label: Methods
+    published: data/methods/README.md
+  - path: data/methods/codebook-2d.md
+    id: codebook-two-dimensions
+    owner: betebenner
+    acl: citable
+    kind: DATASET
+    title: "Codebook: two dimensions (v2, 6 Oct 2026)"
+    label: Methods
+    published: data/methods/codebook-2d.md
+  - path: data/methods/codebook-norms.md
+    id: codebook-norms
+    owner: betebenner
+    acl: citable
+    kind: DATASET
+    title: "Codebook addendum: the norms dimension (v2.1, 6 Oct 2026)"
+    label: Methods
+    published: data/methods/codebook-norms.md
+  - path: data/methods/audit-2d.md
+    id: audit-two-dimensions
+    owner: betebenner
+    acl: citable
+    kind: DATASET
+    title: "Audit sheet: two-dimension recode (6 Oct 2026)"
+    label: Methods
+    published: data/methods/audit-2d.md
