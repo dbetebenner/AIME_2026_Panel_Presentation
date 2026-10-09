@@ -4,9 +4,15 @@ subtitle: "AIME-Con 2026 · Panel · Wednesday 7 October 2026, 11:00 AM–12:30 
 ---
 
 ::: {.callout-note appearance="simple"}
-## During the session (Wednesday 7 October, 11:00–12:30)
+## After the session
 
-- **[Follow the live record and ask a question](https://sesh-ai.dataimago.ai/sessions/aime-2026-ai-native-profession/audience)**
+The panel met on Wednesday 7 October 2026.
+
+- **[Browse, search and ask the panel materials](https://sessions.dataimago.ai/aime-2026/ai-native-profession):**
+  every document listed on this page, citable passage by passage. The Ask page answers only
+  from these materials and cites them; it is a reference tool, not lain. AI assistants can
+  connect over MCP at `https://sessions.dataimago.ai/api/mcp` (setup in
+  [llms.txt](https://sessions.dataimago.ai/llms.txt)).
 - **Panel materials:** below on this page.
 - **How lain is governed:** the session proposal's addendum, [PDF page 6 onward](rendered/AIME_2026_Panel_Proposal_final_lain_2026-09-22.pdf#page=6).
 :::
