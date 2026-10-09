@@ -14,7 +14,7 @@ Materials for the AIME-Con 2026 panel *Educational Measurement as an AI-Native P
 
 ## What this repository is for
 
-The repository does three jobs:
+The repository does four jobs:
 
 1. **Shares the panel's materials with the audience.** Each presenter's files are published as
    they supplied them, on a GitHub Pages site the audience reaches by a QR code on the framing slides.
@@ -23,6 +23,11 @@ The repository does three jobs:
 3. **Is the source of the AI moderator's corpus.** lain draws only on the panelists' materials (no
    open web). The text versions in `corpus/` are what it was given, so its citations can be
    checked against them.
+4. **Is the source of the public session library.** `corpus-manifest.yml` lists the citable files;
+   the library at [sessions.dataimago.ai](https://sessions.dataimago.ai/aime-2026/ai-native-profession)
+   is built from them at a pinned commit, so people can browse, search and ask with citations, and
+   AI tools can connect over MCP. Changing a file here changes nothing there until the library is
+   rebuilt from a newer commit.
 
 All materials are shared publicly with the presenters' permission.
 
@@ -34,6 +39,7 @@ All materials are shared publicly with the presenters' permission.
 | `decks/` | Quarto revealjs sources: `moderator.qmd` (the 0–6 min framing), `betebenner-provocation.qmd`, and `briggs-provocation.qmd` (built from Derek Briggs's statement, verbatim). |
 | `rendered/` | PDF copies: the decks, the PowerPoint files exported with Keynote, and the compiled proposal. Each is labeled on the site as a rendered copy; the originals are authoritative. |
 | `corpus/` | Text versions of files that are hard to read or index: `.docx` converted to markdown, slide text with speaker notes, and Mohammed Abulela's slide text transcribed from the slide images. |
+| `corpus-manifest.yml` | The citable files the session library is built from: an id, owner, label and published link for each. Only committed files can be listed, so gitignored material never enters the library. |
 | `data/` | The opening chart's data: every item in the AIME-Con 2026 printed program, coded as AI built into assessment products (A), AI in how measurement professionals work (B), or neither (C). Coded by an AI and audited by the chair; the codebook and method are in `data/README.md`. |
 | `index.qmd`, `_quarto.yml` | The site: one card per contributor with originals, rendered copies and provocation statements. |
 | `theme/` | Styles built from the dataimago design tokens (Noto Sans; the house presentation theme). |
