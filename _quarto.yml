@@ -6,6 +6,7 @@ project:
     - decks/moderator.qmd
     - decks/betebenner-provocation.qmd
     - "corpus/*.md"
+    - "record/*.md"
   resources:
     - "Assets/Derek_Briggs/**"
     - "Assets/Frank_Rijmen/**"

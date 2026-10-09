@@ -13,6 +13,10 @@ The panel met on Wednesday 7 October 2026.
   from these materials and cites them; it is a reference tool, not lain. AI assistants can
   connect over MCP at `https://sessions.dataimago.ai/api/mcp` (setup in
   [llms.txt](https://sessions.dataimago.ai/llms.txt)).
+- **[Session transcript (partial)](record/transcript-2026-10-07-partial.html):** machine
+  transcription with speakers identified by the chair, from the opening through the four
+  provocations (11:00–11:44). It ends when the capture laptop was disconnected, so the
+  discussant's remarks and the audience questions are not included.
 - **Panel materials:** below on this page.
 - **How lain is governed:** the session proposal's addendum, [PDF page 6 onward](rendered/AIME_2026_Panel_Proposal_final_lain_2026-09-22.pdf#page=6).
 :::
