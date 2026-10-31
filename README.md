@@ -1,9 +1,13 @@
 # Educational Measurement as an AI-Native Profession
 
+Part of Damian Betebenner's talks: <https://dbetebenner.github.io/talks/>
+
 Materials for the AIME-Con 2026 panel *Educational Measurement as an AI-Native Profession*:
 **Wednesday 7 October 2026, 11:00 AM–12:30 PM, Commonwealth 2, Wyndham Grand Pittsburgh Downtown.**
 
 **Public site:** <https://dbetebenner.github.io/AIME_2026_Panel_Presentation/>
+
+**Slide PDFs:** [moderator framing deck](https://dbetebenner.github.io/AIME_2026_Panel_Presentation/rendered/moderator-slides.pdf) · [Betebenner provocation](https://dbetebenner.github.io/AIME_2026_Panel_Presentation/rendered/betebenner-provocation-slides.pdf) · [Briggs provocation](https://dbetebenner.github.io/AIME_2026_Panel_Presentation/rendered/briggs-provocation-slides.pdf) (decktape prints of the decks, in `rendered/`).
 
 | Role | |
 |---|---|
